@@ -8,34 +8,51 @@ import pandas as pd
 import csv
 import os.path as osp
 import os
+from prompt import prompt_en, prompt_zh
 
-prompt_design={
-    "ImpressionGPT":"You are a chest radiologist that identifies the main findings and diagnosis or impression based on the given FINDINGS section of the chest X-ray report, which details the radiologists' assessment of the chest X-ray image. Please ensure that your response is concise and does not exceed the length of the FINDINGS. What are the main findings and diagnosis or impression based on the given Finding in chest X-ray report",
-    "DeID":"Please anonymize the following text",
-    "RadQNLI":"Determine whether the given context sentence from a radiology report contains the answer to the provided question."
-    }
+prompt_dict={'en':prompt_en,'zh':prompt_zh}
+
+
+
+def is_chinese_sentence(sentence:str):
+    # 统计句子中中文字符的数量
+    chinese_char_count = sum(1 for char in sentence if '\u4e00' <= char <= '\u9fff')
+
+    # 判断中文字符数量是否占总字符数的一定比例（这里假设中文字符占比超过50%）
+    if chinese_char_count / len(sentence) > 0.5:
+        return True
+    else:
+        return False
+
 
 class ChatBot:
-    def __init__(self, model, tokenizer, generation_config, device, instruction):
-        self.device=device
+    def __init__(self, model, tokenizer, generation_config, instruction, args):
+        self.device=args.device
         self.model = model
         self.model=self.model.to(self.device)
         self.tokenizer = tokenizer
         self.generation_config = generation_config
         self.instruction=instruction
+        self.language=args.language
+
         
 
     def generate_prompt(self, input_text=None):
-        if input_text:
+        if self.language=='zh':
             return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{self.instruction}\n\n### Input:{input_text}\n\n### Response:"""
         else:
-            return f"""Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{self.instruction}\n\n### Response:"""
+            return f"""以下是一条指令，其描述了一个任务并附带提供了更多的上下文信息。请编写一条回复来恰当地完成任务所提出的要求。\n\n### 指令：\n\n{self.instruction}\n\n### 输入：{input_text}\n\n### 回复："""
+
+        # if input_text:
+        #     return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{self.instruction}\n\n### Input:{input_text}\n\n### Response:"""
+        # else:
+        #     return f"""Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{self.instruction}\n\n### Response:"""
 
     def eval(self, input_text):
         start=time.time()
         prompt = self.generate_prompt(input_text)
-        # print(prompt)
-        # print('\n')
+        print(prompt)
+        print('\n')
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
         input_ids = inputs["input_ids"]
         generation_output = self.model.generate(
@@ -85,10 +102,17 @@ def evalImpression(bot: ChatBot,info:pd.DataFrame, args):
 def main(args):
     
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
+    args.device=device
     if device=='cpu':
         print("[WARING] CPU only!")
+    # English or Chinese
+    if args.file.split('-')[-1].startswith('ZH'):
+        language='zh'
+    else:
+        language='en'
+    args.language=language
     # Init the task-specific instruction
-    instruction=prompt_design[args.task]
+    instruction=prompt_dict[language][args.task]
     info=pd.read_csv(osp.join(args.task,args.file))
 
     # prepare your tokenizer and LLM here
@@ -101,11 +125,16 @@ def main(args):
         num_beams=4,
         num_return_sequences=1,
     )
-    bot=ChatBot(model,tokenizer,generation_config,device, instruction)
-    if args.task=='ImpressionGPT':
+
+    bot=ChatBot(model,tokenizer,generation_config, instruction, args)
+    if args.task=="ImpressionGPT":
         evalImpression(bot, info, args)
-    else:
+    elif args.task=="RadQNLI":
         pass
+    elif args.task=="DeID":
+        pass
+    else:
+        print("****** Error! Unknown task ******")
     
 
 if __name__=='__main__':
