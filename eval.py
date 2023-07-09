@@ -120,7 +120,7 @@ def main(args):
     args.language=language
     # Init the task-specific instruction
     instruction=prompt_dict[language][args.task]
-    info=pd.read_csv(osp.join(args.task,args.file))[:10]
+    info=pd.read_csv(osp.join(args.task,args.file))
 
     # prepare your tokenizer and LLM here
     tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/llama-7b")
