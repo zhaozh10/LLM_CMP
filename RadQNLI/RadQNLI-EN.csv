@@ -1,0 +1,978 @@
+question,sentence,label
+Is there any collection of blood anywhere in or around sinuses?,Hemorrhagic secretions  are present within the nasal cavity with extension into the right maxillary  sinus.,entailment
+Are the portal veins patent?,"Within this limitation, the portal vein is noted to be patent;   however, waveforms were not well evaluated.",not_entailment
+Do we see any right upper lobe opacity on the lateral view of chest x ray?,IMPRESSION:  Persistent right upper lobe opacity.,entailment
+Is there any evidence of bleeding in the chest cavity?,Colonic diverticulosis without evidence of diverticuliltis.,not_entailment
+Do the lungs show any more infiltrates post extubation?,"There is  interval improvement in the bilateral lung opacity, most marked in the right  lung base.",entailment
+what is the location of vagal nerve stimulator cable?,AP and lateral views to assess vagal nerve stimulator cable.,not_entailment
+How are the veins of the lower extremity?,The grayscale ultrasound of the veins of the upper extremities demonstrated  filling defect in the right cephalic vein at the level of the antecubital  fossa consistent with thrombus.,not_entailment
+Is there any evidence of bleeding in the chest cavity?,FINDINGS:   CT OF THE CHEST WITH IV CONTRAST: There is good opacification of the thoracic  and abdominal aorta.,not_entailment
+Which lobes of the lungs have infiltrates ?,There is no  interval change in the positions of the pacemaker leads.,not_entailment
+Is there any difference in the infiltrates?,This corresponds to improved pulmonary edema.,entailment
+Are there any pathologies within the brain?,FINAL REPORT  EXAMINATION:  MRI of the brain with and without gadolinium.,not_entailment
+Was there any interval change?,"There is  interval improvement in the bilateral lung opacity, most marked in the right  lung base.",entailment
+Is there any evidence of pulmonary edema?,There is no pneumothorax.,not_entailment
+Was the ogt placed correctly?,"A NG tube is coiled within the fundus of the stomach and a left  PICC line and left subclavian vascular catheter remain in place, unchanged in  position.",entailment
+How is the position of oro-gastric tube?,ET tube terminates within 2 cm of carina with the neck in flexed position.,not_entailment
+Do we see any blood clots in the veins of right and left upper extremities?,The left cephalic vein demonstrated a filling defect in the region of the left  antecubital fossa which was consistent with a partial thrombosis.,entailment
+Are thre any changes in the diffuse convalescent opacities in the lungs?,"There has been interval improvement in  the bilateral ground glass, patchy opacities.",entailment
+Is there evidence of bleeding in GI?,There are  multilevel degenerative changes of the thoracic spine.,not_entailment
+Is the NGT placed correctly?,No  pneumothorax is noted.,not_entailment
+Do we see any blocks in the coronary arteries?,Stress and resting perfusion images show no myocardial perfusion defects.,entailment
+Is interval change present in pneumocystis pneumonia?,"Allowing for differences in technique, there is no significant change in the  interval.",entailment
+Have the lungs improved since the last time ?,"2) Diffuse bilateral ground glass and alveolar opacities, consistent with  pneumocystis pneumonia, and unchanged.",entailment
+Where is the chest pain located?,Available for comparison is a similar previous  chest examination dated [**2100-12-15**].,not_entailment
+Is there any sign of fracture?,No displaced rib fracture is identified.,entailment
+Is there any change over the interval within pneumonia?,There has been interval improvement in the more confluent areas of  consolidation at the bases.,entailment
+How are the veins in the upper extremities ?,"The diameters of the right basilic vein were 0.35,  0.34, 0.31, 0.24.",not_entailment
+Is there any evidence of bleeding in the chest cavity?,TECHNIQUE: CT of the chest and abdomen with IV contrast per aortic CTA  protocol.,not_entailment
+Is the ETT placed correctly?,There is  no pneumothorax.,not_entailment
+Was the ETT Tube placed in the correct position?,AP upright portable chest x-ray:  There has been interval insertion of an  endotracheal tube which appears in good position approximately 2 cm superior  to the carina.,entailment
+Is the lead placed correctly?,IMPRESSION: Satisfactory placement of permanent pacemaker with atrial and  ventricular leads and no evidence of pneumothorax.,entailment
+Is there any medistinal shift and/or pneumothorax?,There is no pneumothorax.,entailment
+Is the intracranial tissue compromised with bleeding?,IMPRESSION:  No acute intracranial abnormality.,entailment
+How does the brain look like on CT ?,TECHNIQUE:  CT of the brain without intravenous contrast.,not_entailment
+How are the pulmonary arteries and veins?,CONCLUSION:  1) No evidence of pulmonary embolism.,entailment
+Was the vein mapping completed?,FINAL REPORT  HISTORY:  Vein mapping of the lower extremities.,not_entailment
+Did the hemorrhagic mass change in size?,The ventricles are stable in  appearance.,not_entailment
+What is the progression of DOE?,No  pneumothorax is seen.,not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,A surgical clip is noted in the vicinity of the rib fracture  raising the suspicion that this injury was related to a previous surgical  intervention.,not_entailment
+Is there any collection of air underneath the diaphragm?,The cardiac silhouette is within normal limits and there  is mild tortuosity of the aorta.,not_entailment
+Are there any abnormalities in the lungs?,There are no prior studies available for comparison.,not_entailment
+Does the ultrasound show any fluid collection around the gallbladder?,A focal tiny amount of fluid is seen in  the subhepatic space adjacent to the falciform ligament and gallbladder fossa.,entailment
+Is fluid collection present?,"Targeted son[**Name (NI) 211**] imaging of the region adjacent to the obliquely oriented  surgical incision, shows an oblong fluid collection which measures 2.4 x 3.7  cm in the transverse plane and spans from mid abdomen to low pelvis, measuring  at least 20 cm in the SI dimension.",entailment
+How has the lung picture changed from the previous x ray?,The intensity of the infiltrate is  reduced since the prior study.,entailment
+Is there any thickening of left recurrent laryngeal nerve seen?,There is no sign of mass lesion or mass effect along the course of the  left recurrent laryngeal nerve.,entailment
+Where is the tip of nasogastric tube?,FINDINGS:   The patient is status post median sternotomy.,not_entailment
+Do we see any trauma to the pluera due to Central venous line?,The patient has received a right central venous  access line.,not_entailment
+Where is the tip of nasogastric tube?,"The information is communicated with the referring physician, [**Last Name (NamePattern4) **].",not_entailment
+Do we see any fluid in the lungs?,Left ventricular prominence without evidence of heart failure.,entailment
+Is there evidence of infiltrate within the lungs?,There is a patchy opacity in  the right upper lung which may relate to an infectious process.,not_entailment
+Did the pulmonary infiltrates go down?,IMPRESSION:  Persistent bilateral interstitial process with linear and discoid  atelectasis bilaterally as described.,entailment
+Was the ETT Tube placed in the correct position?,Right  internal jugular central venous catheter is seen in stable position emanating  in the middle superior vena cava.,not_entailment
+Do we see any neck mass obstructing the course of RLN?,Assess the course of the recurrent  laryngeal nerve.,not_entailment
+Are there any signs of immobility of the GI tract?,IMPRESSION:  Trace aspiration with thin consistencies.,entailment
+Is there any cardiomegaly?,No  pneumothorax is present.,not_entailment
+Is there any sign of aspiration in the lungs?,IMPRESSION:   Stable radiographic appearance of the chest.,entailment
+Does the lung picture show any fluid between the alveolar spaces?,No definite CHF.,entailment
+What is the Endotracheal tube position?,Right  internal jugular central venous catheter is seen in stable position emanating  in the middle superior vena cava.,not_entailment
+Was there any sign of infiltrate within the lungs?,"Again seen are diffuse interstitial and  alveolar infiltrates, essentially unchanged.",entailment
+Are there any defects in the bone?,Small subcutaneous hematoma without foreign body detected anterior to the  frontal bone.,not_entailment
+Are there any pathologies within the brain?,FINDINGS:  On diffusion-weighted images there is a small area of restricted  diffusion along the falx within the left occipitotemporal lobe.,entailment
+Did the plueral effusion go down after thoracocentesis?,IMPRESSION: Cardiomegaly with worsening CHF and bilateral pleural effusions  compared to [**2155-11-29**].,entailment
+Did you evaluate course of recurrent laryngeal nerve?,No evidence of mass along the course of the recurrent laryngeal nerve.,entailment
+What is the rib level of chest port line?,"AP FRONTAL CHEST:  There has been interval removal of the right internal  jugular central catheter and placement of a left internal jugular catheter,  which terminates in the mid SVC.",entailment
+Is there bleeding in GI?,IMPRESSION:  Negative GI bleed study.,not_entailment
+Is there evidence of bleeding in GI?,There is extensive calcification of the abdominal aorta and its tributaries.,not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,"The pulmonary vasculature is normal,  and the lateral and posterior pleural sinuses are free.",not_entailment
+Was the PICC line placement procedure easy?,"The catheter was then aspirated,  flushed, capped, and heplocked.",not_entailment
+Did the heart show any changes in its size?,FINDINGS:  The heart is stably enlarged.,entailment
+How is the heart on chest x ray?,There is cardiomegaly but no  significant change in size since prior study.,entailment
+Is there any evidence of enlarged colon?,INDICATION:  Colonic ischemia.,not_entailment
+Is there any sign of cholestasis?,IMPRESSION: Normal right upper quadrant ultrasound with no structural  abnormalities seen.,entailment
+Was the scan done upright?,Note that the pelvis was not included on this film.,not_entailment
+Is there evidence of new infiltrate?,There is no  pleural effusion or pneumothorax.,not_entailment
+Where is the swan catheter located ?,The patient is s/p CABG.,not_entailment
+Are there any focal or diffuse atherosclerotic plagues in the superior mesenteric artery?,The aorta is normal in caliber.,not_entailment
+Are there any interval changes in the lungs after extubation? ,IMPRESSION: Improvement in bilateral lung opacity from PCP.,entailment
+Was the PICC placed in the left arm?,A 0.018  guidewire was then advanced through the needle and into the SVC under  fluoroscopic guidance.,not_entailment
+Is there evidence of infiltrate within the lungs?,"PA AND LATERAL VIEWS OF THE CHEST:  Lung volumes are low, but clear without  consolidation, pleural effusion, or pneumothorax.",entailment
+Does the endotracheal tube end above the carina?,An NG  tube terminates in the fundus of the stomach.,not_entailment
+Did you find signs of infiltrate?,"Note is made of patchy  opacity in the right lower lobe, which can represent early pneumonia.",entailment
+Does the patient have a contained bleed in the head?,"FINDINGS:  Compared to the prior days study, there is stable appearance of the  right parietal intraparenchymal hemorrhage with surrounding edema.",entailment
+Is there obsturction of flow to the kidneys?,Evaluation of the renal  parenchyma and main renal arteries is limited secondary to body habitus and  patient immobility.,not_entailment
+"Do we see any fluid,blood or pus in the interstitial lung spaces?",IMPRESSION:  No acute cardiopulmonary abnormality.,entailment
+Do we see any blood clots in the veins of right and left upper extremities?,FINDINGS:  [**Doctor Last Name **]-scale ultrasound and color duplex of the cephalic and basilic  veins bilaterally was performed.,not_entailment
+What is the size of frontal hematoma now?,IMPRESSION:  Stable appearance of right frontal intraparenchymal hemorrhage.,not_entailment
+Does the retroperitoneum appear normal after EP study?,The kidneys appear normal.,not_entailment
+Is there any obstruction in superior mesenteric artery?,There is no biliary duct dilatation.,not_entailment
+Does the x ray still show diffuse perihilar reticular interstitial opacifications?,"Improving diffuse lung opacities, consistent with response of PCP to  interval therapy.",entailment
+Is there any interval change in the pneumocycstis pneumonia?,Exam unchanged from 1 day prior.,entailment
+Is there any evidence of enlarged colon?,"There are air-filled loops of small and large bowel, but  there are no distended loops.",entailment
+Has the ground glasss opacity gone down on chest x ray?,Allowing for differences in technique and positioning these  opacities do not appear significantly changed compared to prior study.,entailment
+Is there evidence of hepatoma?,No gross liver lesion is  identified on these limited views.,entailment
+Was there any evidence of effusion?,"The heart  size is probably normal, but the cardiac silhouette is partially obscured by a  moderate left pleural effusion.",entailment
+Is there any evidence of pneumonia?,Clinical suspicion for pneumonia.,not_entailment
+Are there any abnormalities in the lungs?,There are diffuse bilateral patchy air-space opacities and  bibasilar atelectasis.,entailment
+What is the position of the left subclavian central line?,A left-sided PICC is also seen with tip  in the upper superior vena cava.,not_entailment
+Is the new L IJ cath placed?,The left IJ central venous catheter has been advanced and the tip  is in the superior vena cava.,entailment
+Is there evidence of bleeding in GI?,There is colonic diverticulosis without evidence of diverticulitis.,not_entailment
+How are the veins in the upper extremities ?,Partial thrombosis of the left cephalic vein in the region of the  antecubital fossa.,not_entailment
+Are there signs of retroperitoneal bleed?,There is  no evidence of retroperitoneal hematoma.,entailment
+Do we find any unilateral or bilateral pleural effusion?,Minimal right pleural  effusion.,not_entailment
+Are there any bony defects on the spine?,No acute  fracture or traumatic malalignment identified.,entailment
+Is there any left over fluid in the plueral cavity?,The heart is large but not  significantly changed in size allowing for differences in technique.,not_entailment
+Is the lead placed correctly?,The patient is status post median sternotomy and coronary artery bypass  surgery.,not_entailment
+Is there any thickening of left recurrent laryngeal nerve seen?,Assess the course of the recurrent  laryngeal nerve.,not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,"As before,  evidence of healed rib fractures on the left side of [**Doctor Last Name **] 5 and 6 appear  unchanged.",not_entailment
+How are the interstitial spaces in the lungs ?,"Continued interstitial  and alveolar infiltrates, consistent with PCP.",entailment
+Is there any abnormality in the brain parenchyma?,FINDINGS:  There is no intracranial hemorrhage.,entailment
+Is fluid collection present?,2.4 x 3.7 x 20 cm collection in the midline extending from the pelvis to  the mid abdomen at the incisional site.,entailment
+What is the position of right internal jugular central line?,2) New right IJ line and orogastric tube appear to be in good position.,not_entailment
+Was there any signs of CHF?,FINDINGS:  The heart is stably enlarged.,entailment
+What do the kidneys look like?,RENAL ULTRASOUND:   The right kidney measures 10.3 cm.,entailment
+Was there any pneumothorax casued due to trauma while placing subclavian pacemaker?,IMPRESSION:  Post left pacemaker placement without pneumothorax.,entailment
+Was the vein mapping completed?,FINAL REPORT  HISTORY:  Vein mapping.,not_entailment
+Is there any thickening of left recurrent laryngeal nerve seen?,No evidence of mass along the course of the recurrent laryngeal nerve.,entailment
+Is there evidence of infiltrate within the lungs?,There is no hilar enlargement.,not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,The  patient has left-sided chest pain.,not_entailment
+Does the x ray show any left distal phalanges fracture?,FINDINGS:  There is a linear lucency within the distal portion of the left  fourth middle phalanx extending to the intra-articular surface consistent with  acute fracture.,entailment
+Was the PICC line placement procedure easy?,The PICC was then advanced over the wire through the sheath.,not_entailment
+Are there any abnormalities in the lungs?,The soft tissue and osseous structures are  unremarkable.,not_entailment
+Is there any sign of CAD?,IMPRESSION:  Normal study.,entailment
+Is there any active bleeding site in the GI tract?,IMPRESSION:  Negative GI bleed study.,not_entailment
+How are the lungs post extubation?,"Lungs are better inflated, suggestive of increasing compliance.",not_entailment
+Do we see any mass in the liver?,"Although no gross liver lesion is identified, please  consider alternative forms of abdominal imaging ( MRI, CT ) for additional  followup.",entailment
+Are there any interval changes noted on the chest X ray? ,These are not significantly changed.,not_entailment
+Are there any defects in the bone?,The major intracranial cisterns are preserved.,not_entailment
+Is there any sign of aspiration in the lungs?,There is no consolidation or pleural effusion.,entailment
+What does the chest x ray show?,There is no  interval change in the positions of the pacemaker leads.,entailment
+Is there evidence of PE?,"There is dependent material in the distal trachea, likely  mucus.",not_entailment
+Is there evidence of thrombus?,"Within this limitation, the portal vein is noted to be patent;  however, waveforms were not well evaluated.",entailment
+Is there injury to the chest wall?,FINDINGS:  Heart size is normal and there is no pulmonary vascular congestion.,not_entailment
+Was the central line placed correctly?,FINAL REPORT  INDICATION:  Evaluate for central line placement.,not_entailment
+Is there any new abnormalities after thoracentesis?,Bilateral pleural effusions are noted.,entailment
+Was there any interval change?,IMPRESSION: Improvement in bilateral lung opacity from PCP.,entailment
+Does the patient have a contained bleed in the head?,"IMPRESSION:  Stable appearance of right parietal lobe and left thalamic  hemorrhages, which are concerning for hemorrhagic metastasis in this patient  with known metastatic lung carcinoma to the brain.",entailment
+Did the interstitial opacifications progress into consolidation?,There is a bilateral pattern of hazy ground-glass opacities with reticulation.,entailment
+Is the left internal jugular cathether tip in the superior vena cava?,The heart size is within normal limits.,not_entailment
+Is there evidence of stenosis?,No evidence of  significant stenoses on either side.,entailment
+Are there any new pulmonary infiltrates?,There are  no pleural effusions seen.,not_entailment
+Is there evidence of bleeding in GI?,Colonic diverticulosis without evidence of diverticuliltis.,not_entailment
+Was the ETT placed correctly?,"IMPRESSION: Low positioned ETT, which should be repositioned for optimal  placement.",entailment
+How well are the kidneys perfused?,The left kidney measures 9.5 cm.,not_entailment
+Is there bleeding seen within the head?,The [**Doctor Last Name 107**]-white  matter differentiation is preserved.,not_entailment
+Is there evidence of pneumothorax?,Rule out pneumothorax.,not_entailment
+Are there any signs of inflammation in the lungs?,IMPRESSION:   No evidence of aspiration pneumonia seen on single AP chest view.,entailment
+Does the patient have a contained bleed in the head?,At the  superior margin of the parenchymal hemorrhage there is a rounded heterogeneous  focus which could represent a metastatic lesion.,not_entailment
+Is the dobhoff tube properly placed ?,No pneumothorax is  identified.,not_entailment
+Did you find a cause for SOB?,Cardiomegaly.,entailment
+Is there any increase in hematoma?,There is no hydrocephalus.,not_entailment
+Are there any abnormalities on left chest wall?,FINDINGS:  PA and lateral chest view demonstrates the presence of an  electronic capsule in left anterior chest wall position.,not_entailment
+How are the sinuses on CT scan?,Hemorrhagic secretions  are present within the nasal cavity with extension into the right maxillary  sinus.,entailment
+Is there any evidence of pneumonia?,"Bilateral ground-glass opacities, as well as more confluent areas of  consolidation at the lung bases.",entailment
+Are there any signs of intraabdominal abscess?,There is a small amount of free fluid in the pelvis.,not_entailment
+Is there evidence of infiltrate within the lungs?,The cardiomediastinal  silhouette is normal.,not_entailment
+Is there evidence of bleeding in GI?,There is no evidence of aortic dissection or aneurysm.,not_entailment
+Is there any increase in hematoma?,IMPRESSION:  Stable appearance of right frontal intraparenchymal hemorrhage.,entailment
+Do we see any plaque in the carotid blood vessels?,No evidence of  significant stenoses on either side.,entailment
+Is there any fluid in the lungs?,There is an NG tube whose  tip is in the stomach.,not_entailment
+How is the flow of bile through the biliary tree?,IMPRESSION: Normal right upper quadrant ultrasound with no structural  abnormalities seen.,entailment
+Was there evidence of pleural effusion?,Small bilateral pleural effusions are seen.,entailment
+How are the veins in the upper extremities ?,The distal portion of the right basilic vein at the  antecubital fossa was not visualized.,not_entailment
+Was the PICC placed in the left arm?,"Under real time ultrasound guidance, the  left brachial vein was accessed using a 21 gauge micropuncture needle.",not_entailment
+Is the dobhoff tube properly placed ?,The heart is mildly enlarged.,not_entailment
+Did you find a cause for increasing resp rate?,There is worsening of the  diffuse bilateral fluffy infiltrates consistent with worsening PCP [**Name Initial (PRE) 8079**].,entailment
+Is the left internal jugular cathether tip in the superior vena cava?,IMPRESSION:  ----- of the left IJ catheter in the superior vena cava.,entailment
+Do we see the tip of dobhoff tube in the stomach or duodenum?,The tip of the feeding tube is identified in the distal esophagus.,entailment
+Did you find evidence of pneumothorax?,No pneumothorax is seen.,entailment
+Does the lung appear to have fewer or smaller consolidations?,"There has been interval improvement in  the bilateral ground glass, patchy opacities.",entailment
+Is there any mass/tissue having a pressure effect on the neural tissue?,IMPRESSION:  No acute intracranial abnormality.,entailment
+How does the brain look like on CT ?,IMPRESSION:  No evidence of acute intracranial injury.,entailment
+Is the NGT placed correctly?,"The information is communicated with the referring physician, [**Last Name (NamePattern4) **].",not_entailment
+Is there any change over the interval within pneumonia?,Moderate gastric distention is seen in the upper abdomen.,not_entailment
+Where is the swan catheter located ?,There is blunting of the costophrenic  angles.,not_entailment
+Did you find a cause for increasing resp rate?,IMPRESSION:  Worsening PC pneumonia.,entailment
+Do we see any fluid in the lungs?,Possible area of consolidation in the right upper lung.,not_entailment
+Is there interval change within the airpsace?,An endotracheal tube is present with tip approximately 3 cm above the carina.,not_entailment
+Are there any interval changes in the lungs after extubation? ,"There is  interval improvement in the bilateral lung opacity, most marked in the right  lung base.",entailment
+Is there evidence of stenosis?,The ICA to CCA ratio on the right is 1.0 and on the left 1.7.,entailment
+What is the Endotracheal tube position?,Mild compression is recommended.,not_entailment
+Did the thoracocentesis cause any pneumothorax on the left side?,There has been interval  reduction of left-sided pleural effusion.,not_entailment
+What is the position of pacemaker ?,Heart size is upper limits of  normal and stable.,not_entailment
+Is there a cause for worsening in dyspnea?,There is no  interval change in the positions of the pacemaker leads.,not_entailment
+Is there any abnormality in the brain parenchyma?,"The ventricles, cisterns, and sulci  are normal in size and configuration.",not_entailment
+Was there infiltrate within the lungs?,"The lung volumes are  low, in expiration.",not_entailment
+Is there any evidence of pneumonia?,There is probably a small left pleural effusion.,not_entailment
+Is the right IJ line positioned correctly?,There is moderate accumulation  of gas in the large and small bowel.,not_entailment
+Was there evidence of DVT?,IMPRESSION:  No evidence of left upper extremity DVT.,entailment
+Is there evidence of infiltrate within the lungs?,"Although there are low lung volumes,  there is no evidence of acute pneumonia.",entailment
+Do we see any mass in the liver?,No ascites is seen in the abdomen.,not_entailment
+Are there any evidence of bony defects?,No acute  fracture or traumatic malalignment identified.,entailment
+Is the PICC line placed in left arm?,The line is ready  for use.,not_entailment
+What is the alignment of cervical vertebrae?,No acute  fracture or traumatic malalignment identified.,entailment
+Are there any signs of infiltrate?,Rule out infiltrate.,not_entailment
+Is there any evidence of bleeding?,There is no mass effect or  shift of the normally midline structures.,not_entailment
+Are there signs of pneumonia?,CLINICAL INDICATION:  Question aspiration pneumonia.,not_entailment
+Are there any abnormalities on left chest wall?,"On the lateral view, calcifications within the aortic valve area are  identified.",not_entailment
+Was there evidence of pneumonia?,IMPRESSION:  No evidence of traumatic injury to the chest.,not_entailment
+How is the great saphenous vein on the right side?,"The right lesser saphenous vein was small but patent and  measured diameters of 0.06, 0.08, and 0.09 cm.",not_entailment
+Is there any mass/tissue having a pressure effect on the neural tissue?,There is no mass effect or  shift of the normally midline structures.,entailment
+Are any abnormal masses present?,IMPRESSION:  No acute intracranial abnormality.,entailment
+Is there evidence of acute process?,"There is no pleural  effusion, focal consolidation or pneumothorax.",not_entailment
+Was the line placed correctly?,"The line shows a correct course, the tip of the line projects  over the mid SVC.",entailment
+Are the portal veins patent?,"Within this limitation,  there is flow within the portal vein; however, waveforms were not demonstrated  well.",entailment
+Is there any new abnormalities after thoracentesis?,There  is opacification of the retrocardiac space consistent with atelectasis.,not_entailment
+IS there evidence of hydr?,IMPRESSION:   1)  No evidence of hydronephrosis.,entailment
+Do we see any trauma causing air in the periplueral space?,No effusion or  pneumothorax is detected.,entailment
+How well are the kidneys perfused?,"Resistive indices are elevated, between 0.73-0.78  in the right kidney and 0.64-0.82 in the left kidney.",not_entailment
+Is there evidence of CHF?,Pulmonary  vasculature is normal.,not_entailment
+Is there evidence of pneumonia?,IMPRESSION:   No evidence of aspiration pneumonia seen on single AP chest view.,entailment
+Is the central venous line in the location it was aimed at?,The patient has received a right central venous  access line.,not_entailment
+Was there any change over the interval for PCP?,"There has been interval improvement in  the bilateral ground glass, patchy opacities.",entailment
+IS there signs of pneumothorax?,There is extensive  bilateral air space infiltration slightly more marked on the left side.,not_entailment
+Is the lung parenchyma clear?,"Allowing for differences in technique, there is no significant change in the  interval.",not_entailment
+What is the condition of GSV?,The mid portion of the greater  saphenous vein was not visualized consistent with a history of harvesting.,entailment
+Does the lungs appear to have any interstitial infiltrates?,"IMPRESSION:   Patchy opacity in the right lower lobe, which can represent early pneumonia.",entailment
+Did the thoracocentesis cause any pneumothorax on the left side?,No pneumothorax is seen.,entailment
+Are there any interval changes in the lungs after extubation? ,"Lungs are better inflated, suggestive of increasing compliance.",not_entailment
+Is there evidence of new infiltrate?,"A vague opacity in the right apex is demonstrated projecting  at the level of the anterior end of the second rib and may represent either  summation of shadows or new opacity, given the absence of this finding on the  previous radiograph.",entailment
+Is there evidence of acid reflux?,"There is no oropharyngeal residue or aspiration with nectar, pudding or cookie  consistencies.",not_entailment
+Is there a cause for worsening in dyspnea?,The lung volumes are  low.,entailment
+Is there any obstruction in superior mesenteric artery?,"IMPRESSION:  Patent celiac and SMA, there is no ultrasound evidence of  stenosis.",entailment
+Did the pnuemonia on the x-ray change in the interim? ,These are not significantly changed.,entailment
+Is there evidence of bleeding in GI?,There is atelectasis primarily involving the  bases as well as scarring of the right middle lobe.,not_entailment
+How are the sinuses on CT scan?,The orbits and orbital cones are within normal limits.,not_entailment
+Are there any abnormalities in the lungs?,IMPRESSION: Assuming that the patient's symptoms have developed acutely (given  the lack of a prior study) this most likely represents pulmonary edema versus  ARDS.,entailment
+Are there signs of pneumonia?,"As compared to the previous study, alveolar opacities adjacent to the  perihilar mass have resolved.",entailment
+Is there any evidence of bleeding?,FINDINGS:  There is no intracranial hemorrhage.,entailment
+Is there evidence of stenotic disease?,"The celiac and SMA are widely patent, Doppler  assessment shows normal spectral flow and velocities within normal limits.",entailment
+Was there any sign of pneumonia?,"Continued interstitial  and alveolar infiltrates, consistent with PCP.",entailment
+Is the central venous line in the location it was aimed at?,"FINAL REPORT  CHEST RADIOGRAPH:   INDICATION:  New central venous access line, trauma, evaluation for  pneumothorax.",not_entailment
+Is there evidence of pneumonia?,No pneumothorax is seen.,not_entailment
+Is there any sign of fracture?,There is  no evidence of free intra-abdominal air.,not_entailment
+Is there any evidence of fracture?,FINDINGS:  There is a linear lucency within the distal portion of the left  fourth middle phalanx extending to the intra-articular surface consistent with  acute fracture.,entailment
+Is there interval change in pneumonia?,"2) Diffuse bilateral ground glass and alveolar opacities, consistent with  pneumocystis pneumonia, and unchanged.",entailment
+Do we see any blood clots in the veins of right and left upper extremities?,"The  reminder of the left cephalic vein was patent, demonstrated flow and diameters  of 0.39, 0.33, 0.23, 0.29, 0.35, 0.36, and 0.28.",not_entailment
+IS there worsening pneumonia? ,The  overall appearances are unchanged since the prior examination.,entailment
+Where is the endotracheal tube tip placed?,NG tube is coiled in the fundus with distal tip directed cephalad.,not_entailment
+Is there any change over the interval in pneumonia?,No change in lung volumes.,not_entailment
+Does the lung shows signs of collapse in certain lobes?,The nasogastric tube and  endotracheal tube are in satisfactory position.,not_entailment
+Is there any evidence of bleeding in the chest cavity?,There is extensive calcification of the abdominal aorta and its tributaries.,not_entailment
+Is there any abnormality in the brain parenchyma?,TECHNIQUE:  CT of the brain without intravenous contrast.,not_entailment
+Is the lead properly placed?,There is no  pneumothorax.,not_entailment
+Is the left subclavian central line in the desired position and location?,A new  left-sided subclavian central venous line is seen with tip in the mid superior  vena cava.,entailment
+Is interval change present in pneumocystis pneumonia?,Exam unchanged from 1 day prior.,entailment
+What is the placement of distal tip of right PICC?,WET READ: EAGg FRI [**2126-7-19**] 5:54 PM   Distal tip of right PICC in the upper to mid-SVC.,entailment
+Is there any evidence of pulmonary edema?,The  pulmonary vascularity appears within normal limits without evidence of edema.,entailment
+What is the alignment of cervical vertebrae?,IMPRESSION:  No acute fracture or traumatic malalignment detected.,entailment
+Is there any difference in the infiltrates?,Followup of  infiltrates.,not_entailment
+Is there any collection of blood anywhere in or around sinuses?,A small amount of hemorrhage  is detected layering in the right sphenoid sinus.,not_entailment
+Is the right IJ line positioned correctly?,Evaluate for right IJ central line position.,not_entailment
+Where is the tip of nasogastric tube?,The  patient is rotated.,not_entailment
+Does the patient have a contained bleed in the head?,The ventricles are stable in  appearance.,not_entailment
+Is there evidence of PE?,CT CHEST WITH IV CONTRAST:  There is no evidence of pulmonary embolism.,entailment
+Are there any fractures in the fingers?,FINDINGS:  There is a healing fracture of the fourth middle phalanx.,entailment
+Is there any fluid in the lungs?,AP SUPINE PORTABLE CHEST RADIOGRAPH:  Again seen is a left IJ catheter  terminating in the proximal SVC in stable position.,not_entailment
+Does the patient continue to have bilateral pulmonary infiltrates ?,"There are  bilateral hazy areas of ground-glass opacification, as well as more confluent  areas of consolidation at the lung bases.",entailment
+How are the pulmonary arteries and veins?,CT CHEST WITH IV CONTRAST:  There is no evidence of pulmonary embolism.,entailment
+Is there anything on chest x ray which can explain the shortness of breath?,Cardiomegaly.,entailment
+Was there evidence of pleural effusion?,FINDINGS: There has been interval removal of the pulmonary artery catheter.,not_entailment
+Is there any collection of blood anywhere in or around sinuses?,Hemorrhagic products within the nasal cavity and right maxillary sinus  secondary to trauma.,entailment
+How is the position of oro-gastric tube?,An ET tube terminates within 2 cm of the carina with the neck in a flexed  position.,not_entailment
+What is the condition of GSV?,Only a small portion of the right greater saphenous vein at the takeoff  was visualized.,entailment
+Was the ETT Tube placed in the correct position?,IMPRESSION:   Endotracheal tube in good position approximately 2 cm superior to the carina.,entailment
+What is the size of hemorrhage ?,"FINDINGS:  Compared to the prior days study, there is stable appearance of the  right parietal intraparenchymal hemorrhage with surrounding edema.",entailment
+Is there any obstruction in superior mesenteric artery?,There is no spectral broadening.,not_entailment
+IS there evidence of hydr?,No  evidence of hydronephrosis.,entailment
+what is the location of vagal nerve stimulator cable?,Moderately  severe degenerative changes of the cervical spine are noted.,not_entailment
+Do we see any neck mass obstructing the course of RLN?,No evidence of mass along the course of the recurrent laryngeal nerve.,entailment
+What is the size of hemorrhage ?,Question hemorrhagic mass.,not_entailment
+Are there any signs of intraabdominal abscess?,There is no evidence of abscess.,not_entailment
+Was the vein mapping completed?,FINDINGS:  [**Doctor Last Name **]-scale ultrasound and color duplex of the cephalic and basilic  veins bilaterally was performed.,entailment
+How is the position of oro-gastric tube?,NG tube is coiled in the fundus with distal tip directed cephalad.,entailment
+Is there evidence of infiltrate within the lungs?,There is a dual chamber pacemaker without significant change.,not_entailment
+Are there signs of retroperitoneal bleed?,Unopacified loops of bowel  are unremarkable.,not_entailment
+Was the PICC placed in the left arm?,The needle was then exchanged for an introducer  sheath.,not_entailment
+Is the NGT placed correctly?,The  patient is rotated.,not_entailment
+Is the lead properly placed?,The patient is status post CABG.,not_entailment
+Is the position of ET tube as expected?,AP SUPINE CHEST X-RAY:  An endotracheal tube with its tip at the orifice of  the right main stem bronchus is noted.,entailment
+Is the Et tube patent?,A nasogastric tube is positioned with  its side-hole in the mid esophagus and its tip in the mid esophagus.,not_entailment
+Is there evidence of chf?,There is a dual chamber pacemaker without significant change.,not_entailment
+Did the pleural effusion decrease or increase ?,"FINAL REPORT  INDICATION:  History of left lower extremity ischemia and malignant pleural  effusions, now with increasing shortness of breath.",not_entailment
+What is the placement of ETT?,"IMPRESSION: 1) ET tube tip in good position, 2 cm above the carina.",entailment
+Did the amount of interstitial fluid go down?,IMPRESSION: Imporved pulmonary edema with remaining interstitial pattern due  to elevated pulmonary venous pressure.,entailment
+Where does the NG tube appear to be?,NG tube placement.,not_entailment
+Are there any abnormalities on left chest wall?,The  patient has left-sided chest pain.,not_entailment
+Does the lungs show any signs of infection?,"There is no pleural  effusion, focal consolidation or pneumothorax.",entailment
+Is there interval change within the airpsace?,"IMPRESSION:  1)  Diffuse bilateral air space opacities, not significantly changed compared  to prior study allowing for differences in technique.",entailment
+Was the PICC line placement procedure easy?,"Based on the markers on the guidewire, the PICC was  trimmed to a length of 42 cm.",not_entailment
+Is there evidence of bleeding in GI?,BONE WINDOWS: There is subchondral cysts of the right scapula.,not_entailment
+Is there any mediastinal shift due to pneumothorax?,A moderate-to- large left pleural effusion  is not significantly changed.,not_entailment
+Are there any infiltrates seen in the lungs ?,"An ET tube is present, in  satisfactory position above the carina.",not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,The heart size is within normal limits.,not_entailment
+Is the swan placed correctly?,The patient is s/p CABG.,not_entailment
+Did the hemorrhagic mass change in size?,Question hemorrhagic mass.,not_entailment
+How are the veins of the lower extremity?,The exam was markedly limited by presence of IV lines in the left basilic vein  and right cephalic vein.,not_entailment
+Is the left subclavian central line in the desired position and location?,Now  with left subclavian central line placement.,not_entailment
+Was the vein mapping completed?,Patent proximal portion of the right basilic vein.,entailment
+Is there any change over the interval within pneumonia?,"Improving diffuse lung opacities, consistent with response of PCP to  interval therapy.",entailment
+Where is the endotracheal tube tip placed?,ET tube terminates within 2 cm of carina with the neck in flexed position.,entailment
+Is there evidence of hepatoma?,"Although no gross liver lesion is identified, please  consider alternative forms of abdominal imaging ( MRI, CT ) for additional  followup.",entailment
+Is there any change in reticular interstitial opacification over time?,No change in lung volumes.,not_entailment
+Do we see any neck mass obstructing the course of RLN?,There is no sign of mass lesion or mass effect along the course of the  left recurrent laryngeal nerve.,entailment
+Is there any evidence of bleeding in the chest cavity?,Additionally there is no evidence of mediastinal hematoma.,entailment
+Is there signs of bleeding?,"FINDINGS:  There is no acute intracranial hemorrhage, shift of normally  midline structures, hydrocephalus, major or minor vascular territorial  infarction.",entailment
+Are there any bony fractures in the chest?,IMPRESSION:  No evidence of traumatic injury to the chest.,entailment
+Are there any bony fractures in the chest?,No displaced rib fracture is identified.,entailment
+Is there any new abnormalities after thoracentesis?,There is haziness of the  vasculature.,not_entailment
+Is there anything on chest x ray which can explain the shortness of breath?,There are low lung volumes.,entailment
+Is there evidence of stenotic disease?,There is a small right pleural effusion.,not_entailment
+What is the position of right internal jugular central line?,A new  right IJ central line has been inserted and its tip is well positioned in the  mid SVC.,entailment
+Was there any sign of pleural effusions?,"IMPRESSION:  PA and lateral chest compared to [**6-11**]:   Moderate volume bilateral pleural effusion, left greater than right, increased  slightly on the left and stable on the right compared to [**6-11**].",entailment
+Is there signs of RUL opacity?,There is no pleural effusion.,not_entailment
+Does the lung picture show any fluid between the alveolar spaces?,IMPRESSION:  No definite CHF.,entailment
+Is there any sign of CAD?,"Compared to the study of [**2153-11-8**], there is no significant change.",not_entailment
+Are there any bony fractures in the chest?,The cardiomediastinal silhouette is in stable  configuration.,not_entailment
+Are there any focal or diffuse atherosclerotic plagues in the superior mesenteric artery?,"IMPRESSION:  Patent celiac and SMA, there is no ultrasound evidence of  stenosis.",entailment
+Is the right IJ line positioned correctly?,2) New right IJ line and orogastric tube appear to be in good position.,entailment
+Was the PICC line placement procedure easy?,The needle was then exchanged for an introducer  sheath.,not_entailment
+Is there an obstruction in the chest?,There is no  pneumothorax.,not_entailment
+What is the position of pacemaker ?,The patient is status post CABG.,not_entailment
+Are the kidneys appearing normal on abdominal radiograph?,Note that the pelvis was not included on this film.,not_entailment
+Did the hemorrhagic mass change in size?,"FINDINGS:  Compared to the prior days study, there is stable appearance of the  right parietal intraparenchymal hemorrhage with surrounding edema.",entailment
+Is the new L IJ cath placed?,IMPRESSION:  ----- of the left IJ catheter in the superior vena cava.,entailment
+Where does the NG tube appear to be?,NG tube catheter terminates below the  diaphragms.,entailment
+Does the heart muscle show any abnormality?,IMPRESSION:   No radiographic evidence of acute cardiopulmonary process including CHF.,entailment
+Was there any interval change?,"FINAL REPORT  INDICATION: PCP s/p extubation, evaluate for interval change.",not_entailment
+Does the head CT show any bleeds ?,TECHNIQUE:  Non-contrast head CT.,not_entailment
+Is there signs of RUL opacity?,Followup is recommended.,not_entailment
+Does the lung shows signs of collapse in certain lobes?,IMPRESSION:  Improving aeration bilaterally.,entailment
+Is the intracranial tissue compromised with bleeding?,There is no mass effect or  shift of the normally midline structures.,not_entailment
+Are there any interstitial infiltrates?,In comparison to the prior study  there has been slight improvement in CHF.,entailment
+Was there interval change in pneumonia?,IMPRESSION:  Pulmonary infiltrate more diffuse but less intense than before.,entailment
+Is there evidence of acute process?,"There is mild subsegmental  atelectasis, most notably at the right lung base.",not_entailment
+Was there any signs of CHF?,IMPRESSION:  1) Worsening CHF.,entailment
+How does the right intra-cerebral bleed look like?,On gradient echo images there is a large area of  intraparenchymal hemorrhage within the right parietal lobe and left thalamus  which following administration of gadolinium reveals ring-enhancing lesions.,entailment
+Do we see any pulmonary edema?,The lungs are clear.,entailment
+Is there evidence of acute cardipulmonary process?,Left lower lobe opacities could be due to  atelectasis but superimposed infection cannot be totally excluded.,entailment
+Was the vein mapping completed?,Partial thrombosis of the left cephalic vein in the region of the  antecubital fossa.,not_entailment
+Did the thoracocentesis cause any pneumothorax on the left side?,IMPRESSION:  No evidence of pneumothorax.,entailment
+Do we see any plaque in the carotid blood vessels?,The ICA to CCA ratio on the right is 1.0 and on the left 1.7.,entailment
+Was there evidence of pneumonia?,CONCLUSION:  1) No evidence of pulmonary embolism.,not_entailment
+How is the heart on chest x ray?,Mild congestive heart failure.,entailment
+Did the hemorrhagic mass change in size?,"An additional 2mm hyperdense  focus, possibly hemorrhage, is noted in the posteromedial margin of the left  thalamus, with surroundng edema.",not_entailment
+Do we see any inflammatory process in the lungs?,IMPRESSION:  Worsening PC pneumonia.,entailment
+Are there any pulmonary infiltrates?,Assessment of the lungs reveals diffuse ground-glass opacities and numerous  smoothly thickened septal lines.,entailment
+Is there any worsening in GI bleeding?,There is no consolidation or pleural effusion.,not_entailment
+Is the central venous line in the location it was aimed at?,"The line shows a correct course, the tip of the line projects  over the mid SVC.",entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,No evidence of significant poststenotic dilatation of the  ascending aorta on the frontal view.,not_entailment
+How are the veins in the upper extremities ?,Evaluation of the right cephalic vein and left basilic vein is described  in the report of [**2155-6-9**].,not_entailment
+what is the current location of central line ?,FINDINGS:  A right-sided internal jugular vein catheter is seen with the tip  near the cavoatrial junction.,entailment
+Is there any evidence of fracture?,There is no significant displacement of fracture fragment.,not_entailment
+Was there any evidence of plaque?,No evidence of  significant stenoses on either side.,entailment
+Was the NGT placed correctly?,NG tube catheter terminates below the  diaphragms.,entailment
+How is the endotracheal tube placement?,"IMPRESSION: 1) ET tube tip in good position, 2 cm above the carina.",entailment
+Did you find evidence of pneumothorax?,FINDINGS:  Single frontal view of the chest.,not_entailment
+Where is the tip of nasogastric tube?,Nasogastric tube placement.,not_entailment
+Does the lung appear to have fewer or smaller consolidations?,Slight improvement in bilateral lung opacities.,entailment
+Is there any obstruction in superior mesenteric artery?,The aorta is normal in caliber.,not_entailment
+Is the left internal jugular cathether tip in the superior vena cava?,"FINDINGS:  The ET tube, right internal jugular line, NG tube are in unchanged  positions.",not_entailment
+Is there any hydronephrosis?,No  evidence of hydronephrosis.,entailment
+Is there signs of bleeding?,No acute intracranial hemorrhage.,entailment
+Are there any clots in the lung vasculature?,"There are no pathologically enlarged mediastinal, hilar or axilliary  lymph nodes.",not_entailment
+Is there any hydronephrosis?,IMPRESSION:   1)  No evidence of hydronephrosis.,entailment
+Was the PICC placed in the left arm?,IMPRESSION:  Successful placement of a 42 cm long PICC via the left brachial  vein with the tip terminating in the lower SVC.,entailment
+Has bleeding stabilzed?,"FINDINGS:  Compared to the prior days study, there is stable appearance of the  right parietal intraparenchymal hemorrhage with surrounding edema.",entailment
+Is there evidence of PE?,There is mild fatty infiltration of the liver.,not_entailment
+Does the patient have any new fluid in pleural cavity?,"IMPRESSION:  PA and lateral chest compared to [**6-11**]:   Moderate volume bilateral pleural effusion, left greater than right, increased  slightly on the left and stable on the right compared to [**6-11**].",entailment
+Are there any fractures in the fingers?,Evaluate for fracture.,not_entailment
+Is the Et tube patent?,AP SUPINE CHEST X-RAY:  An endotracheal tube with its tip at the orifice of  the right main stem bronchus is noted.,not_entailment
+Do we see any obliteration of costo-phrenic angle?,Small bilateral pleural effusions are seen.,entailment
+Was the patient able to swallow the contents in a normal way?,"There is no oropharyngeal residue or aspiration with nectar, pudding or cookie  consistencies.",entailment
+Does the retroperitoneum appear normal after EP study?,The spleen appears normal with marked calcification of  the splenic artery.,not_entailment
+Does the lung show any diffuse opacities?,IMPRESSION:   No evidence of aspiration pneumonia seen on single AP chest view.,entailment
+Does the brain show any abnormal masses with different architecture?,FINAL REPORT  EXAMINATION:  MRI of the brain with and without gadolinium.,not_entailment
+Was there any sign of pneumonia?,"Again seen are diffuse interstitial and  alveolar infiltrates, essentially unchanged.",entailment
+Is there any evidence of pneumonia?,"There are  bilateral hazy areas of ground-glass opacification, as well as more confluent  areas of consolidation at the lung bases.",entailment
+How are the veins of the lower extremity?,Patent left greater saphenous and lesser saphenous veins.,entailment
+Was there evidence of CHF?,CT CHEST WITH IV CONTRAST:  There is no evidence of pulmonary embolism.,not_entailment
+What is the position of the left subclavian central line?,A new  left-sided subclavian central venous line is seen with tip in the mid superior  vena cava.,entailment
+What is the position of right internal jugular central line?,The heart is not  significantly enlarged.,not_entailment
+What is the Endotracheal tube position?,Balloon of the endotracheal tube is slightly expanded beyond  the diameters of the trachea.,not_entailment
+Was there evidence of CHF?,There is mild fatty infiltration of the liver.,not_entailment
+Is there any change over the interval in pneumonia?,The cardiomediastinal silhouette is unremarkable.,not_entailment
+How are the interstitial spaces in the lungs ?,"An ET tube is present, in  satisfactory position above the carina.",not_entailment
+Are there any signs of intraabdominal obstruction?,"The gallbladder, spleen, pancreas, adrenal glands, kidneys,  stomach and intra-abdominal loops of large and small bowel are unremarkable.",entailment
+Is ETT in correct position?,"FINDINGS:  In comparison with study of [**3-8**], the endotracheal tube now lies  approximately 2.4 cm above the carina.",entailment
+Is there any evidence of bleeding in the chest cavity?,There is colonic diverticulosis without evidence of diverticulitis.,not_entailment
+Is there any abnormal fluid filled mass in the abdomen?,A small amount of free fluid in  the pelvis.,not_entailment
+Is there any abnormal fluid filled mass in the abdomen?,"CT ABDOMEN W/CONTRAST:  There is extensive consolidation and  ground glass  opacity within both lungs, consistent with PCP.",not_entailment
+Are there any clots in the lung vasculature?,The findings are consistent with pulmonary edema  pattern.,not_entailment
+How does the brain look like on CT ?,FINDINGS:  There is no intracranial hemorrhage.,entailment
+Does the head CT show any bleeds ?,______________________________________________________________________________                                  FINAL REPORT  STUDY:  CT OF THE HEAD WITHOUT CONTRAST.,not_entailment
+Is there evidence of any new infiltrate in the lungs?,There is no pneumothorax.,not_entailment
+How is the great saphenous vein on the right side?,The remainder of the greater saphenous vein was harvested.,not_entailment
+How are the veins in the upper extremities ?,Patent proximal portion of the right basilic vein.,entailment
+Is pneumothorax present?,No pneumothorax.,entailment
+Where is the chest pain located?,"The pulmonary vasculature is normal,  and the lateral and posterior pleural sinuses are free.",not_entailment
+Is there any change in reticular interstitial opacification over time?,These are unchanged in the interval.,entailment
+Are there signs of pneumothorax?,External pacing pads are noted.,not_entailment
+Was there evidence of DVT?,No intraluminal thrombus is identified.,entailment
+"Do we see any fluid,blood or pus in the interstitial lung spaces?",UPRIGHT AP VIEW OF THE CHEST:  The lungs are clear without focal opacity.,entailment
+How is the great saphenous vein on the right side?,The mid portion of the greater  saphenous vein was not visualized consistent with a history of harvesting.,entailment
+Do the lungs show any more infiltrates post extubation?,IMPRESSION: Improvement in bilateral lung opacity from PCP.,entailment
+Is the chest pain related to vagal nerve simulator?,"Apparently, this  represents the vagal nerve stimulator.",not_entailment
+Are there any defects in the bone?,Multiple facial fractures are  present and described in full detail in sinus CT from the same date.,entailment
+What is the location of leads on chest x ray?,IMPRESSION: Satisfactory placement of permanent pacemaker with atrial and  ventricular leads and no evidence of pneumothorax.,entailment
+Are there any evidence of bony defects?,IMPRESSION:  No acute fracture or traumatic malalignment detected.,entailment
+What is the Endotracheal tube position?,IMPRESSION:   Endotracheal tube in good position approximately 2 cm superior to the carina.,entailment
+Does the pulmonary interstitial space look normal?,Pulmonary vascularity is  normal.,not_entailment
+Is there any new abnormalities after thoracentesis?,IMPRESSION: Cardiomegaly with worsening CHF and bilateral pleural effusions  compared to [**2155-11-29**].,entailment
+Are there any abnormalities on left chest wall?,"IMPRESSION:  Presence of vagal nerve stimulator, old healed rib fractures on  the left side but no other chest wall abnormalities in patient with chest wall  pain.",entailment
+Did you find evidence of CHF?,IMPRESSION: Mild cardiomegaly with pulmonary vascular redistribution.,entailment
+What does the chest x ray show?,IMPRESSION: Radiographic evidence of CHF.,entailment
+Is the right IJ line positioned correctly?,There is now worsening ill-defined patchy pulmonary infiltrates in  the left lung and in the right lower lobe and possibly middle lobe.,not_entailment
+Do we see any blood clots in the veins of right and left upper extremities?,The right basilic vein was visualized in its proximal extent at the level of  the antecubital fossa.,not_entailment
+Is the PICC line placed in left arm?,"As no suitable superficial veins were identified, ultrasound  examination of the left upper extremity was performed, revealing the left  brachial vein to be patent and compressible.",entailment
+Is there evidence of any new infiltrate in the lungs?,The nasogastric tube and  endotracheal tube are in satisfactory position.,not_entailment
+Is there any new abnormalities after thoracentesis?,There is no evidence of a pneumothorax.,not_entailment
+What is the position of right internal jugular central line?,Evaluate for right IJ central line position.,not_entailment
+Where is the tip of nasogastric tube?,Scoliosis is noted.,not_entailment
+Is there evidence of PE?,There is a small prevascular lymph node.,not_entailment
+How is the flow of bile through the biliary tree?,Hepatopetal flow is noted within the main portal vein.,not_entailment
+Is there signs of RUL opacity?,Ill-defined right upper lobe opacity is persistent projecting between the  second and third anterior right ribs.,entailment
+Where is the distal tip of Right basilic PICC?,FINDINGS:  Position of indwelling devices is described above in the  preliminary report.,not_entailment
+Is there evidence of stenotic disease?,The pancreas is  unremarkable.,not_entailment
+Is there evidence of CHF?,Assess for CHF.,not_entailment
+Is there any evidence of pulmonary edema?,The heart size is stably upper  limits of normal.,not_entailment
+Is there any evidence of bleeding in the chest cavity?,There is no evidence of aortic dissection or aneurysm.,not_entailment
+Is there any fluid in the lungs?,IMPRESSION:  Worsening PC pneumonia.,entailment
+Are there any clots in the lung vasculature?,CT CHEST WITH IV CONTRAST:  There is no evidence of pulmonary embolism.,entailment
+What is the size of hemorrhage ?,There is no shift of midline structures.,not_entailment
+What is the location of leads on chest x ray?,The retrosternal clear  space is not well demonstrated due to suboptimal positioning of the patient's  arms.,not_entailment
+Is the left subclavian central line in the desired position and location?,A left-sided PICC is also seen with tip  in the upper superior vena cava.,not_entailment
+How does the pulmonary infiltrate look like?,IMPRESSION:  Questionable rounded opacity in the right upper lung.,entailment
+Is there any increase in hematoma?,FINDINGS:  There is a stable appearance of a right frontal intraparenchymal  hematoma measuring approximately 5.6 x 3.0 cm.,entailment
+Was there any change over the interval for PCP?,Slight improvement in bilateral lung opacities.,entailment
+Are there any signs of inflammation in the lungs?,"No pulmonary,  vascular congestion or new parenchymal infiltrates can be identified.",entailment
+Do we see any blood clots in the veins of right and left upper extremities?,Patent proximal portion of the right basilic vein.,not_entailment
+Is the position of ET tube as expected?,ET tube tip at orifice of right mainstem bronchus.,not_entailment
+Is there any worsening of pleural effusions?,Increasing bilateral pleural effusions.,entailment
+Was there any evidence of effusion?,IMPRESSION:  Moderate left pleural effusion unchanged.,entailment
+Are there any fractures in the fingers?,IMPRESSION:   Healing fracture of the distal aspect of the fourth middle phalanx.,entailment
+Does the retroperitoneum appear normal after EP study?,IMPRESSION: 1) No evidence of retroperitoneal hematoma.,entailment
+Has bleeding stabilzed?,"IMPRESSION:  Stable appearance of right parietal lobe and left thalamic  hemorrhages, which are concerning for hemorrhagic metastasis in this patient  with known metastatic lung carcinoma to the brain.",entailment
+Was the vagal nerve stimulator cable present?,"CERVICAL SPINE, TWO VIEWS:   An electronic lead device is present, with four separate metallic electrodes  overlying the left transverse process of the T1 and T2 vertebral bodies, seen  on the lateral views as projecting over the soft tissues anterior to C7 and  T1.",entailment
+Are there any new pulmonary infiltrates?,IMPRESSION:  Improving aeration bilaterally.,entailment
+Is there evidence of infiltrate within the lungs?,Possible area of consolidation in the right upper lung.,not_entailment
+Is the lung parenchyma clear?,"There is  persistent bilateral diffuse alveolar opacities, left worse than right.",entailment
+Are there any signs of intraabdominal abscess?,2)  No evidence of intra-abdominal abscess.,entailment
+What is the condition of GSV?,"Questionably, there was a small patent distal portion of the right greater  saphenous vein.",not_entailment
+Is there anything on chest x ray which can explain the shortness of breath?,There is slight upper zone redistribution  of pulmonary flow but no overt pulmonary edema.,not_entailment
+Is the PICC line placed in left arm?,The area was prepped and draped  in the usual sterile fashion.,not_entailment
+Is the right IJ line positioned correctly?,The endotracheal  tube and left subclavian central line remain in satisfactory positions.,not_entailment
+Is the swan placed correctly?,There is blunting of the costophrenic  angles.,not_entailment
+Are there any more infiltrates ?,There is extensive  bilateral air space infiltration slightly more marked on the left side.,not_entailment
+Are there any new pulmonary infiltrates?,There are diffuse  bilateral opacities which have improved compared to the prior study.,entailment
+Where is the distal tip of Right basilic PICC?,WET READ: EAGg FRI [**2126-7-19**] 5:54 PM   Distal tip of right PICC in the upper to mid-SVC.,entailment
+Is the position of ET tube as expected?,"Endotracheal tube too low,  with the tip at the orifice of the right main  stem bronchus; this should be partially withdrawn.",entailment
+How are the pulmonary arteries and veins?,The findings are consistent with pulmonary edema  pattern.,not_entailment
+Are there signs of pneumothorax?,IMPRESSION:  Post left pacemaker placement without pneumothorax.,entailment
+Are there any signs of immobility of the GI tract?,"There is no oropharyngeal residue or aspiration with nectar, pudding or cookie  consistencies.",entailment
+Is there any left over fluid in the plueral cavity?,There has been interval  reduction of left-sided pleural effusion.,entailment
+Is there any fluid in the lungs?,There is worsening of the  diffuse bilateral fluffy infiltrates consistent with worsening PCP [**Name Initial (PRE) 8079**].,entailment
+Is there any collection of air underneath the diaphragm?,"Mild atelectatic changes are seen at the  left base, though there is no evidence of acute pneumonia, vascular  congestion, or pleural effusion.",not_entailment
+Did the amount of interstitial fluid go down?,PORTABLE CHEST:  Single AP view of the chest was available.,not_entailment
+How is the great saphenous vein on the right side?,Right lesser saphenous vein was small but patent.,not_entailment
+What is the size of frontal hematoma now?,The  ventricles are normal in size with minimal mass effect seen on the frontal  [**Doctor Last Name 383**] of the right lateral ventricle.,not_entailment
+Have the lungs improved since the last time ?,These are not significantly changed.,entailment
+How are the veins in the upper extremities ?,The right basilic vein was visualized in its proximal extent at the level of  the antecubital fossa.,entailment
+Is there evidence of pulmonary edema?,IMPRESSION: Mild cardiomegaly with pulmonary vascular redistribution.,entailment
+Was the vein mapping completed?,FINDINGS:  Grayscale ultrasound of the left greater saphenous and left lesser  saphenous veins demonstrated patency of these veins.,entailment
+Are there signs of CHF?,Heart is top normal size.,entailment
+Where is the tip of nasogastric tube?,Note is made of mild cardiomegaly.,not_entailment
+Does the brain show any abnormal masses with different architecture?,TECHNIQUE:  Multiplanar T1 and T2-weighted images of the brain with gadolinium  according to standard departmental protocol.,not_entailment
+Is there evidence of infiltrate within the lungs?,The patient is  status post CABG and there is left ventricular prominence.,not_entailment
+Do we see any right upper lobe opacity on the lateral view of chest x ray?,Ill-defined right upper lobe opacity is persistent projecting between the  second and third anterior right ribs.,entailment
+Is the ETT placed correctly?,"Endotracheal tube too low,  with the tip at the orifice of the right main  stem bronchus; this should be partially withdrawn.",entailment
+Does the lungs show any signs of infection?,"There is mild subsegmental  atelectasis, most notably at the right lung base.",not_entailment
+Do we see any inflammatory process in the lungs?,The cardiac and  mediastinal contours are unchanged in the interval.,not_entailment
+Is there evidence of pneumonia?,Assess for possible aspiration pneumonia.,not_entailment
+Is the position of ET tube as expected?,A nasogastric tube is positioned with  its side-hole in the mid esophagus and its tip in the mid esophagus.,not_entailment
+Is there evidence of infiltrate within the lungs?,IMPRESSION:  No acute cardiopulmonary abnormality.,entailment
+How is the heart size ?,The lungs are  otherwise clear.,not_entailment
+Is the perc.cholecystomy tube intact?,The percutaneous cholecystostomy catheter ends in the gallbladder fundus.,entailment
+what are the lobes with high density of infiltrates?,The rest of the lungs are unremarkable.,not_entailment
+Do we see any mass in the liver?,No gross liver lesion is  identified on these limited views.,entailment
+Does the endotracheal tube end above the carina?,"2) New NG tube, terminating within the fundus of the stomach.",not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,FINDINGS:  PA and lateral chest view demonstrates the presence of an  electronic capsule in left anterior chest wall position.,entailment
+Are there any focal or diffuse atherosclerotic plagues in the superior mesenteric artery?,"The celiac and SMA are widely patent, Doppler  assessment shows normal spectral flow and velocities within normal limits.",entailment
+Was the PICC placed in the left arm?,The PICC was then advanced over the wire through the sheath.,not_entailment
+Was the cholecystomy tube placed correctly?,The percutaneous cholecystostomy catheter ends in the gallbladder fundus.,entailment
+Is there any worsening of pleural effusions?,There is no pneumothorax.,not_entailment
+Is there any thickening of left recurrent laryngeal nerve seen?,There is  slight asymmetry of the left vocal fold at the level of the true cords without  evidence of discrete mass.,not_entailment
+Is there any evidence of bleeding in the chest cavity?,Incidental note is made of a splenule adjacent to the spleen.,not_entailment
+How are the veins of the lower extremity?,Recommend repeating this study after removing the IV lines from the upper  extremities.,not_entailment
+Is there any worsening of pleural effusions?,Bilateral pleural effusions appear slightly increased.,entailment
+Was the PICC line placement procedure easy?,"As no suitable superficial veins were identified, ultrasound  examination of the left upper extremity was performed, revealing the left  brachial vein to be patent and compressible.",entailment
+How is the heart size ?,IMPRESSION: Mild cardiomegaly with pulmonary vascular redistribution.,entailment
+Does the brain show any abnormal masses with different architecture?,On gradient echo images there is a large area of  intraparenchymal hemorrhage within the right parietal lobe and left thalamus  which following administration of gadolinium reveals ring-enhancing lesions.,entailment
+Are there any interval changes noted on the chest X ray? ,"CHEST X-RAY, PORTABLE AP   COMPARISONS: [**2184-2-19**].",not_entailment
+Did you find a cause for SOB?,There are low lung volumes.,entailment
+Is the swan placement satisfactory?,There is blunting of the costophrenic  angles.,not_entailment
+How is the endotracheal tube placement?,"The new ET  tube tip is in satisfactory position, 2 cm above the carina.",entailment
+Was there evidence of CHF?,"There  is diffuse bilateral septal thickening with regions of ground glass opacity  and passive atelectasis, predominantly at the bases.",entailment
+Is there any air between the plueral tissues?,There is no pneumothorax.,entailment
+What is the Endotracheal tube position?,AP upright portable chest x-ray:  There has been interval insertion of an  endotracheal tube which appears in good position approximately 2 cm superior  to the carina.,entailment
+Was the PICC line placement procedure easy?,IMPRESSION:  Successful placement of a 42 cm long PICC via the left brachial  vein with the tip terminating in the lower SVC.,entailment
+Are there any clots in the deep veins of the left upper extremity ?,FINAL REPORT  INDICATION:  Left upper extremity edema.,not_entailment
+Is there injury to the chest wall?,"There is minimal linear density at the left  lung base, not sure whether representing an acute process or scarring.",not_entailment
+Is there any obstruction in superior mesenteric artery?,FINDINGS:  The liver is normal in size and echogenicity without focal lesions.,not_entailment
+Is the position of ET tube as expected?,Evaluate ET tube placement.,not_entailment
+Does the colon appear to be having adhesions or obstructions?,"The gallbladder, spleen, pancreas, adrenal glands, kidneys,  stomach and intra-abdominal loops of large and small bowel are unremarkable.",entailment
+Does the x ray still show diffuse perihilar reticular interstitial opacifications?,There is a bilateral pattern of hazy ground-glass opacities with reticulation.,entailment
+Is the swan placement satisfactory?,The patient is s/p CABG.,not_entailment
+How is the position of oro-gastric tube?,Compared to previous study of earlier the same date.,not_entailment
+Did the pneumonia get worse?,The  overall appearances are unchanged since the prior examination.,entailment
+Was there any evidence of effusion?,There is a minimal right pleural  effusion.,not_entailment
+Does the lung shows signs of collapse in certain lobes?,There is no pneumothorax.,entailment
+Is the right IJ line positioned correctly?,The heart is not  significantly enlarged.,not_entailment
+Does the lung appear clear of interstitial fluids?,IMPRESSION:  1) Worsening CHF.,entailment
+Is there obsturction of flow to the kidneys?,The left kidney measures 9.5 cm.,not_entailment
+Does the endotracheal tube end above the carina?,"An ETT is in place, and terminates near the carina.",entailment
+What is the position of right internal jugular central line?,An orogastric tube is noted with its tip  well positioned in the mid stomach.,not_entailment
+Has the ground glasss opacity gone down on chest x ray?,"IMPRESSION:  1)  Diffuse bilateral air space opacities, not significantly changed compared  to prior study allowing for differences in technique.",entailment
+Are there still infiltrates present?,IMPRESSION: Imporved pulmonary edema with remaining interstitial pattern due  to elevated pulmonary venous pressure.,entailment
+Are thre any changes in the diffuse convalescent opacities in the lungs?,Slight improvement in bilateral lung opacities.,entailment
+How is the heart on chest x ray?,There is calcification of the thoracic aorta.,not_entailment
+Did the hemorrhagic mass change in size?,"IMPRESSION:  Stable appearance of right parietal lobe and left thalamic  hemorrhages, which are concerning for hemorrhagic metastasis in this patient  with known metastatic lung carcinoma to the brain.",entailment
+How is the heart size ?,There is  mild cardiac enlargement with some prominence of the upper lung zone  pulmonary vessels.,entailment
+Are there any signs of sub-dural or sub-arachnoid hemorrhage?,"FINDINGS:  No acute hemorrhage, mass lesion, shift of normally midline  structures, hydrocephalus or evidence of major territorial infarct is  apparent.",entailment
+What do the kidneys look like?,IMPRESSION:   1)  No evidence of hydronephrosis.,entailment
+What is the position of pacemaker ?,FINDINGS:  Dual lead pacemaker is unchanged in position.,not_entailment
+is there evidence of fracture?,FINDINGS:  There is a healing fracture of the fourth middle phalanx.,entailment
+Are there any focal or diffuse atherosclerotic plagues in the superior mesenteric artery?,"Both kidneys are normal in size, and echogenic without  hydronephrosis or stones.",not_entailment
+Is there any evidence of enlarged colon?,Question enlarged colon.,not_entailment
+What is the position of right internal jugular central line?,The endotracheal  tube and left subclavian central line remain in satisfactory positions.,not_entailment
+How is the flow of bile through the biliary tree?,FINDINGS: The liver is normal in appearance.,not_entailment
+Do we see any pulmonary edema?,IMPRESSION:   No radiographic evidence of acute cardiopulmonary process including CHF.,entailment
+Do we see any fractures in the distal phalanges?,IMPRESSION:   Healing fracture of the distal aspect of the fourth middle phalanx.,entailment
+Do we see any right upper lobe opacity on the lateral view of chest x ray?,"FINAL REPORT  PA AND LATERAL VIEWS OF THE CHEST   REASON FOR EXAM:  Fever and cough, question aspiration, evaluate right upper  lobe opacity.",not_entailment
+Is there evidence of acute cardipulmonary process?,There is a  small left pleural effusion.,not_entailment
+How are the interstitial spaces in the lungs ?,"Again seen are diffuse interstitial and  alveolar infiltrates, essentially unchanged.",entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,"Comparison with the next  previous chest examination of [**2100-12-15**], confirms the presence of these  calcifications.",not_entailment
+Was the PICC line placement procedure easy?,The area was prepped and draped  in the usual sterile fashion.,not_entailment
+Is there a cause for worsening in dyspnea?,IMPRESSION: Radiographic evidence of CHF.,entailment
+Are there any defects in the bone?,Multiple facial fractures described in full detail on sinus CT from the  same date.,entailment
+Was there any pneumothorax casued due to trauma while placing subclavian pacemaker?,There is no pleural effusion or  pneumothorax.,entailment
+Is there any sign of cholestasis?,There  is no evidence of intra- or extrahepatic biliary dilatation with the common  bile duct measuring 6 mm in size.,entailment
+Was there evidence of pneumothorax?,No evidence of pneumothorax or other complications.,entailment
+Does the patient have a contained bleed in the head?,"An additional 2mm hyperdense  focus, possibly hemorrhage, is noted in the posteromedial margin of the left  thalamus, with surroundng edema.",not_entailment
+Are there any abnormalities in the lungs?,"CHEST, SINGLE VIEW: The cardiac, mediastinal and hilar contours are  unremarkable.",not_entailment
+Are there any bony defects on the spine?,The soft tissues are within  normal limits.,not_entailment
+Is there any abnormality in the brain parenchyma?,IMPRESSION:  No evidence of acute intracranial injury.,entailment
+How are the veins of the lower extremity?,FINDINGS:  Grayscale ultrasound of the left greater saphenous and left lesser  saphenous veins demonstrated patency of these veins.,entailment
+Was the dobhoff tube placed correctly?,This  information was communicated with the treating team.,not_entailment
+Do we see any trauma causing air in the periplueral space?,IMPRESSION:  No evidence of traumatic injury to the chest.,entailment
+Are there any signs of intraabdominal abscess?,[**Name10 (NameIs) **] focal liver lesions are  identified.,entailment
+Does the lung appear clear of interstitial fluids?,FINAL REPORT  AP portable radiograph of the chest dated [**2155-10-16**].,not_entailment
+Do we see any new infiltrates on the chest x ray?,No new or progressive abnormalities are  identified to suggest a secondary site of infection.,entailment
+Is there evidence of CHF?,IMPRESSION:   No radiographic evidence of acute cardiopulmonary process including CHF.,entailment
+Are there any signs of intraabdominal abscess?,Evaluate for abscess.,not_entailment
+Where is ETT placed?,"FINDINGS:  In comparison with study of [**3-8**], the endotracheal tube now lies  approximately 2.4 cm above the carina.",entailment
+Is the left internal jugular cathether tip in the superior vena cava?,The left IJ central venous catheter has been advanced and the tip  is in the superior vena cava.,entailment
+How is the great saphenous vein on the right side?,Ankle  brachial index on the left was 0.3.,not_entailment
+Are the carotid blood vessels bloecked?,The ICA to CCA ratio on the right is 1.0 and on the left 1.7.,entailment
+Is there evidence of pneumothorax?,There is cardiomegaly.,not_entailment
+Is there any mediastinal shift due to pneumothorax?,No  pneumothorax.,entailment
+Is there any evidence of bleeding?,"If there is a high clinical suspicion of neurological injury, an MRI is a more  sensitive study.",not_entailment
+What does the lung picture look like?,Possible mild CHF but no overt  pulmonary edema and no evidence for pneumonia.,entailment
+Is there any air between the plueral tissues?,No pneumothorax.,entailment
+Are there any clots in the lung vasculature?,There is mild fatty infiltration of the liver.,not_entailment
+How are the veins of the lower extremity?,"The remainder of the right cephalic vein was  patent and demonstrated diameters of 0.41, 0.2, 0.27, 0.21, and 0.2.",not_entailment
+is there evidence of fracture?,Evaluate for fracture.,not_entailment
+Are there any clots in the deep veins of the left upper extremity ?,No intraluminal thrombus is identified.,entailment
+Is there evidence of any new infiltrate in the lungs?,The tip of a left IJ is in the left brachiocephalic vein.,not_entailment
+Is there any abnormal fluid filled mass in the abdomen?,There is no evidence of appendicitis or  free intraperitoneal air.,not_entailment
+Did the lead dislodge from the desired position?,FINDINGS:  Dual lead pacemaker is unchanged in position.,entailment
+Is there signs of RUL opacity?,IMPRESSION:  Persistent right upper lobe opacity.,entailment
+Is there evidence of PE?,CONCLUSION:  1) No evidence of pulmonary embolism.,entailment
+Did you find evidence of CHF?,FINDINGS: There has been interval removal of the pulmonary artery catheter.,not_entailment
+Do we see any trauma to the pluera due to Central venous line?,"FINAL REPORT  CHEST RADIOGRAPH:   INDICATION:  New central venous access line, trauma, evaluation for  pneumothorax.",not_entailment
+Is there any evidence of enlarged colon?,There are apparent areas of mild bowel wall  thickening involving the transverse colon and hepatic flexure.,not_entailment
+Is there evidence of CHF?,No  pneumothorax is present.,not_entailment
+Is there any difference in the infiltrates?,IMPRESSION: Imporved pulmonary edema with remaining interstitial pattern due  to elevated pulmonary venous pressure.,entailment
+What is the location of leads on chest x ray?,A permanent pacemaker is present with leads terminating in the right ventricle  and right atrium.,entailment
+Was the PICC placed in the left arm?,"Based on the markers on the guidewire, the PICC was  trimmed to a length of 42 cm.",not_entailment
+Was there evidence of CHF?,CONCLUSION:  1) No evidence of pulmonary embolism.,not_entailment
+Was the ETT tube placed correctly?,NG tube is coiled in the fundus with distal tip directed cephalad.,not_entailment
+Is there any medistinal shift and/or pneumothorax?,No pneumothorax.,entailment
+Is there any cardiomegaly?,IMPRESSION:   No radiographic evidence of acute cardiopulmonary process including CHF.,entailment
+What does the lung picture look like?,There are low lung volumes.,entailment
+Is there any fistulous tract in the gall bladder area?,IMPRESSION:  No evidence of leak or fistula tract.,entailment
+Is there any abnormality in the brain parenchyma?,There is no mass effect or  shift of the normally midline structures.,not_entailment
+Do we see any plaque in the carotid blood vessels?,Flow in the vertebral arteries is prograde on both sides.,not_entailment
+Where is the tip of nasogastric tube?,Nasogastric tube is coursing down below the left  hemidiaphragm.,entailment
+is there evidence of fracture?,IMPRESSION:   Healing fracture of the distal aspect of the fourth middle phalanx.,entailment
+How is the great saphenous vein on the right side?,The distal portion of the right  greater saphenous vein was questionably visualized and showed diameters of  0.05 and 0.09 cm.,not_entailment
+Do we see any obliteration of costo-phrenic angle?,Small  bilateral pleural effusions are present.,entailment
+Does the chest x ray show any abnormal findings?,Left lower lobe opacities could be due to  atelectasis but superimposed infection cannot be totally excluded.,entailment
+Is there any infection or bleeding in the bile duct?,The cardiac silhouette is within normal limits and there  is mild tortuosity of the aorta.,not_entailment
+Is there any difference in the infiltrates?,There is improvement in the  consolidation that was seen on the prior film with a interstitial pattern seen  on the current one.,not_entailment
+Are the kidneys appearing normal on abdominal radiograph?,No previous abdominal films on PACS record.,not_entailment
+Are there any clots in the lung vasculature?,There are small  bilateral pleural effusions.,not_entailment
+Was the vein mapping completed?,Patent left cephalic vein.,not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,INDICATION:  History of implanted vagal nerve stimulator implantation.,not_entailment
+Do any of the lobes appear to have inflammed alveoli or interstitial spaces?,"The cardiac silhouette  appears enlarged, but stable.",not_entailment
+Are there signs of pneumothorax?,There is no pleural effusion or  pneumothorax.,entailment
+Do we see any trauma causing air in the periplueral space?,The cardiomediastinal silhouette is in stable  configuration.,not_entailment
+Did the amount of interstitial fluid go down?,This corresponds to improved pulmonary edema.,entailment
+Is the chest pain related to vagal nerve simulator?,A surgical clip is noted in the vicinity of the rib fracture  raising the suspicion that this injury was related to a previous surgical  intervention.,not_entailment
+Was the NGT placed correctly?,IMPRESSION: NG tube in good position.,entailment
+Where is the chest pain located?,The  patient has left-sided chest pain.,entailment
+Is the Et tube patent?,The cardiomediastinal silhouette is unremarkable.,not_entailment
+Is the ETT properly placed?,"FINDINGS:  In comparison with study of [**3-8**], the endotracheal tube now lies  approximately 2.4 cm above the carina.",entailment
+How are the sinuses on CT scan?,TECHNIQUE:  MDCT axially acquired images were obtained of the sinuses without  contrast administration.,not_entailment
+Are there any pathologies within the brain?,These are suspicious for hemorrhagic metastases given the patient's history.,not_entailment
+Is there evidence of stenotic disease?,There is no splenomegaly.,not_entailment
+Is there an obstruction in the chest?,Pneumonia in the left base cannot be excluded.,not_entailment
+What is the progression of DOE?,There is calcification of the thoracic aorta.,not_entailment
+Was the ETT placed correctly?,"An ETT is in place, and terminates near the carina.",entailment
+Was the vein mapping completed?,The right basilic vein was visualized in its proximal extent at the level of  the antecubital fossa.,not_entailment
+Is there any active bleeding site in the GI tract?,INTERPRETATION:  Following the labeling of technetium red cells a GI bleed study  was performed over 100 minute time frame.,not_entailment
+Was the ETT tube placed correctly?,ET tube terminates within 2 cm of carina with the neck in flexed position.,entailment
+Is pneumothorax present?,There is no pneumothorax.,entailment
+Was the ETT placed correctly?,INDICATION: ETT placement.,not_entailment
+Is there any evidence of fracture?,IMPRESSION:  Non displaced intra-articular linear fracture of the distal left  fourth middle phalanx.,entailment
+Is there sign of septal hematoma?,"An acute fracture of  the lamina papyracea is suspected on the right (2:42, 40lB:30) however, no  significant extraconal hematoma is detected.",not_entailment
+Are there any signs of infiltrate?,IMPRESSION:  No acute cardiopulmonary abnormality.,entailment
+How is the position of oro-gastric tube?,"A NG tube is coiled within the fundus of the stomach and a left  PICC line and left subclavian vascular catheter remain in place, unchanged in  position.",entailment
+Is there bleeding in GI?,At no time is there any evidence of  acute gastrointestinal bleeding.,entailment
+Did the thoracocentesis cause any pneumothorax on the left side?,The left  costophrenic angle is not included in this study.,not_entailment
+what are the lobes with high density of infiltrates?,IMPRESSION:  Questionable rounded opacity in the right upper lung.,entailment
+Is there evidence of acute cardipulmonary process?,There is no evident pneumothorax.,not_entailment
+Are there signs of retroperitoneal bleed?,Osseous structures are unremarkable.,not_entailment
+Where is the chest pain located?,The heart is not significantly enlarged and there is no  evidence of CHF.,not_entailment
+How well are the kidneys perfused?,RENAL ULTRASOUND:   The right kidney measures 10.3 cm.,not_entailment
+Do we see any trauma to the pluera due to Central venous line?,No evidence of pneumothorax or other complications.,entailment
+Is there any skeletal fracture?,FINDINGS:  Heart size is normal and there is no pulmonary vascular congestion.,not_entailment
+Are there any abnormalities on left chest wall?,Thin wire electrodes  are noted in the anterior chest wall and lead to electrode termination points  in the left-sided paravertebral space at level Th1 and Th2.,not_entailment
+Is the ETT placed correctly?,The cardiomediastinal silhouette is unremarkable.,not_entailment
+Is fluid collection present?,"Scar tissue and tiny amount of fluid within the gallbladder fossa, but no  organized collection identified.",not_entailment
+How is the endotracheal tube placement?,"2) Nasogatric tube tip advanced, and at least within the duodenum.",not_entailment
+Is there any evidence of traumatic pneumothorax post thoracentesis?,There is cardiomegaly.,not_entailment
+Was there any evidence of effusion?,Minimal right pleural  effusion.,not_entailment
+Can we exclude any lung infiltrates ?,"Allowing for limited low lung volume  technique, there are no effusions or infiltrates.",entailment
+Is there evidence of PE?,There is a small bulla at the left apex.,not_entailment
+Do we see any new infiltrates on the chest x ray?,No new or progressive areas of  opacification are seen.,entailment
+Does the ultrasound show any fluid collection around the gallbladder?,Evaluate for fluid collection.,not_entailment
+Is the Et tube patent?,ET tube tip at orifice of right mainstem bronchus.,not_entailment
+Is the intracranial tissue compromised with bleeding?,The [**Doctor Last Name 181**]/white matter differentiation  is preserved.,not_entailment
+Is there evidence of pneumonia?,"No pulmonary,  vascular congestion or new parenchymal infiltrates can be identified.",entailment
+Was the ogt placed correctly?,NG tube is coiled in the fundus with distal tip directed cephalad.,entailment
+What is the Endotracheal tube position?,The cardiac silhouette is upper limits of  normal.,not_entailment
+Are there any interval changes noted on the chest X ray? ,"The endotracheal tube, left sided central venous line, and nasogastric tube  are unchanged in position from one day prior.",entailment
+Do we see any blood clots in the veins of right and left upper extremities?,Partial thrombosis of the left cephalic vein in the region of the  antecubital fossa.,entailment
+Does the retroperitoneum appear normal after EP study?,There is  no evidence of retroperitoneal hematoma.,entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,The heart is not significantly enlarged and there is no  evidence of CHF.,not_entailment
+Are there any clots in the lung vasculature?,"There is dependent material in the distal trachea, likely  mucus.",not_entailment
+Is the lead placed correctly?,No pneumothorax is identified.,not_entailment
+Do we see any fractures in the distal phalanges?,FINDINGS:  There is a healing fracture of the fourth middle phalanx.,entailment
+Are there any infiltrates seen in the lungs ?,"Continued interstitial  and alveolar infiltrates, consistent with PCP.",entailment
+Did you find infiltrate within the lungs?,There is an  improving bilateral alveolar process.,entailment
+Was the line placed correctly?,"AP FRONTAL CHEST:  There has been interval removal of the right internal  jugular central catheter and placement of a left internal jugular catheter,  which terminates in the mid SVC.",entailment
+Is there sign of septal hematoma?,A small amount of hemorrhage  is detected layering in the right sphenoid sinus.,not_entailment
+Do any of the lobes appear to have inflammed alveoli or interstitial spaces?,"As compared to the previous study, alveolar opacities adjacent to the  perihilar mass have resolved.",entailment
+Is there any evidence of bleeding in the chest cavity?,In the region of  the subsegmental branch in the right lower lobe there is a suggestion of  filling defect that is of uncertain significance.,not_entailment
+Are there any clots in the lung vasculature?,There is a small bulla at the left apex.,not_entailment
+How are the veins in the upper extremities ?,The left cephalic vein demonstrated a filling defect in the region of the left  antecubital fossa which was consistent with a partial thrombosis.,not_entailment
+What is the placement of ETT?,"The new ET  tube tip is in satisfactory position, 2 cm above the carina.",entailment
+Was the vein mapping completed?,The exam was markedly limited by presence of IV lines in the left basilic vein  and right cephalic vein.,not_entailment
+Is there any active bleeding site in the GI tract?,At no time is there any evidence of  acute gastrointestinal bleeding.,entailment
+Was the dobhoff tube placed correctly?,The tip of the feeding tube is identified in the distal esophagus.,entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,The skeletal structures of the thorax  are unremarkable.,not_entailment
+Do we see any blood clots in the portal veins?,"Within this limitation, the portal vein is noted to be patent;  however, waveforms were not well evaluated.",entailment
+Is there any sign of fracture?,IMPRESSION:  No evidence of traumatic injury to the chest.,entailment
+Is there evidence of bleeding in GI?,Incidental note is made of a splenule adjacent to the spleen.,not_entailment
+Are there signs of retroperitoneal bleed?,CT OF PELVIS WITHOUT CONTRAST: There is no evidence of retroperitoneal  hematoma.,not_entailment
+What is the size of hemorrhage ?,At the  superior margin of the parenchymal hemorrhage there is a rounded heterogeneous  focus which could represent a metastatic lesion.,not_entailment
+Are there any interval changes in the lungs after extubation? ,"FINAL REPORT  INDICATION: PCP s/p extubation, evaluate for interval change.",not_entailment
+Is the perc.cholecystomy tube intact?,A  dropped gallstone is seen overlying the right abdomen.,not_entailment
+Is there any evidence of bleeding?,IMPRESSION:  No evidence of acute intracranial injury.,entailment
+Is the lead properly placed?,FINDINGS:  Dual lead pacemaker is unchanged in position.,not_entailment
+Does the ultrasound show any fluid collection around the gallbladder?,"Scar tissue and tiny amount of fluid within the gallbladder fossa, but no  organized collection identified.",entailment
+Are there signs of cardiopulmonary process?,"Moderate left  pleural effusion is present obscuring the left lower lobe, although there is a  suggestion of a dense region of lower lobe consolidation or even mass.",entailment
+Did you find infiltrate within the lungs?,"IMPRESSION:  Improving bilateral alveolar process, likely due to provided  history of pneumocystis pneumonia.",entailment
+Is there signs of RUL opacity?,"Given the provided clinical history,  is suggestive of aspiration; followup is recommended.",not_entailment
+Is there an obstruction in the chest?,The patient is status post CABG.,not_entailment
+Is there evidence of pneumothorax?,Upper  zone vascular redistribution is again noted and blurring of the vasculature  centrally.,not_entailment
+Does the retroperitoneum appear normal after EP study?,The liver is normal in appearance without focal lesion.,not_entailment
+Is there any cardiomegaly?,Pulmonary  vasculature is normal.,not_entailment
+Is the PICC line placed in left arm?,The line is ready for use.,not_entailment
+Does the head CT show any bleeds ?,"FINDINGS:  There is no acute intracranial hemorrhage, shift of normally  midline structures, hydrocephalus, major or minor vascular territorial  infarction.",entailment
+Does the head CT show any bleeds ?,No acute intracranial hemorrhage.,entailment
+Is interval change present in pneumocystis pneumonia?,FINAL REPORT  INDICATION: Pneumocystis pneumonia with poor oxygenation.,not_entailment
+Are there any pathologies within the brain?,Additional ring-enhancing lesions throughout the supra- and infratentorial  compartments are visualized.,not_entailment
+Was the line placed correctly?,The patient has received a right central venous  access line.,not_entailment
+Are there any clots in the deep veins of the left upper extremity ?,"LEFT UPPER EXTREMITY ULTRASOUND:  [**Doctor Last Name **] scale and Doppler son[**Name (NI) 76**] of the left  internal jugular, subclavian, axillary, basilic, cephalic, and brachial veins  were performed.",not_entailment
+How is the flow of bile through the biliary tree?,There  is no evidence of intra- or extrahepatic biliary dilatation with the common  bile duct measuring 6 mm in size.,entailment
+What is the Endotracheal tube position?,The endotracheal tube cuff is slightly over inflated.,not_entailment
+Did you find evidence of pneumothorax?,IMPRESSION:  No evidence of pneumothorax.,entailment
+Are there any interstitial infiltrates?,The lungs are  otherwise clear.,entailment
+Is there evidence of chf?,The patient is  status post CABG and there is left ventricular prominence.,entailment
+Are there any signs of intraabdominal obstruction?,There is no evidence of appendicitis or  free intraperitoneal air.,not_entailment
+Was there evidence of pneumonia?,There is mild fatty infiltration of the liver.,not_entailment
+Was there any evidence of plaque?,The ICA to CCA ratio on the right is 1.0 and on the left 1.7.,entailment
+Are there any pulmonary infiltrates?,Coronary artery  calcifications are noted.,not_entailment
+How are the sinuses on CT scan?,Hemorrhagic products within the nasal cavity and right maxillary sinus  secondary to trauma.,entailment
+Is the position of ET tube as expected?,The cardiomediastinal silhouette is unremarkable.,not_entailment
+Did the plueral effusion go down after thoracocentesis?,They seem increased in  comparison to the prior study.,entailment
+Do we see any blocks in the coronary arteries?,IMPRESSION:  Normal study.,entailment
+Is there evidence of pneumothorax?,No  pneumothorax.,entailment
+Is there evidence of chf?,Left ventricular prominence without evidence of heart failure.,entailment
+Was there evidence of pleural effusion?,Small  bilateral pleural effusions are present.,entailment
+Are there any more infiltrates ?,The  overall appearances are unchanged since the prior examination.,entailment
+Does the x ray show any left distal phalanges fracture?,IMPRESSION:  Non displaced intra-articular linear fracture of the distal left  fourth middle phalanx.,entailment
+Was there evidence of CHF?,2) Findings consistent with pulmonary edema.,entailment
+Is there any heart enlargement ?,Heart is top normal size.,entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,A suspected density on the right base on the previous  examination of [**12-15**] has disappeared on today's examination.,not_entailment
+Is there sign of septal hematoma?,Probable  fracture of the right lamina papyracea without significant extraconal  hematoma.,not_entailment
+Is there any infection or bleeding in the bile duct?,"Mild atelectatic changes are seen at the  left base, though there is no evidence of acute pneumonia, vascular  congestion, or pleural effusion.",not_entailment
+Is there evidence of hepatoma?,There is a complex collection containing several  stones seen in the gallbladder fossa.,not_entailment
+Is there any cardiomegaly?,Cardiac and  mediastinal contours appear normal.,entailment
+Was the PICC line placement procedure easy?,The line is ready for use.,not_entailment
+Was the line placed correctly?,IMPRESSION:  Left internal jugular catheter terminates in the mid SVC.,entailment
+Are there any new abnormalities in respiratory function?,There are persistent increased interstitial  markings bilaterally with linear and discoid atelectasis in both lower zones.,not_entailment
+Is the chest pain related to vagal nerve simulator?,The heart size is within normal limits.,not_entailment
+Is there any evidence of pneumonia?,The latter is most prominent in the  central portions of the lungs.,not_entailment
+Is the PICC line placed in left arm?,IMPRESSION:  Successful placement of a 42 cm long PICC via the left brachial  vein with the tip terminating in the lower SVC.,entailment
+Was the ETT Tube placed in the correct position?,The right internal  jugular central venous catheter remains in good position in the mid superior  vena cava.,not_entailment
+Was the PICC placed in the left arm?,A final limited chest  radiograph confirmed placement of the tip of the catheter to be in the distal  SVC.,not_entailment
+How has the lung picture changed from the previous x ray?,Changes are slightly more marked on the left side than the right.,not_entailment
+Are there any signs of inflammation in the lungs?,FINDINGS:   AP single view of the chest with patient in sitting position has been  obtained.,not_entailment
+Is there any fistulous tract in the gall bladder area?,A  dropped gallstone is seen overlying the right abdomen.,not_entailment
+What do the kidneys look like?,The left kidney measures 9.5 cm.,not_entailment
+Are there any signs of intraabdominal abscess?,There is no evidence of appendicitis or  free intraperitoneal air.,not_entailment
+Is there evidence of bleeding in GI?,In the region of  the subsegmental branch in the right lower lobe there is a suggestion of  filling defect that is of uncertain significance.,not_entailment
+Are the alveoli filled with anything other than air?,"PA AND LATERAL VIEWS OF THE CHEST:  Lung volumes are low, but clear without  consolidation, pleural effusion, or pneumothorax.",entailment
+Where is the tip of nasogastric tube?,"Note is made of rounded opacity overlying  the left hilum, which probably representing aspiration pneumonia; however,  left hilar mass cannot be totally excluded.",not_entailment
+Is the lung parenchyma clear?,The cardiomediastinal silhouette is unchanged.,not_entailment
+Is there bleeding seen within the head?,No acute intracranial hemorrhage or mass effect.,entailment
+Are there any focal or diffuse atherosclerotic plagues in the superior mesenteric artery?,FINDINGS:  The liver is normal in size and echogenicity without focal lesions.,not_entailment
+Was the vein mapping completed?,Patent left greater saphenous and lesser saphenous veins.,entailment
+Was the PICC placed in the left arm?,The area was prepped and draped  in the usual sterile fashion.,not_entailment
+Does the lung show any diffuse opacities?,"No pulmonary,  vascular congestion or new parenchymal infiltrates can be identified.",entailment
+Is there any interval change in the pneumocycstis pneumonia?,The cardiomediastinal silhouette is unchanged.,not_entailment
+Was the ETT tube placed correctly?,An ET tube terminates within 2 cm of the carina with the neck in a flexed  position.,entailment
+Is the Et tube patent?,There is  no pneumothorax.,not_entailment
+Is the NGT placed correctly?,FINDINGS:   The patient is status post median sternotomy.,not_entailment
+Is the chest pain related to vagal nerve simulator?,"IMPRESSION:  Presence of vagal nerve stimulator, old healed rib fractures on  the left side but no other chest wall abnormalities in patient with chest wall  pain.",not_entailment
+Is there evidence of new infiltrate?,IMPRESSION:  Questionable rounded opacity in the right upper lung.,entailment
+How are the lungs post extubation?,Osseous structures are unchanged.,not_entailment
+Is there any worsening in GI bleeding?,"FINAL REPORT  INDICATION:  Upper GI bleeding, intubated for airway protection.",not_entailment
+How well are the kidneys perfused?,IMPRESSION:   1)  No evidence of hydronephrosis.,entailment
+Is there any fluid in the lungs?,The cardiac and  mediastinal contours are unchanged in the interval.,not_entailment
+Is the right IJ line positioned correctly?,An orogastric tube is noted with its tip  well positioned in the mid stomach.,not_entailment
+Is the right IJ line positioned correctly?,A new  right IJ central line has been inserted and its tip is well positioned in the  mid SVC.,entailment
+Have wheezing and crackles worsened?,FINAL REPORT  CHEST SINGLE FILM   HISTORY:  Diabetes with pacemaker placement GI bleed wheezing and crackles.,not_entailment
+what is the location of vagal nerve stimulator cable?,"CERVICAL SPINE, TWO VIEWS:   An electronic lead device is present, with four separate metallic electrodes  overlying the left transverse process of the T1 and T2 vertebral bodies, seen  on the lateral views as projecting over the soft tissues anterior to C7 and  T1.",entailment
+Did the heart show any changes in its size?,The Swan-Ganz catheter has been withdrawn and its tip now lies in the distal  right pulmonary artery.,not_entailment
+Do we see any blood clots in the veins of right and left upper extremities?,The distal portion of the right basilic vein at the  antecubital fossa was not visualized.,not_entailment
+Are there any bony defects on the spine?,IMPRESSION:  No acute fracture or traumatic malalignment detected.,entailment
+Is there any fistulous tract in the gall bladder area?,"Following  injection of 50 mL of Optiray, there is no evidence of leak or a fistula  between the gallbladder and a hollow viscus.",entailment
+How is the great saphenous vein on the right side?,Proximal 2.6 cm of the right greater saphenous vein were patent and  demonstrated diameters of 0.31 and 0.22.,not_entailment
+Was the PICC line placement procedure easy?,The line is ready  for use.,not_entailment
+Where is the chest pain located?,The heart size is within normal limits.,not_entailment
+Does the endotracheal tube end above the carina?,"IMPRESSION: Low positioned ETT, which should be repositioned for optimal  placement.",entailment
+what are the lobes with high density of infiltrates?,"A vague opacity in the right apex is demonstrated projecting  at the level of the anterior end of the second rib and may represent either  summation of shadows or new opacity, given the absence of this finding on the  previous radiograph.",entailment
+Does the pulmonary interstitial space look normal?,IMPRESSION:  No acute cardiopulmonary abnormality.,entailment
+Was the PICC placed in the left arm?,"As no suitable superficial veins were identified, ultrasound  examination of the left upper extremity was performed, revealing the left  brachial vein to be patent and compressible.",entailment
+Was the vein mapping completed?,"The remainder of the right cephalic vein was  patent and demonstrated diameters of 0.41, 0.2, 0.27, 0.21, and 0.2.",not_entailment
+Is there evidence of pneumothorax?,Shortness of breath.,not_entailment
+Is there any abnormal fluid filled mass in the abdomen?,There is a small amount of free fluid in the pelvis.,not_entailment
+Does the biliary tree appear to have dilated ducts?,There  is no evidence of intra- or extrahepatic biliary dilatation with the common  bile duct measuring 6 mm in size.,entailment
+Is there any evidence of bleeding in the chest cavity?,BONE WINDOWS: There is subchondral cysts of the right scapula.,not_entailment
+How are the veins of the lower extremity?,"The diameters of the lesser saphenous vein were 0.15,  0.16, 0.16, 0.16, 0.12.",not_entailment
+Is there any sign of dyspnea?,FINAL REPORT  INDICATION: Dyspnea.,not_entailment
+Is there any fistulous tract in the gall bladder area?,The percutaneous cholecystostomy catheter ends in the gallbladder fundus.,not_entailment
+Are there any signs of intraabdominal obstruction?,There is a small amount of free fluid in the pelvis.,not_entailment
+Are there any signs of intraabdominal obstruction?,There is no evidence of abscess.,not_entailment
+Is there obsturction of flow to the kidneys?,Limited evaluation of the renal parenchyma and renal hila.,not_entailment
+Is there anything on chest x ray which can explain the shortness of breath?,INDICATION:  History of shortness of breath.,not_entailment
+Is there any mediastinal shift due to pneumothorax?,There is also probably a small right  pleural effusion.,not_entailment
+Is there any fluid between interstitial spaces in the lung?,There is calcification of the thoracic aorta.,not_entailment
+How is the heart size ?,Patient is  status post CABG.,not_entailment
+What is the progression of DOE?,FINDINGS: Two views of the chest.,not_entailment
+Is the lung parenchyma clear?,"IMPRESSION: Bilateral diffuse alveolar opacities, consistent with pneumocystis  pneumonia.",entailment
+What does the lung parenchyma look like?,CONCLUSION:  1) No evidence of pulmonary embolism.,entailment
+Was the PICC line placement procedure easy?,The line was then secured with a Statlock  device and a sterile transparent dressing applied.,not_entailment
+Is there evidence of effusion?,"Allowing for limited low lung volume  technique, there are no effusions or infiltrates.",entailment
+Is the chest pain related to vagal nerve simulator?,The  patient has left-sided chest pain.,not_entailment
+Is there bleeding in GI?,No evidence of acute bleed.,entailment
+Is there evidence of stenotic disease?,There is no spectral broadening.,not_entailment
+Was the central line placed correctly?,FINDINGS:  A right-sided internal jugular vein catheter is seen with the tip  near the cavoatrial junction.,entailment
+Is there evidence of bleeding in GI?,There is no  evidence of a pericardial effusion and additionally there is no evidence of a  thoracic or abdominal aorta.,not_entailment
+Was there any sign of pleural effusions?,FINAL REPORT  PA AND LATERAL CHEST [**6-19**]   HISTORY:  Pleural effusions.,not_entailment
+Was the ETT Tube placed in the correct position?,The endotracheal tube cuff is slightly over inflated.,not_entailment
+Is the chest pain related to vagal nerve simulator?,INDICATION:  History of implanted vagal nerve stimulator implantation.,not_entailment
+Is there any mass/tissue having a pressure effect on the neural tissue?,FINDINGS:  There is no intracranial hemorrhage.,not_entailment
+Was the ETT Tube placed in the correct position?,Balloon of the endotracheal tube is slightly expanded beyond  the diameters of the trachea.,not_entailment
+Is there evidence of any new infiltrate in the lungs?,There are diffuse  bilateral opacities which have improved compared to the prior study.,entailment
+is there evidence of fracture?,No additional fracture or dislocation is noted.,not_entailment
+How well are the kidneys perfused?,No  evidence of hydronephrosis.,entailment
+How is the great saphenous vein on the right side?,"Moderate bilateral aorto-iliac arterial insufficiency, with probable  associated outflow disease on the right and severe outflow disease on the  left.",not_entailment
+Is there evidence of stenotic disease?,There is no biliary duct dilatation.,not_entailment
+What is the alignment of cervical vertebrae?,TECHNIQUE:  MDCT axially acquired images were obtained of the cervical spine  without contrast administration.,not_entailment
+Did you evaluate course of recurrent laryngeal nerve?,Assess the course of the recurrent  laryngeal nerve.,not_entailment
+Was there evidence of pneumonia?,CT CHEST WITH IV CONTRAST:  There is no evidence of pulmonary embolism.,not_entailment
+What is the location of leads on chest x ray?,The heart is upper limits of normal in size and the pulmonary  vascularity is within normal limits.,not_entailment
+Do any of the lobes appear to have inflammed alveoli or interstitial spaces?,"IMPRESSION:   Marked improvement in left perihilar alveolar process with residual  well-marginated mass-like opacity, concerning for neoplasm.",entailment
+Do we see any excess edema in the lungs?,The  pulmonary vascularity appears within normal limits without evidence of edema.,entailment
+Is interval change present in pneumocystis pneumonia?,"IMPRESSION: Bilateral diffuse alveolar opacities, consistent with pneumocystis  pneumonia.",not_entailment
+Is the ETT placed correctly?,AP SUPINE CHEST X-RAY:  An endotracheal tube with its tip at the orifice of  the right main stem bronchus is noted.,entailment
+Are there still infiltrates present?,Followup of  infiltrates.,not_entailment
+Are there any interstitial infiltrates on chest x ray?,There are small  bilateral effusions not significantly changed.,not_entailment
+Does the lungs appear to have any interstitial infiltrates?,"Note is made of patchy  opacity in the right lower lobe, which can represent early pneumonia.",entailment
+Is there any obstruction in superior mesenteric artery?,"The celiac and SMA are widely patent, Doppler  assessment shows normal spectral flow and velocities within normal limits.",entailment
+Does the biliary tree appear to have dilated ducts?,FINDINGS: The liver is normal in appearance.,not_entailment
+Is there signs of RUL opacity?,Given clinical history  is suggestive of aspiration.,not_entailment
+Does the lungs show any signs of infection?,"COMPARISON:  [**0-0-0**] & [**0-0-0**]   TWO VIEWS OF THE CHEST:  Lung volumes are low, similar to that seen  previously.",not_entailment
+Is there any evidence of bleeding in the chest cavity?,There is atelectasis primarily involving the  bases as well as scarring of the right middle lobe.,not_entailment
+Do we see any blood clots in the veins of right and left upper extremities?,"The diameters of the right basilic vein were 0.35,  0.34, 0.31, 0.24.",not_entailment
+Is there any increase in hematoma?,There is no  osseous abnormality.,not_entailment
+Is there evidence of hepatoma?,No hydronephrosis is seen on limited views of the kidneys.,not_entailment
+How are the sinuses on CT scan?,______________________________________________________________________________                                  FINAL REPORT  STUDY:  CT sinuses without contrast.,not_entailment
+Are there any interval changes noted on the chest X ray? ,"2) Diffuse bilateral ground glass and alveolar opacities, consistent with  pneumocystis pneumonia, and unchanged.",entailment
+Is there evidence of bleeding in GI?,FINDINGS:   CT OF THE CHEST WITH IV CONTRAST: There is good opacification of the thoracic  and abdominal aorta.,not_entailment
+Is there any evidence of bleeding in the chest cavity?,There is no  evidence of a pericardial effusion and additionally there is no evidence of a  thoracic or abdominal aorta.,not_entailment
+Does the pulmonary interstitial space look normal?,The cardiomediastinal  silhouette is normal.,not_entailment
+Are there any clots in the deep veins of the left upper extremity ?,IMPRESSION:  No evidence of left upper extremity DVT.,entailment
+Do we see any blood clots in the veins of right and left upper extremities?,Evaluation of the right cephalic vein and left basilic vein is described  in the report of [**2155-6-9**].,not_entailment
+Are there any infiltrates/masses in the lung?,"Although there are low lung volumes,  there is no evidence of acute pneumonia.",entailment
+Is the intracranial tissue compromised with bleeding?,FINDINGS:  There is no intracranial hemorrhage.,entailment
+Is there evidence of PE?,"There  is diffuse bilateral septal thickening with regions of ground glass opacity  and passive atelectasis, predominantly at the bases.",not_entailment
+How does the plueral space look like?,No pleural  effusions.,entailment
+Is there any fluid between interstitial spaces in the lung?,Mild congestive heart failure.,entailment
+Are there any pulmonary infiltrates?,IMPRESSION:  1)  Diffuse patchy ground-glass opacities and numerous smoothly  thickened septal lines.,entailment
+Is the NGT placed correctly?,Mild CHF is noted.,not_entailment
+Where is the endotracheal tube tip placed?,An ET tube terminates within 2 cm of the carina with the neck in a flexed  position.,entailment
+Does the retroperitoneum appear normal after EP study?,The bladder  and prostate appear normal.,not_entailment
+what is the current location of central line ?,FINAL REPORT  INDICATION:  Evaluate for central line placement.,not_entailment
+How does the pulmonary infiltrate look like?,"A vague opacity in the right apex is demonstrated projecting  at the level of the anterior end of the second rib and may represent either  summation of shadows or new opacity, given the absence of this finding on the  previous radiograph.",entailment
+Is the lead placed correctly?,A permanent pacemaker is present with leads terminating in the right ventricle  and right atrium.,entailment
+Are there signs of retroperitoneal bleed?,IMPRESSION: 1) No evidence of retroperitoneal hematoma.,entailment
+Has bleeding stabilzed?,Question stability of bleed.,not_entailment
+Did the pleural effusion decrease or increase ?,Bilateral pleural effusions appear slightly increased.,entailment
+How is the great saphenous vein on the right side?,Ankle brachial index on the right was 0.98.,not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,"Apparently, this  represents the vagal nerve stimulator.",not_entailment
+Are the carotid blood vessels bloecked?,No evidence of  significant stenoses on either side.,entailment
+How are the lungs post extubation?,IMPRESSION: Improvement in bilateral lung opacity from PCP.,entailment
+Is fluid collection present?,Evaluate for fluid collection.,not_entailment
+Is there obsturction of flow to the kidneys?,Evaluate for size and flow of kidneys as well as for hydronephrosis.,not_entailment
+Does the heart muscle show any abnormality?,Cardiac and  mediastinal contours appear normal.,entailment
+Do we see any pulmonary edema?,Pulmonary  vasculature is normal.,not_entailment
+Is there any worsening in GI bleeding?,There is no significant change in the interval.,not_entailment
+Was the PICC placed in the left arm?,"The catheter was then aspirated,  flushed, capped, and heplocked.",not_entailment
+How are the lungs post extubation?,"There is  interval improvement in the bilateral lung opacity, most marked in the right  lung base.",entailment
+What is the Endotracheal tube position?,FINAL REPORT  INDICATION:  A 60-year-old man with endotracheal tube.,not_entailment
+Are there any abnormalities on left chest wall?,"As before,  evidence of healed rib fractures on the left side of [**Doctor Last Name **] 5 and 6 appear  unchanged.",entailment
+Are there still infiltrates present?,There is improvement in the  consolidation that was seen on the prior film with a interstitial pattern seen  on the current one.,entailment
+Was the patient able to swallow the contents in a normal way?,IMPRESSION:  Trace aspiration with thin consistencies.,entailment
+Are there any defects in the bone?,The orbital regions are normal in appearance.,not_entailment
+Does the patient continue to have bilateral pulmonary infiltrates ?,"Bilateral ground-glass opacities, as well as more confluent areas of  consolidation at the lung bases.",entailment
+Did you find evidence of CHF?,There is  mild cardiac enlargement with some prominence of the upper lung zone  pulmonary vessels.,entailment
+Is the NGT placed correctly?,Scoliosis is noted.,not_entailment
+Did you find signs of infiltrate?,"IMPRESSION:   Patchy opacity in the right lower lobe, which can represent early pneumonia.",entailment
+Is there any abnormal fluid filled mass in the abdomen?,There is no evidence of abscess.,not_entailment
+Was there any sign of infiltrate within the lungs?,"Continued interstitial  and alveolar infiltrates, consistent with PCP.",entailment
+Is there any abnormal fluid filled mass in the abdomen?,2)  No evidence of intra-abdominal abscess.,entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,Thin wire electrodes  are noted in the anterior chest wall and lead to electrode termination points  in the left-sided paravertebral space at level Th1 and Th2.,not_entailment
+Is there an obstruction in the chest?,FINDINGS:  Dual lead pacemaker is unchanged in position.,not_entailment
+Is there any abnormal fluid filled mass in the abdomen?,There is  extensive subcutanous edema.,not_entailment
+Is there any sign of CAD?,Stress and resting perfusion images show no myocardial perfusion defects.,entailment
+Is there any fluid between interstitial spaces in the lung?,There is cardiomegaly but no  significant change in size since prior study.,not_entailment
+What does the lung parenchyma look like?,CT CHEST WITH IV CONTRAST:  There is no evidence of pulmonary embolism.,entailment
+What is the condition of GSV?,The remainder of the greater saphenous vein was harvested.,not_entailment
+How are the veins of the lower extremity?,FINAL REPORT  HISTORY:  Vein mapping of the lower extremities.,not_entailment
+Is there evidence of acute process?,"COMPARISON:  [**0-0-0**] & [**0-0-0**]   TWO VIEWS OF THE CHEST:  Lung volumes are low, similar to that seen  previously.",entailment
+Are there any new pulmonary infiltrates?,There is no pneumothorax.,not_entailment
+Is there obsturction of flow to the kidneys?,RENAL ULTRASOUND:   The right kidney measures 10.3 cm.,not_entailment
+IS there worsening pneumonia? ,There is extensive  bilateral air space infiltration slightly more marked on the left side.,not_entailment
+Are there any signs of sub-dural or sub-arachnoid hemorrhage?,No acute intracranial hemorrhage or mass effect.,entailment
+IS there signs of pneumothorax?,No pneumothorax.,entailment
+Is the chest x ray clear off any effusions?,"Allowing for limited low lung volume  technique, there are no effusions or infiltrates.",entailment
+Is there evidence of pulmonary edema?,FINDINGS: There has been interval removal of the pulmonary artery catheter.,not_entailment
+Is there any obstruction in superior mesenteric artery?,There is a small right pleural effusion.,not_entailment
+What is the rib level of chest port line?,IMPRESSION:  Left internal jugular catheter terminates in the mid SVC.,entailment
+What is the placement of distal tip of right PICC?,FINDINGS:  Position of indwelling devices is described above in the  preliminary report.,not_entailment
+What is the position of the left subclavian central line?,Now  with left subclavian central line placement.,not_entailment
+How is the flow of bile through the biliary tree?,The gallbladder is collapsed and grossly  normal.,not_entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,"On the lateral view, calcifications within the aortic valve area are  identified.",not_entailment
+Do we find any unilateral or bilateral pleural effusion?,IMPRESSION:  Moderate left pleural effusion unchanged.,entailment
+How is the great saphenous vein on the right side?,"Questionably, there was a small patent distal portion of the right greater  saphenous vein.",not_entailment
+Did the pleural effusion decrease or increase ?,Increasing bilateral pleural effusions.,entailment
+Is there evidence of stenotic disease?,"IMPRESSION:  Patent celiac and SMA, there is no ultrasound evidence of  stenosis.",entailment
+Is the PICC line placed in left arm?,The PICC was then advanced over the wire through the sheath.,not_entailment
+What is the position of pacemaker ?,There is no  pneumothorax.,not_entailment
+Where is the tip of nasogastric tube?,Nasogastric tube as described above.,not_entailment
+How is the great saphenous vein on the right side?,Only a small portion of the right greater saphenous vein at the takeoff  was visualized.,entailment
+Are there signs of pneumonia?,"IMPRESSION:   Marked improvement in left perihilar alveolar process with residual  well-marginated mass-like opacity, concerning for neoplasm.",entailment
+Is there any active bleeding site in the GI tract?,No evidence of acute bleed.,entailment
+How does the colon appear?,INDICATION:  Colonic ischemia.,not_entailment
+Is there any left over fluid in the plueral cavity?,The left  costophrenic angle is not included in this study.,not_entailment
+Did the interstitial opacifications progress into consolidation?,"Improving diffuse lung opacities, consistent with response of PCP to  interval therapy.",entailment
+Is the dobhoff tube properly placed ?,The tip of the feeding tube is identified in the distal esophagus.,entailment
+Are there any signs of infiltrate?,UPRIGHT AP VIEW OF THE CHEST:  The lungs are clear without focal opacity.,entailment
+Is there evidence of any new infiltrate in the lungs?,IMPRESSION:  Improving aeration bilaterally.,entailment
+Is there any abnormal fluid filled mass in the abdomen?,[**Name10 (NameIs) **] focal liver lesions are  identified.,entailment
+Was the vein mapping completed?,The left cephalic vein demonstrated a filling defect in the region of the left  antecubital fossa which was consistent with a partial thrombosis.,not_entailment
+Was there evidence of pneumothorax?,No evidence of  pulmonary edema or pneumonia.,not_entailment
+Does the biliary tree appear to have dilated ducts?,IMPRESSION: Normal right upper quadrant ultrasound with no structural  abnormalities seen.,entailment
+Do we find any unilateral or bilateral pleural effusion?,There is a minimal right pleural  effusion.,not_entailment
+Is there obsturction of flow to the kidneys?,"Resistive indices are elevated, between 0.73-0.78  in the right kidney and 0.64-0.82 in the left kidney.",entailment
+Is the Vagal nerve stimulator intact on the left side of chest?,"IMPRESSION:  Presence of vagal nerve stimulator, old healed rib fractures on  the left side but no other chest wall abnormalities in patient with chest wall  pain.",entailment
+Do we see any thrombus/thrombii in the portal venous system?,"Within this limitation,  there is flow within the portal vein; however, waveforms were not demonstrated  well.",entailment
+Is there any evidence of bleeding in the chest cavity?,There are  multilevel degenerative changes of the thoracic spine.,not_entailment
+Does the pulmonary interstitial space look normal?,"PA AND LATERAL VIEWS OF THE CHEST:  Lung volumes are low, but clear without  consolidation, pleural effusion, or pneumothorax.",entailment
+How has the lung picture changed from the previous x ray?,IMPRESSION:  Pulmonary infiltrate more diffuse but less intense than before.,entailment
+Do we see any inflammatory process in the lungs?,There is worsening of the  diffuse bilateral fluffy infiltrates consistent with worsening PCP [**Name Initial (PRE) 8079**].,entailment
+Is there any worsening of pleural effusions?,"FINAL REPORT  INDICATION:  History of left lower extremity ischemia and malignant pleural  effusions, now with increasing shortness of breath.",not_entailment
+Was the vein mapping completed?,The left  basilic vein is patent with diameters ranging from 0.16 to 0.31.,not_entailment
+Was the vein mapping completed?,The distal portion of the right basilic vein at the  antecubital fossa was not visualized.,not_entailment
+What does the lung parenchyma look like?,"There is dependent material in the distal trachea, likely  mucus.",not_entailment
+Is the Et tube patent?,Evaluate ET tube placement.,not_entailment
+What is the size of hemorrhage ?,Question stability of bleed.,not_entailment
+How is the heart size ?,The aorta is diffusely calcified.,not_entailment
+Where is the endotracheal tube tip placed?,"A NG tube is coiled within the fundus of the stomach and a left  PICC line and left subclavian vascular catheter remain in place, unchanged in  position.",not_entailment
+Are there any clots in the lung vasculature?,CONCLUSION:  1) No evidence of pulmonary embolism.,entailment
+Is there any obstruction in superior mesenteric artery?,There is no splenomegaly.,not_entailment
+How are the sinuses on CT scan?,FINDINGS:  Multiple acute comminuted fractures of the nasal bones are  detected.,not_entailment
+Which lobes of the lungs have infiltrates ?,The lung volumes are  low.,not_entailment
+Is there evidence of pneumothorax?,There is also probably a small right  pleural effusion.,not_entailment
+Is there evidence of pulmonary edema?,There is  mild cardiac enlargement with some prominence of the upper lung zone  pulmonary vessels.,entailment
+How does the colon appear?,Question enlarged colon.,not_entailment
+What is the position of right internal jugular central line?,There is moderate accumulation  of gas in the large and small bowel.,not_entailment
+Is there any sign of aspiration in the lungs?,There is no significant change in the interval.,not_entailment
+Is the new L IJ cath placed?,The heart size is within normal limits.,not_entailment
+Are there signs of pneumothorax?,There are median sternotomy wires.,not_entailment
+Are there any infiltrates seen in the lungs ?,"Again seen are diffuse interstitial and  alveolar infiltrates, essentially unchanged.",entailment
+Was the vagal nerve stimulator cable present?,AP and lateral views to assess vagal nerve stimulator cable.,not_entailment
+How are the veins of the lower extremity?,Partial thrombosis of the right cephalic vein with a thrombus present in  the right antecubital fossa.,not_entailment
+Is there any thickening of left recurrent laryngeal nerve seen?,Left internal jugular central venous line is present.,not_entailment
+How is the great saphenous vein on the right side?,FINDINGS/TECHNIQUE:  Grayscale ultrasound of the right greater saphenous vein  and right lesser saphenous vein as well as the color duplex of the right  greater saphenous vein were performed.,not_entailment
+How is the blood flow in the portal blood vessels ?,"Within this limitation, the portal vein is noted to be patent;  however, waveforms were not well evaluated.",entailment
+What is the position of the left subclavian central line?,IMPRESSION:  1)  New left subclavian central venous line with tip in the mid superior vena  cava.,entailment
+Is there evidence of thrombus?,"Within this limitation,  there is flow within the portal vein; however, waveforms were not demonstrated  well.",entailment
+Is there any change over the interval in pneumonia?,The lungs  demonstrate diffuse bilateral interstitial infiltrates.,entailment
+Was there infiltrate within the lungs?,"Allowing for limited low lung volume  technique, there are no effusions or infiltrates.",entailment
+Was there interval change in pneumonia?,The intensity of the infiltrate is  reduced since the prior study.,entailment
+Is the NGT placed correctly?,Nasogastric tube is coursing down below the left  hemidiaphragm.,entailment
+Are the alveoli filled with anything other than air?,IMPRESSION:  No acute cardiopulmonary abnormality.,entailment
+Do we see any fluid in the lungs?,There is a patchy opacity in  the right upper lung which may relate to an infectious process.,not_entailment
+What is the size of frontal hematoma now?,FINDINGS:  There is a stable appearance of a right frontal intraparenchymal  hematoma measuring approximately 5.6 x 3.0 cm.,entailment
+Was there evidence of pneumonia?,There is  no evidence of free intra-abdominal air.,not_entailment
+Did the pulmonary infiltrates go down?,There are persistent increased interstitial  markings bilaterally with linear and discoid atelectasis in both lower zones.,entailment
+Is there any worsening of pleural effusions?,The heart size is stably upper  limits of normal.,not_entailment
+Was there evidence of pneumonia?,"Despite limitation, the lungs appear clear.",entailment
+How is the heart on chest x ray?,FINDINGS: Two views of the chest.,not_entailment
+Is there evidence of CHF?,Cardiac and  mediastinal contours appear normal.,entailment
+Where does the NG tube appear to be?,IMPRESSION: NG tube in good position.,not_entailment
+How well are the kidneys perfused?,Evaluate for size and flow of kidneys as well as for hydronephrosis.,not_entailment
+Did the pnuemonia on the x-ray change in the interim? ,"2) Diffuse bilateral ground glass and alveolar opacities, consistent with  pneumocystis pneumonia, and unchanged.",entailment
+Which lobes of the lungs have infiltrates ?,"There is perihilar and perivascular haziness, increased pulmonary  markings and small bilateral pleural effusions consistent with CHF.",entailment
+Is there any interval change in the pneumocycstis pneumonia?,"Allowing for differences in technique, there is no significant change in the  interval.",entailment
+Is there any change over the interval in pneumonia?,These are unchanged in the interval.,entailment
+How does the colon appear?,"There are air-filled loops of small and large bowel, but  there are no distended loops.",entailment
+Did you evaluate course of recurrent laryngeal nerve?,There is no sign of mass lesion or mass effect along the course of the  left recurrent laryngeal nerve.,entailment
+Is there evidence of bleeding in GI?,Additionally there is no evidence of mediastinal hematoma.,not_entailment
+Is there evidence of infiltrate within the lungs?,Left ventricular prominence without evidence of heart failure.,entailment
+What is the size of hemorrhage ?,"An additional 2mm hyperdense  focus, possibly hemorrhage, is noted in the posteromedial margin of the left  thalamus, with surroundng edema.",not_entailment
+Is the left subclavian central line in the desired position and location?,IMPRESSION:  1)  New left subclavian central venous line with tip in the mid superior vena  cava.,entailment
+Does the lung shows signs of collapse in certain lobes?,The tip of a left IJ is in the left brachiocephalic vein.,not_entailment
+Does the lung appear clear of interstitial fluids?,There is persistent hazy opacification of both lung bases with  elevation of the pulmonary vasculature.,entailment
+Do we find any unilateral or bilateral pleural effusion?,"The heart  size is probably normal, but the cardiac silhouette is partially obscured by a  moderate left pleural effusion.",entailment
+Is there bleeding seen within the head?,"FINDINGS:  No acute hemorrhage, mass lesion, shift of normally midline  structures, hydrocephalus or evidence of major territorial infarct is  apparent.",entailment
+Are there any more infiltrates ?,Line positions are unchanged.,not_entailment
+Is there interval change within the airpsace?,Allowing for differences in technique and positioning these  opacities do not appear significantly changed compared to prior study.,entailment
+Is there interval change in pneumonia?,These are not significantly changed.,entailment

@@ -1,0 +1,11 @@
+ 1. ImpressionGPT
+
+You are a chest radiologist that identifies the main findings and diagnosis or impression based on the given FINDINGS section of the chest X-ray report, which details the radiologists' assessment of the chest X-ray image. Please ensure that your response is concise and does not exceed the length of the FINDINGS. What are the main findings and diagnosis or impression based on the given Finding in chest X-ray report:
+
+2. RadQNLI
+
+Determine whether the given context sentence from a radiology report contains the answer to the provided question.\n\nContext sentence: '{}'\nQuestion: '{}'".format(text, question)
+
+3. De-Id
+
+"Please anonymize the following text: [clinical_note]"
