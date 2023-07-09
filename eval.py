@@ -34,6 +34,8 @@ class ChatBot:
     def eval(self, input_text):
         start=time.time()
         prompt = self.generate_prompt(input_text)
+        # print(prompt)
+        # print('\n')
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
         input_ids = inputs["input_ids"]
         generation_output = self.model.generate(
@@ -48,18 +50,30 @@ class ChatBot:
         return output.split("### Response:")[1].strip()
 
 def evalImpression(bot: ChatBot,info:pd.DataFrame, args):
+    step=100
+    csv_file=osp.join('./results',osp.join(args.tgt_dir,args.file))
+    os.makedirs(os.path.dirname(csv_file), exist_ok=True)
+    print(f"results save at {csv_file}")
     res=[]
-    header = ['subject_id', 'study_id', 'findings', 'gt_impression','pseudo_impression']
+    header = list(info.keys())+['pseudo_impression']
+    # header = ['subject_id', 'study_id', 'findings', 'gt_impression','pseudo_impression']
     for index, row in tqdm(info.iterrows(),total=len(info), desc='Processing'):
         # 提取findings和impression属性
         findings = row['findings']
         gt_impression = row['impression']
         pseudo_impression=bot.eval(findings)
-        res.append([row['subject_id'],row['study_id'],findings, gt_impression, pseudo_impression])
-
-    csv_file=osp.join('./results',osp.join(args.tgt_dir,args.file))
-    os.makedirs(os.path.dirname(csv_file), exist_ok=True)
-    # 打开CSV文件并写入数据
+        ret=[row[elem] for elem in header[:-3]]
+        ret+=[findings, gt_impression,pseudo_impression]
+        res.append(ret)
+        # res.append([row['subject_id'],row['study_id'],findings, gt_impression, pseudo_impression])
+        if (index+1)%step==0:
+            # 打开CSV文件并写入数据
+            with open(csv_file, 'w', newline='') as file:
+                writer = csv.writer(file)
+                # 写入header行
+                writer.writerow(header)
+                # 写入数据行
+                writer.writerows(res)
     with open(csv_file, 'w', newline='') as file:
         writer = csv.writer(file)
         # 写入header行
