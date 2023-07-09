@@ -39,9 +39,10 @@ class ChatBot:
 
     def generate_prompt(self, input_text=None):
         if self.language=='zh':
-            return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{self.instruction}\n\n### Input:{input_text}\n\n### Response:"""
-        else:
             return f"""以下是一条指令，其描述了一个任务并附带提供了更多的上下文信息。请编写一条回复来恰当地完成任务所提出的要求。\n\n### 指令：\n\n{self.instruction}\n\n### 输入：{input_text}\n\n### 回复："""
+        else:
+            return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{self.instruction}\n\n### Input:{input_text}\n\n### Response:"""
+        
 
         # if input_text:
         #     return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{self.instruction}\n\n### Input:{input_text}\n\n### Response:"""
@@ -110,10 +111,11 @@ def main(args):
         language='zh'
     else:
         language='en'
+    print(f"language: {language}")
     args.language=language
     # Init the task-specific instruction
     instruction=prompt_dict[language][args.task]
-    info=pd.read_csv(osp.join(args.task,args.file))
+    info=pd.read_csv(osp.join(args.task,args.file))[:10]
 
     # prepare your tokenizer and LLM here
     tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/llama-7b")
