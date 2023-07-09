@@ -63,9 +63,14 @@ class ChatBot:
             output_scores=True,
             max_new_tokens=256
         )
+        
         output=self.tokenizer.decode(generation_output.sequences[0])
         # print("Response:", output.split("### Response:")[1].strip())
-        return output.split("### Response:")[1].strip()
+        if self.language=='en':
+            return output.split("### Response:")[1].strip()
+        else:
+            return output.split("### 回复：")[1].strip()
+
 
 def evalImpression(bot: ChatBot,info:pd.DataFrame, args):
     step=100
