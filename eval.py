@@ -1,5 +1,6 @@
 from peft import PeftModel
 from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import time
 import torch
 from tqdm import tqdm
@@ -61,7 +62,7 @@ class ChatBot:
             generation_config=self.generation_config,
             return_dict_in_generate=True,
             output_scores=True,
-            max_new_tokens=256
+            max_new_tokens=512
         )
         
         output=self.tokenizer.decode(generation_output.sequences[0])
@@ -155,11 +156,20 @@ def main(args):
     info=pd.read_csv(osp.join(args.task,args.file))
 
     # prepare your tokenizer and LLM here
-    tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/llama-7b")
-    model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//llama-7b")
-    model = PeftModel.from_pretrained(model, "/public_bme/data/llm/luotuo-lora-7b-0.3")
+    # tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/llama-7b")
+    # model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//llama-7b")
+    # model = PeftModel.from_pretrained(model, "/public_bme/data/llm/luotuo-lora-7b-0.3")
+    # generation_config = GenerationConfig(
+    #     temperature=0.1,
+    #     top_p=0.75,
+    #     num_beams=4,
+    #     num_return_sequences=1,
+    # )
+    # tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B", trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained("baichuan-inc/baichuan-7B", trust_remote_code=True)
+    model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B",trust_remote_code=True)
     generation_config = GenerationConfig(
-        temperature=0.1,
+        temperature=0.2,
         top_p=0.75,
         num_beams=4,
         num_return_sequences=1,
@@ -180,10 +190,10 @@ def main(args):
 if __name__=='__main__':
 
     parser = argparse.ArgumentParser(description="Training")
-    parser.add_argument("--task", default="RadQNLI", choices=['ImpressionGPT', 'DeID', 'RadQNLI'], help="task to be evaluated")
+    parser.add_argument("--task", default="ImpressionGPT", choices=['ImpressionGPT', 'DeID', 'RadQNLI'], help="task to be evaluated")
     parser.add_argument("--file", default="RadQNLI-EN.csv")
     parser.add_argument("--save", type=bool,default=True)
-    parser.add_argument("--tgt_dir",default='luotuo-7b')
+    parser.add_argument("--tgt_dir",default='HuoTuoGPT-7B')
 
     args = parser.parse_args()
     main(args)
