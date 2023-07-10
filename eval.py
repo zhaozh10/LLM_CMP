@@ -104,6 +104,38 @@ def evalImpression(bot: ChatBot,info:pd.DataFrame, args):
         # 写入数据行
         writer.writerows(res)
 
+def evalRadQNLI(bot: ChatBot,info:pd.DataFrame, args):
+    step=100
+    csv_file=osp.join('./results',osp.join(args.tgt_dir,args.file))
+    os.makedirs(os.path.dirname(csv_file), exist_ok=True)
+    print(f"results save at {csv_file}")
+    res=[]
+    header = list(info.keys())+['pseudo_label']
+    # header = ['question', 'sentence', 'label', 'pseudo_label']
+    for index, row in tqdm(info.iterrows(),total=len(info), desc='Processing'):
+        # 提取findings和impression属性
+        question = row['question']
+        sentence = row['sentence']
+        label=row['label']
+        input_text=f"Context sentence: '{sentence}'\nQuestion: '{question}'"
+        pseudo_label=bot.eval(input_text)
+        ret=[question,sentence,label, pseudo_label]
+        res.append(ret)
+        # res.append([row['subject_id'],row['study_id'],findings, gt_impression, pseudo_impression])
+        if (index+1)%step==0:
+            # 打开CSV文件并写入数据
+            with open(csv_file, 'w', newline='') as file:
+                writer = csv.writer(file)
+                # 写入header行
+                writer.writerow(header)
+                # 写入数据行
+                writer.writerows(res)
+    with open(csv_file, 'w', newline='') as file:
+        writer = csv.writer(file)
+        # 写入header行
+        writer.writerow(header)
+        # 写入数据行
+        writer.writerows(res)
 
 def main(args):
     
@@ -137,7 +169,8 @@ def main(args):
     if args.task=="ImpressionGPT":
         evalImpression(bot, info, args)
     elif args.task=="RadQNLI":
-        pass
+        evalRadQNLI(bot, info, args)
+        # pass
     elif args.task=="DeID":
         pass
     else:
@@ -147,8 +180,8 @@ def main(args):
 if __name__=='__main__':
 
     parser = argparse.ArgumentParser(description="Training")
-    parser.add_argument("--task", default="ImpressionGPT", choices=['ImpressionGPT', 'DeID', 'RadQNLI'], help="task to be evaluated")
-    parser.add_argument("--file", default="MIMIC-EN.csv")
+    parser.add_argument("--task", default="RadQNLI", choices=['ImpressionGPT', 'DeID', 'RadQNLI'], help="task to be evaluated")
+    parser.add_argument("--file", default="RadQNLI-EN.csv")
     parser.add_argument("--save", type=bool,default=True)
     parser.add_argument("--tgt_dir",default='luotuo-7b')
 
