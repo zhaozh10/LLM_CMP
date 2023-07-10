@@ -53,19 +53,27 @@ class ChatBot:
     def eval(self, input_text):
         start=time.time()
         prompt = self.generate_prompt(input_text)
-        print(prompt)
-        print('\n')
+        # print(prompt)
+        # print('\n')
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
         input_ids = inputs["input_ids"]
+        # generation_output = self.model.generate(
+        #     input_ids=input_ids,
+        #     generation_config=self.generation_config,
+        #     return_dict_in_generate=True,
+        #     output_scores=True,
+        #     max_new_tokens=512
+        # )
         generation_output = self.model.generate(
             input_ids=input_ids,
             generation_config=self.generation_config,
             return_dict_in_generate=True,
             output_scores=True,
-            max_new_tokens=512
         )
         
+        
         output=self.tokenizer.decode(generation_output.sequences[0])
+        print(output)
         # print("Response:", output.split("### Response:")[1].strip())
         if self.language=='en':
             return output.split("### Response:")[1].strip()
@@ -85,7 +93,7 @@ def evalImpression(bot: ChatBot,info:pd.DataFrame, args):
         # 提取findings和impression属性
         findings = row['findings']
         gt_impression = row['impression']
-        pseudo_impression=bot.eval(findings)
+        pseudo_impression=bot.eval(f"findings:{findings}")
         ret=[row[elem] for elem in header[:-3]]
         ret+=[findings, gt_impression,pseudo_impression]
         res.append(ret)
@@ -156,6 +164,8 @@ def main(args):
     info=pd.read_csv(osp.join(args.task,args.file))
 
     # prepare your tokenizer and LLM here
+
+    # luotuo-7b
     # tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/llama-7b")
     # model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//llama-7b")
     # model = PeftModel.from_pretrained(model, "/public_bme/data/llm/luotuo-lora-7b-0.3")
@@ -166,14 +176,32 @@ def main(args):
     #     num_return_sequences=1,
     # )
     # tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B", trust_remote_code=True)
-    tokenizer = AutoTokenizer.from_pretrained("baichuan-inc/baichuan-7B", trust_remote_code=True)
-    model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B",trust_remote_code=True)
+
+    # HuaTuoGPT-7B
+    # tokenizer = AutoTokenizer.from_pretrained("baichuan-inc/baichuan-7B", trust_remote_code=True)
+    # model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B",trust_remote_code=True)
+    # generation_config = GenerationConfig(
+    #     temperature=0.2,
+    #     top_p=0.75,
+    #     num_beams=4,
+    #     num_return_sequences=1,
+    # )
+
+    # Ziya-13B
+    tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
+    model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map="auto")
     generation_config = GenerationConfig(
-        temperature=0.2,
-        top_p=0.75,
-        num_beams=4,
         num_return_sequences=1,
+        top_p = 0.85, 
+        temperature = 1.0, 
+        repetition_penalty=1., 
+        max_new_tokens=1024, 
+        do_sample = True,  
+        eos_token_id=2, 
+        bos_token_id=1, 
+        pad_token_id=0
     )
+
 
     bot=ChatBot(model,tokenizer,generation_config, instruction, args)
     if args.task=="ImpressionGPT":
@@ -193,7 +221,7 @@ if __name__=='__main__':
     parser.add_argument("--task", default="ImpressionGPT", choices=['ImpressionGPT', 'DeID', 'RadQNLI'], help="task to be evaluated")
     parser.add_argument("--file", default="RadQNLI-EN.csv")
     parser.add_argument("--save", type=bool,default=True)
-    parser.add_argument("--tgt_dir",default='HuoTuoGPT-7B')
+    parser.add_argument("--tgt_dir",default='Ziya-13B')
 
     args = parser.parse_args()
     main(args)

@@ -128,7 +128,7 @@ def apply_delta_low_cpu_mem(base_model_path, target_model_path, delta_path):
 
 def apply_delta(base_model_path, target_model_path, delta_path):
     print(f"Loading the delta weights from {delta_path}")
-    delta_tokenizer = AutoTokenizer.from_pretrained(delta_path,     use_fast=False)
+    # delta_tokenizer = AutoTokenizer.from_pretrained(delta_path,use_fast=False)
     delta = LlamaForCausalLM.from_pretrained(
         delta_path, torch_dtype=torch.float16, low_cpu_mem_usage=True
     )
@@ -151,7 +151,7 @@ def apply_delta(base_model_path, target_model_path, delta_path):
 
     print(f"Saving the target model to {target_model_path}")
     delta.save_pretrained(target_model_path)
-    delta_tokenizer.save_pretrained(target_model_path)
+    # delta_tokenizer.save_pretrained(target_model_path)
 
 
 if __name__ == "__main__":
