@@ -10,9 +10,11 @@
 
 set -x
 FILE=$1
+TGT_dir=$2
+TASK=$3
 # FILE=${FILE:-"MIMIC-EN.csv"}
 TIME_SUFFIX=$(date +%Y%m%d%H%M%S)
 source activate win
 
 PYTHONPATH="$(dirname $0)/..":$PYTHONPATH \
-python eval.py --file ${FILE}
+python eval.py --file ${FILE} --tgt_dir ${TGT_dir} --task ${TASK}

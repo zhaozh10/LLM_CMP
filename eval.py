@@ -194,43 +194,49 @@ def main(args):
     info=pd.read_csv(osp.join(args.task,args.file))
 
     # prepare your tokenizer and LLM here
-
+    if args.tgt_dir=='luotuo-7b':
     ## luotuo-7b
-    # tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/llama-7b")
-    # model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//llama-7b")
-    # model = PeftModel.from_pretrained(model, "/public_bme/data/llm/luotuo-lora-7b-0.3")
-    # generation_config = GenerationConfig(
-    #     temperature=0.1,
-    #     top_p=0.75,
-    #     num_beams=4,
-    #     num_return_sequences=1,
-    # )
+        tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/llama-7b")
+        model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//llama-7b")
+        model = PeftModel.from_pretrained(model, "/public_bme/data/llm/luotuo-lora-7b-0.3")
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=512,
+        )
+    elif args.tgt_dir=='HuaTuoGPT-7B':
     # tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B", trust_remote_code=True)
-
-    ## HuaTuoGPT-7B
-    # tokenizer = AutoTokenizer.from_pretrained("baichuan-inc/baichuan-7B", trust_remote_code=True)
-    # model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B",trust_remote_code=True)
-    # generation_config = GenerationConfig(
-    #     temperature=0.2,
-    #     top_p=0.75,
-    #     num_beams=4,
-    #     num_return_sequences=1,
-    # )
-
-    ## Ziya-13B
-    tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
-    model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
-    generation_config = GenerationConfig(
-        num_return_sequences=1,
-        top_p = 0.85, 
-        temperature = 1.0, 
-        repetition_penalty=1., 
-        max_new_tokens=1024, 
-        do_sample = True,  
-        eos_token_id=2, 
-        bos_token_id=1, 
-        pad_token_id=0
-    )
+        ## HuaTuoGPT-7B
+        tokenizer = AutoTokenizer.from_pretrained("baichuan-inc/baichuan-7B", trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B",trust_remote_code=True)
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=512,
+        )
+    elif args.tgt_dir=='Ziya-13B':
+        ## Ziya-13B
+        tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
+        model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
+        generation_config = GenerationConfig(
+            num_return_sequences=1,
+            top_p = 0.85, 
+            temperature = 1.0, 
+            repetition_penalty=1., 
+            max_new_tokens=1024, 
+            do_sample = True,  
+            eos_token_id=2, 
+            bos_token_id=1, 
+            pad_token_id=0
+        )
+    else:
+        print("Error! Unknown model!")
 
 
     bot=ChatBot(model,tokenizer,generation_config, instruction, args)
