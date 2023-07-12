@@ -12,8 +12,7 @@ def RougeTest(csv_path: str):
     for index, row in tqdm(df_test_csv.iterrows(),total=len(df_test_csv), desc='Processing'):
         label = row['impression']   # GT impression
         prediction = row['pseudo_impression'] # pred impression
-        if pd.isnull(prediction):
-            continue
+
 
         score = rouge_e.compute(predictions=[prediction], references=[label], rouge_types=["rouge1", "rouge2", "rougeL"], use_stemmer=True)
         rouge_scores.append(score)
@@ -40,7 +39,7 @@ csv_list=[
     # './results/luotuo/Open_I-ZH.csv',
     # './results/Ziya-13B/MIMIC-EN.csv',
     # './results/Ziya-13B/MIMIC-ZH.csv',
-    './results/Ziya-13B/Open_I-EN.csv',
+    # './results/Ziya-13B/Open_I-EN.csv',
     # './results/Ziya-13B/Open_I-ZH.csv',
 ]
 for csv_path in csv_list:
