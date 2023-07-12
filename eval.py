@@ -73,7 +73,7 @@ class ChatBot:
         
         
         output=self.tokenizer.decode(generation_output.sequences[0])
-        print(output)
+        # print(output)
         # print("Response:", output.split("### Response:")[1].strip())
         if self.language=='en':
             return output.split("### Response:")[1].strip()
@@ -211,7 +211,7 @@ def main(args):
     # tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B", trust_remote_code=True)
         ## HuaTuoGPT-7B
         tokenizer = AutoTokenizer.from_pretrained("baichuan-inc/baichuan-7B", trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B",trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B",torch_dtype=torch.float16, trust_remote_code=True)
         generation_config = GenerationConfig(
             temperature=0.9,
             top_p=0.9,
