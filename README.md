@@ -17,3 +17,6 @@ Implement Ziya-13B on RadQNLI
 
 Implement Ziya-13B on DeID
 - sbatch LLM.sh DeID.csv Ziya-13B DeID
+
+
+sbatch Few-Shot.sh MIMIC-EN.csv Ziya-13B ImpressionGPT one-shot
