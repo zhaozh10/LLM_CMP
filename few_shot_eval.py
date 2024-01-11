@@ -1,6 +1,6 @@
 from peft import PeftModel
 from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
 import time
 import torch
 from tqdm import tqdm
@@ -11,7 +11,7 @@ import os.path as osp
 import os
 from prompt import prompt_en, prompt_zh
 from few_shot_prompt import ImpressionGPT_MIMIC_one_shot, ImpressionGPT_OpenI_one_shot ,ImpressionGPT_MIMIC_five_shot, ImpressionGPT_OpenI_five_shot
-
+from doctorglm_standalone import doctorInit
 # prompt_dict={'en':prompt_en,'zh':prompt_zh}
 few_shot_prompt_dict={
     'MIMIC':
@@ -59,8 +59,8 @@ class ChatBot:
     def eval(self, input_text):
         start=time.time()
         prompt = self.generate_prompt(input_text)
-        print(prompt)
-        print('\n')
+        # print(prompt)
+        # print('\n')
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
         input_ids = inputs["input_ids"]
         # generation_output = self.model.generate(
@@ -79,8 +79,8 @@ class ChatBot:
         
         
         output=self.tokenizer.decode(generation_output.sequences[0])
-        print("=========output===========")
-        print(output)
+        # print("=========output===========")
+        # print(output)
         return output.split("### Response:")[-1].strip().replace('</s>','')
         # print("Response:", output.split("### Response:")[1].strip())
         # if self.language=='en':
@@ -109,13 +109,13 @@ def evalImpression(bot: ChatBot,info:pd.DataFrame, args):
         # res.append([row['subject_id'],row['study_id'],findings, gt_impression, pseudo_impression])
         if (index+1)%step==0:
             # 打开CSV文件并写入数据
-            with open(csv_file, 'w', newline='') as file:
+            with open(csv_file, 'w', newline='',encoding='utf-8') as file:
                 writer = csv.writer(file)
                 # 写入header行
                 writer.writerow(header)
                 # 写入数据行
                 writer.writerows(res)
-    with open(csv_file, 'w', newline='') as file:
+    with open(csv_file, 'w', newline='',encoding='utf-8') as file:
         writer = csv.writer(file)
         # 写入header行
         writer.writerow(header)
@@ -206,7 +206,7 @@ def main(args):
 
     
     # instruction=prompt_dict[language][args.task]
-    info=pd.read_csv(osp.join(args.task,args.file))[:5]
+    info=pd.read_csv(osp.join(args.task,args.file))
 
     # prepare your tokenizer and LLM here
     if args.tgt_dir=='luotuo-7b':
@@ -220,7 +220,7 @@ def main(args):
             top_k=40,
             num_beams=4,
             num_return_sequences=1,
-            max_new_tokens=512,
+            max_new_tokens=256,
         )
     elif args.tgt_dir=='HuaTuoGPT-7B':
     # tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B", trust_remote_code=True)
@@ -249,6 +249,49 @@ def main(args):
             eos_token_id=2, 
             bos_token_id=1, 
             pad_token_id=0
+        )
+    elif args.tgt_dir=="moss":
+        tokenizer = AutoTokenizer.from_pretrained("fnlp/moss-moon-003-sft", trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained("fnlp/moss-moon-003-sft", trust_remote_code=True).half()
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=512,
+        )
+    elif args.tgt_dir=='baichuan-7b':
+        tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/baichuan/7b", trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/baichuan/7b", trust_remote_code=True)
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=512,
+        )
+    elif args.tgt_dir=='DoctorGLM':
+        tokenizer,model=doctorInit()
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=1024,
+        )
+    elif args.tgt_dir=='ChatGLM-6B':
+        tokenizer=AutoTokenizer.from_pretrained("THUDM/chatglm-6b",trust_remote_code=True)
+        model = AutoModel.from_pretrained("/public_bme/data/llm/chatGLM-6b",trust_remote_code=True).half()
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=1024,
         )
     else:
         print("Error! Unknown model!")

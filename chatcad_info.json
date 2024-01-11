@@ -1,0 +1,1802 @@
+[
+    {
+        "r2g": "left-sided aicd device is noted with leads terminating in the right atrium and right ventricle . moderate to severe enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is similar . there is mild pulmonary edema new in the interval with small bilateral pleural effusions . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12110863/s55498995.txt",
+        "prob": "[0.94552684, 0.5876562, 0.58521664, 0.7081078, 0.8486492]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph the patient has received a right internal jugular vein catheter . the course of the catheter is unremarkable the tip of the catheter projects over the mid svc . there is no evidence of complications notably no pneumothorax . otherwise unchanged radiograph .",
+        "clssifier": "prediction: Edema, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19075045/s59707249.txt",
+        "prob": "[0.18875864, 0.7132036, 0.47905743, 0.8029794, 0.7022789]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . dialysis catheter is again seen with its tip extending into the right atrium . lung volumes are low limiting assessment . there is a right ij central venous catheter with its tip in the region of the low svc . the heart remains mildly enlarged . there is mild pulmonary edema with small bilateral pleural effusions . no pneumothorax . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19759491/s53350789.txt",
+        "prob": "[0.17750941, 0.49619076, 0.5089465, 0.7037093, 0.72490346]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . cardiomegaly is again noted with hilar congestion and mild pulmonary edema . no large effusion or pneumothorax . no convincing evidence for pneumonia . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Cardiomegaly, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13473781/s59379638.txt",
+        "prob": "[0.97652996, 0.49188298, 0.49257028, 0.6721038, 0.5984602]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes . moderate cardiomegaly with bilateral pleural effusions and areas of atelectasis at both lung bases . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11204646/s59627448.txt",
+        "prob": "[0.080728315, 0.39908612, 0.6114628, 0.7476718, 0.8648076]"
+    },
+    {
+        "r2g": "right-sided port-a-cath terminates in the low svc without evidence of pneumothorax . there are low lung volumes which accentuate the bronchovascular markings . given this there appears to be slight interval increase in opacity at the right lung base which may be due to combination of pleural effusion and atelectasis although underlying consolidation is not excluded . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16826047/s51707663.txt",
+        "prob": "[0.19663882, 0.14426798, 0.5307212, 0.7106288, 0.8628975]"
+    },
+    {
+        "r2g": "left-sided dual-lumen central venous catheter tip terminates in the proximal right atrium . lung volumes are low . moderate enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is similar . there is mild pulmonary edema new in the interval with small bilateral pleural effusions . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17340686/s58908940.txt",
+        "prob": "[0.19472876, 0.77160436, 0.7332439, 0.6623644, 0.79445237]"
+    },
+    {
+        "r2g": "there are low lung volumes . the cardiac silhouette is enlarged . the aorta is calcified and tortuous . there is mild to moderate pulmonary edema . small bilateral pleural effusions are seen . no pneumothorax is seen .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s57086484.txt",
+        "prob": "[0.64959246, 0.6398443, 0.56354976, 0.67329246, 0.7393746]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . low lung volumes with moderate cardiomegaly and bilateral areas of atelectasis . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Edema, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12952223/s56581630.txt",
+        "prob": "[0.03580895, 0.6851057, 0.45670727, 0.7682275, 0.790854]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p14/p14794396/s51900597.txt",
+        "prob": "[0.033135317, 0.13107377, 0.2028943, 0.3699604, 0.12794563]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . tracheostomy tube projects over the superior mediastinum . lung volumes are low limiting assessment . there is diffuse pulmonary edema with probable small bilateral pleural effusions . difficult to exclude a superimposed pneumonia . no pneumothorax . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s52062934.txt",
+        "prob": "[0.30746165, 0.8317891, 0.65347195, 0.66507804, 0.5500899]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p16/p16508811/s56646773.txt",
+        "prob": "[0.20395648, 0.2861341, 0.21875091, 0.48818466, 0.22344066]"
+    },
+    {
+        "r2g": "lung volumes are low . heart size is mildly enlarged . mediastinal contours are unremarkable . there is crowding of the bronchovascular structures with mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is identified . no acute osseous abnormalities seen .",
+        "clssifier": "prediction: Cardiomegaly, Edema.",
+        "report": "p16/p16508811/s54970692.txt",
+        "prob": "[0.7661496, 0.68913275, 0.3676298, 0.47223538, 0.47030947]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . left chest wall pacer device is again seen with leads extending to the region the right atrium and right ventricle . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax is seen . the cardiomediastinal silhouette appears stable . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p12/p12595991/s51474707.txt",
+        "prob": "[0.08946257, 0.12891202, 0.35386744, 0.684804, 0.52818364]"
+    },
+    {
+        "r2g": "right-sided central venous catheter tip terminates at the junction of the svc and right atrium . moderate to severe enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is similar . there is mild pulmonary vascular congestion . no focal consolidation pleural effusion or pneumothorax is present . no acute osseous abnormality is visualized .",
+        "clssifier": "prediction: Cardiomegaly, Edema.",
+        "report": "p12/p12963531/s57210258.txt",
+        "prob": "[0.99680895, 0.6708495, 0.13312645, 0.2539128, 0.21105829]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . extensive bilateral pulmonary opacities are again seen concerning for multifocal pneumonia . no large effusion or pneumothorax . cardiomediastinal silhouette appears grossly unchanged . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13078497/s58231918.txt",
+        "prob": "[0.32669088, 0.84957695, 0.6739093, 0.6510012, 0.89042294]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart is moderately enlarged . the mediastinal and hilar contours appear unchanged allowing for differences in technique including low lung volumes . there is probably a trace pleural effusion on the left . there is no definite pleural effusion on the right . the lungs appear clear .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s54212695.txt",
+        "prob": "[0.25576326, 0.36670107, 0.6502903, 0.8214216, 0.7693108]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart size is mildly enlarged . the aorta is tortuous and diffusely calcified . crowding of the bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p10/p10975446/s50572011.txt",
+        "prob": "[0.10844147, 0.6434209, 0.61717683, 0.6865021, 0.54182994]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . dual-lead left-sided pacemaker is again seen with leads extending to the expected positions of the right atrium and right ventricle . the cardiac silhouette remains enlarged . the mediastinal contours are stable . there is mild pulmonary vascular congestion . no focal consolidation pleural effusion or evidence of pneumothorax is seen .",
+        "clssifier": "prediction: Cardiomegaly, Atelectasis.",
+        "report": "p15/p15144601/s51244891.txt",
+        "prob": "[0.7194213, 0.3711472, 0.3546214, 0.54041576, 0.33625087]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there are low lung volumes which accentuate the bronchovascular markings . given this there may be mild pulmonary vascular congestion . no definite focal consolidation is seen . there is no pleural effusion or pneumothorax . the cardiac and mediastinal silhouettes are unremarkable .",
+        "clssifier": "prediction: Edema.",
+        "report": "p11/p11879886/s51551069.txt",
+        "prob": "[0.03883799, 0.51855665, 0.3130127, 0.46952108, 0.32934105]"
+    },
+    {
+        "r2g": "low lung volumes are present . the heart size is moderately enlarged . the mediastinal contours are grossly unremarkable . there is crowding of the bronchovascular structures but no overt pulmonary edema is present . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s51468636.txt",
+        "prob": "[0.76253873, 0.6616918, 0.7180072, 0.7632349, 0.83627737]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Edema.",
+        "report": "p18/p18767957/s59343122.txt",
+        "prob": "[0.0617086, 0.5347415, 0.40239212, 0.49566063, 0.24005257]"
+    },
+    {
+        "r2g": "the patient is status post median sternotomy and cabg . left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate to severe enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contours are unchanged . there is mild pulmonary edema new compared to the previous exam . small bilateral pleural effusions are noted left greater than right . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17669276/s58950601.txt",
+        "prob": "[0.586191, 0.66774726, 0.5678216, 0.7566096, 0.9349948]"
+    },
+    {
+        "r2g": "left internal jugular central venous catheter tip terminates in the mid svc . low lung volumes are present . the heart size remains moderately enlarged . mediastinal contours are unchanged . there is crowding of the bronchovascular structures with probable mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is identified . no acute osseous abnormalities seen .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11204646/s52842984.txt",
+        "prob": "[0.20462666, 0.62206197, 0.51543504, 0.7260508, 0.8367751]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . there are bilateral pleural effusions moderate on the right and small on the left with associated compressive lower lobe atelectasis . difficult to exclude a superimposed pneumonia . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18224196/s56822629.txt",
+        "prob": "[0.22668345, 0.38610926, 0.7670124, 0.82614094, 0.96829915]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates at the junction of the svc and right atrium . tracheostomy tube tip is in unchanged position . heart size is normal . mediastinal and hilar contours are unchanged . pulmonary vasculature is not engorged . no focal consolidation pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13881772/s51265927.txt",
+        "prob": "[0.08214951, 0.23671213, 0.6079102, 0.79549706, 0.9035224]"
+    },
+    {
+        "r2g": "the lung volumes are low . the cardiac mediastinal and hilar contours appear stable including moderate cardiomegaly . there is no pleural effusion or pneumothorax . the lungs appear clear .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis.",
+        "report": "p15/p15131736/s53318102.txt",
+        "prob": "[0.7317093, 0.7502498, 0.558914, 0.663814, 0.4903099]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p19/p19499595/s57088454.txt",
+        "prob": "[0.13569309, 0.19778855, 0.4760342, 0.64630973, 0.6466382]"
+    },
+    {
+        "r2g": "left-sided dual-lumen central venous catheter tip terminates in the proximal right atrium . lung volumes are low . moderate enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is similar . there are low lung volumes with crowding of bronchovascular structures but no overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17340686/s58351865.txt",
+        "prob": "[0.11848681, 0.75862926, 0.6332417, 0.5152591, 0.50104314]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant low lung volumes and moderate cardiomegaly . moderate pulmonary edema . no larger pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14841168/s51351495.txt",
+        "prob": "[0.08530665, 0.56717944, 0.66867584, 0.7791283, 0.7841016]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the lung parenchyma and of the cardiac silhouette . no new parenchymal opacities .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13881772/s57115906.txt",
+        "prob": "[0.04654336, 0.18836282, 0.46803656, 0.7919743, 0.8142962]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates at the junction of the svc and right atrium . lung volumes are low . moderate to severe enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is unchanged . there is crowding of the bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13473495/s58371511.txt",
+        "prob": "[0.88885486, 0.67774385, 0.6326322, 0.74784565, 0.7361232]"
+    },
+    {
+        "r2g": "dual lead right-sided pacemaker is again seen with leads extending to the expected positions of the right atrium and right ventricle . the cardiac silhouette remains enlarged . there is moderate to large right pleural effusion with overlying atelectasis underlying consolidation is not excluded . there is mild pulmonary vascular congestion . no pneumothorax is seen .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p18/p18460230/s55751115.txt",
+        "prob": "[0.31730938, 0.30908418, 0.36706486, 0.6125358, 0.8049128]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . tracheostomy tube projects over the superior mediastinum . a right ij central venous catheter is seen with its tip in the region of the mid svc . lung volumes are low limiting assessment . there is diffuse pulmonary edema with probable small bilateral pleural effusions . no pneumothorax . heart size cannot be assessed . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16313531/s57570449.txt",
+        "prob": "[0.08364376, 0.39331558, 0.57411677, 0.7694442, 0.85105145]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph the patient has received a right internal jugular vein catheter . the course of the catheter is unremarkable the tip of the catheter projects over the mid svc . there is no evidence of complications notably no pneumothorax . otherwise the radiograph is unchanged .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p12/p12736592/s51043428.txt",
+        "prob": "[0.12784201, 0.37543046, 0.46848547, 0.77438426, 0.87482476]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18110020/s53957798.txt",
+        "prob": "[0.15521847, 0.32641223, 0.5037202, 0.7272679, 0.5934786]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . low lung volumes . moderate cardiomegaly with retrocardiac atelectasis . no newly appeared parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14841168/s50796456.txt",
+        "prob": "[0.29897213, 0.6729713, 0.6192944, 0.789515, 0.6438291]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p11/p11512104/s51244125.txt",
+        "prob": "[0.4874304, 0.4633261, 0.30851611, 0.43053898, 0.2529323]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the cardiac silhouette and of the lung parenchyma . unchanged bilateral pleural effusions . no new parenchymal opacities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11880923/s58606191.txt",
+        "prob": "[0.07926898, 0.36446735, 0.67971647, 0.8617639, 0.94307035]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . lung volumes are low limiting assessment . the heart is moderately enlarged . there is mild pulmonary edema . no large effusion is seen . no pneumothorax . bony structures are intact .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Atelectasis.",
+        "report": "p15/p15131736/s54335229.txt",
+        "prob": "[0.6781274, 0.6648484, 0.43862268, 0.73122954, 0.46319255]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low limiting assessment . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p17/p17147859/s52321096.txt",
+        "prob": "[0.25712082, 0.14529042, 0.19210702, 0.5341377, 0.15747842]"
+    },
+    {
+        "r2g": "a dialysis catheter terminates in the right atrium . the cardiac mediastinal and hilar contours appear stable . there is a moderate to large pleural effusion on the right and small to moderate on the left with associated atelectasis . there is no definite pleural effusion on the right . the lungs appear clear .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12189285/s52939782.txt",
+        "prob": "[0.4401491, 0.53115195, 0.6212629, 0.8060164, 0.9133536]"
+    },
+    {
+        "r2g": "left-sided port-a-cath tip terminates in the low svc . heart size is normal . mediastinal and hilar contours are unremarkable . pulmonary vasculature is normal . lungs are clear . no pleural effusion or pneumothorax is present . no acute osseous abnormality is visualized .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p16/p16043637/s55214075.txt",
+        "prob": "[0.09926129, 0.11279183, 0.10925374, 0.29577252, 0.2096957]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . overlying ekg leads are present . there is diffuse airspace consolidation involving the right lung concerning for multifocal pneumonia . the left lung is grossly clear . the heart size cannot be assessed . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13473495/s53797803.txt",
+        "prob": "[0.47979203, 0.72771955, 0.86922103, 0.508077, 0.65586174]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart is moderately enlarged . the mediastinal and hilar contours are difficult to assess due to low lung volumes . there is mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . small bilateral pleural effusions are likely present . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s57642788.txt",
+        "prob": "[0.47756854, 0.7963584, 0.7471178, 0.7378115, 0.81512034]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . left subclavian port-a-cath tip ends in the low svc . tracheostomy tube is in standard position . lung volumes remain low . diffuse bilateral parenchymal opacities are slightly improved compared to the prior study . there is no pneumothorax .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15378103/s57806038.txt",
+        "prob": "[0.0759167, 0.7825535, 0.6757997, 0.6439054, 0.7960431]"
+    },
+    {
+        "r2g": "right-sided port-a-cath tip terminates in the low svc . right-sided port-a-cath tip terminates in the low svc . heart size remains moderately enlarged . the mediastinal contour is unchanged . there is mild pulmonary vascular congestion new compared to the previous exam . small right pleural effusion appears relatively unchanged compared to the previous exam . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p16/p16826047/s54140146.txt",
+        "prob": "[0.30633032, 0.24656825, 0.49848515, 0.72466886, 0.8574624]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there are low lung volumes which accentuate the bronchovascular markings . given this there may be mild pulmonary vascular congestion . no definite focal consolidation is seen . there is no pleural effusion or pneumothorax . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Edema.",
+        "report": "p11/p11879886/s53021526.txt",
+        "prob": "[0.07808769, 0.7318392, 0.28716007, 0.375688, 0.45096245]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there are low lung volumes which accentuate the bronchovascular markings . there are bibasilar opacities which may be due to combination of pleural effusion and atelectasis although underlying consolidation is not excluded in the appropriate clinical setting . the cardiac silhouette is not enlarged . the aorta is calcified and tortuous .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s58144042.txt",
+        "prob": "[0.1940596, 0.36983547, 0.64808595, 0.68977547, 0.8647786]"
+    },
+    {
+        "r2g": "left-sided dual-lumen central venous catheter tip terminates in the proximal right atrium . lung volumes are low . moderate enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is similar . there is mild pulmonary edema new in the interval with small bilateral pleural effusions . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17340686/s58908940.txt",
+        "prob": "[0.19472876, 0.77160436, 0.7332439, 0.6623644, 0.79445237]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes with moderate cardiomegaly and bilateral areas of atelectasis . moderate pulmonary edema . no larger pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12952223/s50802157.txt",
+        "prob": "[0.10188022, 0.5728181, 0.62173206, 0.8391873, 0.89316326]"
+    },
+    {
+        "r2g": "lung volumes are low . there is mild pulmonary edema . there are small bilateral pleural effusions . there is no pneumothorax . the heart is mildly enlarged .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16553329/s59891116.txt",
+        "prob": "[0.0844126, 0.3995375, 0.7441708, 0.835057, 0.91636974]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest were provided . there is diffuse pulmonary edema with bilateral pleural effusions . heart size is difficult to assess . mediastinal contour is grossly stable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17189198/s57840198.txt",
+        "prob": "[0.42478803, 0.885229, 0.81013125, 0.7137657, 0.8793319]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . overlying ekg leads are present . the heart is mildly enlarged . there is hilar congestion and mild interstitial edema . no large effusion or pneumothorax . no convincing evidence for pneumonia . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13606683/s53357801.txt",
+        "prob": "[0.12645245, 0.2763052, 0.5700219, 0.7999627, 0.808848]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . a right ij central venous catheter is seen with its tip in the region of the mid svc . a tracheostomy tube is in place . a right ij central venous catheter is seen with its tip in the region of the mid svc . there are bilateral pleural effusions moderate on the right and small on the left . there is diffuse pulmonary edema . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13606683/s57077344.txt",
+        "prob": "[0.15479463, 0.78513336, 0.60490966, 0.73579973, 0.93198836]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p10/p10268877/s54103072.txt",
+        "prob": "[0.22271505, 0.32477096, 0.45388004, 0.72226375, 0.50944155]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes with moderate cardiomegaly and signs of mild fluid overload . bilateral areas of atelectasis . no larger pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s51078371.txt",
+        "prob": "[0.5795084, 0.5974273, 0.6241358, 0.7693034, 0.8602276]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . left subclavian approach central venous catheter tip terminates at the junction of the svc and right atrium . tracheostomy tube is in unchanged position . heart size is normal . mediastinal and hilar contours are unchanged . pulmonary vasculature is not engorged . patchy opacities are noted in the lung bases which may reflect areas of atelectasis though infection is not excluded . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17032538/s57983519.txt",
+        "prob": "[0.009439683, 0.27849835, 0.56275976, 0.72670454, 0.58268857]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis.",
+        "report": "p17/p17189198/s57397512.txt",
+        "prob": "[0.05555093, 0.5029266, 0.52690804, 0.51778805, 0.4528994]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Edema.",
+        "report": "p12/p12658584/s54766893.txt",
+        "prob": "[0.06636019, 0.60056925, 0.41821608, 0.46961242, 0.22737028]"
+    },
+    {
+        "r2g": "the lung volumes are low . the cardiac mediastinal and hilar contours appear stable . there is no pleural effusion or pneumothorax . the lungs appear clear .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p13/p13475033/s56081681.txt",
+        "prob": "[0.15644781, 0.23667142, 0.28409463, 0.56780344, 0.2623317]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . port-a-cath resides over the left chest wall with catheter tip extending into the region of the low svc . lung volumes are low limiting assessment . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Edema.",
+        "report": "p10/p10439781/s55811525.txt",
+        "prob": "[0.1236778, 0.6041782, 0.3224414, 0.34985656, 0.1760879]"
+    },
+    {
+        "r2g": "left-sided port-a-cath tip terminates in the proximal right atrium . lung volumes are low . moderate to severe enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is similar . there is mild pulmonary edema new in the interval with moderate size bilateral pleural effusions right greater than left . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified .",
+        "clssifier": "prediction: Edema, Consolidation, Pleural Effusion.",
+        "report": "p18/p18322589/s51231499.txt",
+        "prob": "[0.22065097, 0.879352, 0.53727907, 0.40875715, 0.7355026]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low limiting assessment . there is hilar congestion and mild interstitial edema . no large effusion or pneumothorax . heart size is difficult to assess given low lung volumes . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Cardiomegaly, Edema.",
+        "report": "p13/p13896515/s58127477.txt",
+        "prob": "[0.8886032, 0.8301278, 0.47021583, 0.3860297, 0.22817016]"
+    },
+    {
+        "r2g": "right-sided dual chamber pacemaker device is noted with leads terminating in the right atrium and right ventricle . mild to moderate enlargement of the cardiac silhouette is re- demonstrated . the aorta is tortuous and diffusely calcified . there is mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13921768/s50259315.txt",
+        "prob": "[0.31662488, 0.70872873, 0.4838828, 0.65096027, 0.85111594]"
+    },
+    {
+        "r2g": "the lung volumes are low . there is moderate pulmonary edema . there are likely small bilateral pleural effusions . there is no pneumothorax . the heart is moderately enlarged .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s50383259.txt",
+        "prob": "[0.5512043, 0.7841698, 0.78675956, 0.6803246, 0.6896768]"
+    },
+    {
+        "r2g": "left internal jugular central venous catheter tip terminates in the mid svc . no pneumothorax is identified . the heart size is mildly enlarged . mediastinal and hilar contours are unremarkable . there is mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p10/p10268877/s53021891.txt",
+        "prob": "[0.06426515, 0.3290923, 0.37540817, 0.6536669, 0.45693353]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . cardiomegaly is mild . there is hilar congestion and mild interstitial edema . no large effusion or pneumothorax . no convincing evidence for pneumonia . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Atelectasis.",
+        "report": "p11/p11052273/s53702175.txt",
+        "prob": "[0.34531048, 0.6538332, 0.46016333, 0.5105615, 0.40146747]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . there is increased opacity in the right lower lung concerning for pneumonia . left lung is clear . no large effusion or pneumothorax . cardiomediastinal silhouette is stable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s55671568.txt",
+        "prob": "[0.2884544, 0.6244373, 0.497022, 0.68058634, 0.76579255]"
+    },
+    {
+        "r2g": "the patient is status post median sternotomy and cabg . left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate to severe enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is unchanged . there is mild pulmonary edema new compared to the previous exam . small bilateral pleural effusions are noted . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15207316/s54725023.txt",
+        "prob": "[0.7189952, 0.9023285, 0.46466652, 0.63754493, 0.8386842]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . constant appearance of the lung parenchyma and of the cardiac silhouette .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13078497/s51021074.txt",
+        "prob": "[0.4141796, 0.8109435, 0.7426502, 0.60372406, 0.8783333]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . low lung volumes result in bronchovascular crowding . there is no focal consolidation pleural effusion or pneumothorax . heart size is normal . mediastinal silhouette and hilar contours are normal allowing for low lung volumes . there is no free air under the diaphragm .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p13/p13475033/s57429813.txt",
+        "prob": "[0.08506776, 0.35020128, 0.32197037, 0.45992333, 0.17385526]"
+    },
+    {
+        "r2g": "there is a moderate right pleural effusion with overlying atelectasis . right base opacity may be due to combination of pleural effusion and atelectasis although underlying consolidation is not excluded . the left lung is clear . the cardiac and mediastinal silhouettes are grossly stable .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p19/p19720782/s59642258.txt",
+        "prob": "[0.041304935, 0.3208588, 0.4462842, 0.66405183, 0.83279747]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p13/p13975291/s58304701.txt",
+        "prob": "[0.18365665, 0.25672036, 0.41930336, 0.4900273, 0.44470248]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s55244705.txt",
+        "prob": "[0.15016854, 0.47008783, 0.58298475, 0.8614669, 0.9618657]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart size is moderately enlarged . the aorta is tortuous and diffusely calcified . there is crowding of the bronchovascular structures but no overt pulmonary edema is present . small bilateral pleural effusions are present . bibasilar airspace opacities likely reflect atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s51485773.txt",
+        "prob": "[0.38805944, 0.79477406, 0.71872234, 0.7538485, 0.83871615]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . right picc tip terminates in the low svc . tracheostomy tube is in unchanged position . lung volumes remain low . heart size remains mildly enlarged . the mediastinal and hilar contours are unchanged . there is crowding of the bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13031876/s57019853.txt",
+        "prob": "[0.008226312, 0.20405707, 0.7779947, 0.8873564, 0.93107164]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the lung parenchyma and of the cardiac silhouette . no new parenchymal opacities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15758946/s50697229.txt",
+        "prob": "[0.011069999, 0.2491132, 0.7175194, 0.8635915, 0.95862544]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . there are bilateral pleural effusions moderate on the right and small on the left with associated compressive lower lobe atelectasis . difficult to exclude a superimposed pneumonia . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11934114/s57363067.txt",
+        "prob": "[0.25315276, 0.44006118, 0.589883, 0.78873706, 0.9112015]"
+    },
+    {
+        "r2g": "lung volumes are low . there are diffuse bilateral airspace opacities . there is a small left pleural effusion . there is no pneumothorax . the heart and mediastinum are magnified by the projection .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16662264/s54098643.txt",
+        "prob": "[0.24082029, 0.39258137, 0.8244615, 0.7464509, 0.8700456]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis.",
+        "report": "p19/p19028690/s55086195.txt",
+        "prob": "[0.046029318, 0.5122131, 0.52635735, 0.60721904, 0.15760794]"
+    },
+    {
+        "r2g": "there are low lung volumes . there is a moderate to large left pleural effusion with overlying atelectasis underlying consolidation is not excluded . the right lung is grossly clear . the cardiac silhouette is enlarged . the aorta is calcified and tortuous .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s58957750.txt",
+        "prob": "[0.37407532, 0.41159365, 0.70585144, 0.82532763, 0.86780125]"
+    },
+    {
+        "r2g": "right-sided port-a-cath tip terminates in the proximal right atrium . patient is status post median sternotomy and cabg . low lung volumes are present . the heart size is mildly enlarged . the mediastinal contour is unchanged . there is mild pulmonary edema new in the interval with small bilateral pleural effusions . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12475198/s57980363.txt",
+        "prob": "[0.175993, 0.698836, 0.6745076, 0.61962485, 0.76300484]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . lung volumes are low limiting assessment . the heart is moderately enlarged . there is mild pulmonary edema . no large effusion is seen . no pneumothorax . bony structures are intact .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Atelectasis.",
+        "report": "p15/p15131736/s54335229.txt",
+        "prob": "[0.6781274, 0.6648484, 0.43862268, 0.73122954, 0.46319255]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . low lung volumes . moderate cardiomegaly with retrocardiac atelectasis . no newly appeared parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Edema, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14841168/s59481059.txt",
+        "prob": "[0.17446627, 0.5280477, 0.42855552, 0.70821244, 0.5498005]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . right ij access dialysis catheter is seen with its tip in the region of the low svc . lung volumes are low limiting assessment . there is mild pulmonary edema . no large effusion or pneumothorax . heart size is difficult to assess given low lung volumes . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Atelectasis.",
+        "report": "p13/p13473495/s56929753.txt",
+        "prob": "[0.28604445, 0.63740957, 0.43217328, 0.6189636, 0.34008348]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p18/p18906643/s56289226.txt",
+        "prob": "[0.22050142, 0.48724905, 0.42296734, 0.7345629, 0.7838136]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . cardiomegaly is again noted with hilar congestion and mild interstitial edema . no large effusion or pneumothorax . no convincing signs of pneumonia . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis.",
+        "report": "p15/p15896572/s58423258.txt",
+        "prob": "[0.122239895, 0.48561502, 0.66652405, 0.6720341, 0.49988416]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . there is a small left pleural effusion with associated compressive lower lobe atelectasis . difficult to exclude a superimposed pneumonia . no large pneumothorax . heart size cannot be assessed . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p19/p19720782/s57501180.txt",
+        "prob": "[0.2839934, 0.40911105, 0.4484349, 0.590345, 0.71867967]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . tracheostomy tube and right central venous access line are in constant position . the tracheostomy tube is in unchanged position . unchanged size of the cardiac silhouette . unchanged appearance of the lung parenchyma .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13135946/s54379083.txt",
+        "prob": "[0.050713982, 0.19531868, 0.3068565, 0.6672625, 0.6839887]"
+    },
+    {
+        "r2g": "right-sided dual lumen central venous catheter tip terminates in the proximal right atrium . moderate enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is unchanged . there is mild pulmonary vascular congestion . small bilateral pleural effusions are noted left greater than right not substantially changed in the interval . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19759491/s58917922.txt",
+        "prob": "[0.80450624, 0.7056589, 0.442807, 0.5984881, 0.6227635]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . low lung volumes with moderate cardiomegaly and signs of mild fluid overload . no larger pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14841168/s58881734.txt",
+        "prob": "[0.69039714, 0.67317134, 0.69483024, 0.79657024, 0.8268159]"
+    },
+    {
+        "r2g": "the lung volumes are low . there are bilateral pleural effusions right greater than left . there is pulmonary vascular congestion . there is no pneumothorax . the heart size is difficult to evaluate due to low lung volumes .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16662264/s52307671.txt",
+        "prob": "[0.039377842, 0.25368473, 0.7131054, 0.7507636, 0.86293966]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax is seen . the cardiomediastinal silhouette is stable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14841168/s51115444.txt",
+        "prob": "[0.46868703, 0.7370283, 0.78947383, 0.71172976, 0.6654932]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . right chest wall port-a-cath is again seen with catheter tip in the region of the mid svc . cardiomegaly is again noted with hilar congestion and mild edema . no large effusion or pneumothorax . no convincing evidence for pneumonia . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Atelectasis.",
+        "report": "p12/p12963531/s52085657.txt",
+        "prob": "[0.9775159, 0.66019106, 0.31371152, 0.51017326, 0.44595453]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . airspace consolidation is noted within the left lower lobe concerning for pneumonia . right lung is clear . heart size cannot be assessed . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s58103833.txt",
+        "prob": "[0.09523073, 0.1871093, 0.5541799, 0.73257107, 0.88035345]"
+    },
+    {
+        "r2g": "left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . lung volumes are low . heart size is mildly enlarged . mediastinal and hilar contours are unremarkable . there is crowding of bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . no acute osseous abnormality is visualized .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p16/p16059470/s57952807.txt",
+        "prob": "[0.12158655, 0.49802655, 0.31482413, 0.5623481, 0.41441885]"
+    },
+    {
+        "r2g": "lung volumes are low . there are diffuse bilateral interstitial opacities . there are small bilateral pleural effusions . there is no pneumothorax . the heart size is normal .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16772702/s57167682.txt",
+        "prob": "[0.014357847, 0.6194292, 0.71754676, 0.8025179, 0.9226006]"
+    },
+    {
+        "r2g": "left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate enlargement of cardiac silhouette is re- demonstrated . the mediastinal and hilar contours are unchanged . there is mild pulmonary vascular congestion . small bilateral pleural effusions are noted . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13067703/s59557085.txt",
+        "prob": "[0.21237306, 0.37688106, 0.57191306, 0.75053036, 0.89027715]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates in the proximal right atrium . no pneumothorax is identified . lung volumes are low . heart size is mildly enlarged . the aorta is tortuous and diffusely calcified . there is crowding of bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion is present . no acute osseous abnormalities are detected .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17838301/s56581318.txt",
+        "prob": "[0.25131312, 0.60676646, 0.59068966, 0.7832677, 0.732621]"
+    },
+    {
+        "r2g": "the patient is status post median sternotomy and cabg . right-sided port-a-cath tip terminates in the low svc . the patient is status post median sternotomy and cabg . heart size is difficult to assess given the presence of low lung volumes . mediastinal contour is unchanged . there is mild pulmonary edema new compared to the previous exam . small bilateral pleural effusions are also demonstrated . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12475198/s52368505.txt",
+        "prob": "[0.16143382, 0.7029064, 0.76983255, 0.5347413, 0.79379386]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Consolidation.",
+        "report": "p10/p10933609/s59225625.txt",
+        "prob": "[0.014769446, 0.16208793, 0.6282971, 0.4911087, 0.44168603]"
+    },
+    {
+        "r2g": "left-sided port-a-cath tip terminates in the low svc . heart size remains mildly enlarged . mediastinal contour is unchanged . there is mild pulmonary edema new in the interval . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation.",
+        "report": "p14/p14992360/s58503033.txt",
+        "prob": "[0.3743246, 0.75722593, 0.60352075, 0.48863977, 0.4226071]"
+    },
+    {
+        "r2g": "tracheostomy tube is in unchanged position . tracheostomy tube is in unchanged position . diffuse bilateral airspace opacities are again noted with interval increase in size of the right pleural effusion . no pneumothorax is identified . the cardiac and mediastinal contours are unchanged .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13964474/s51994168.txt",
+        "prob": "[0.03851435, 0.43547, 0.6836385, 0.621509, 0.823578]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . airspace consolidation is noted within the left lower lobe concerning for pneumonia . right lung is clear . cardiomediastinal silhouette is normal . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p11/p11052935/s50457087.txt",
+        "prob": "[0.0021620255, 0.05799174, 0.45956153, 0.61379397, 0.5587242]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . a right ij central venous catheter is seen with its tip in the region of the mid svc . the ng tube courses into the left upper abdomen . the lung volumes are low limiting assessment . there is diffuse pulmonary edema with probable small bilateral pleural effusions . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13964474/s57225010.txt",
+        "prob": "[0.17645833, 0.6841244, 0.868695, 0.5973991, 0.8161182]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest were provided . there is extensive airspace consolidation in the right lower lung concerning for pneumonia . there is also a small left pleural effusion . there is mild pulmonary edema . heart size is difficult to assess . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15840907/s57339166.txt",
+        "prob": "[0.6688882, 0.60794497, 0.8090547, 0.7554007, 0.8066819]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart size is moderately enlarged . the aorta is tortuous and diffusely calcified . there is crowding of the bronchovascular structures but no overt pulmonary edema is present . small bilateral pleural effusions are present . bibasilar airspace opacities likely reflect atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s51485773.txt",
+        "prob": "[0.38805944, 0.79477406, 0.71872234, 0.7538485, 0.83871615]"
+    },
+    {
+        "r2g": "the cardiac mediastinal and hilar contours appear stable . there is no pleural effusion or pneumothorax . the lungs appear clear .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p19/p19565653/s51006959.txt",
+        "prob": "[0.0015765385, 0.03170241, 0.21808846, 0.5819432, 0.16393827]"
+    },
+    {
+        "r2g": "lung volumes are low . this accentuates the size of the cardiac silhouette which is likely mildly enlarged . mediastinal and hilar contours are unremarkable . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . no acute osseous abnormalities are visualized .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16055653/s54823444.txt",
+        "prob": "[0.2613155, 0.5019382, 0.7586734, 0.77670234, 0.8500149]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . tracheostomy tube is in standard position . heart size is normal . the aorta is markedly tortuous and diffusely calcified . there is mild pulmonary edema worse compared to the previous exam . no large pleural effusion or pneumothorax is present . no acute osseous abnormalities are visualized .",
+        "clssifier": "prediction: Edema, Consolidation, Pleural Effusion.",
+        "report": "p16/p16751749/s57123927.txt",
+        "prob": "[0.08379199, 0.57210255, 0.70567256, 0.4795841, 0.72265583]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . right port-a-cath tip terminates in the low svc . lung volumes are low . diffuse bilateral parenchymal opacities are re- demonstrated not substantially changed from the previous study . heart size is difficult to assess given the presence of low lung volumes . no large pleural effusion or pneumothorax is identified .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15378103/s55163409.txt",
+        "prob": "[0.24974878, 0.6793411, 0.8721238, 0.51993454, 0.7391294]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11022245/s50146341.txt",
+        "prob": "[0.4887262, 0.8090365, 0.8689048, 0.7318817, 0.82910573]"
+    },
+    {
+        "r2g": "left-sided dual-chamber pacemaker device is noted with leads terminating in the right atrium and right ventricle . low lung volumes are present . the heart size is mildly enlarged . the mediastinal contours are unchanged . there is crowding of the bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12595991/s58585557.txt",
+        "prob": "[0.20848705, 0.29691753, 0.5189477, 0.7833633, 0.7392327]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . airspace consolidation is noted within the left lower lobe concerning for pneumonia . no large effusion or pneumothorax . cardiomediastinal silhouette is normal . bony structures are intact .",
+        "clssifier": "prediction: Consolidation.",
+        "report": "p16/p16508811/s53183813.txt",
+        "prob": "[0.060494773, 0.34033498, 0.7067906, 0.49605548, 0.47519425]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11022245/s56303122.txt",
+        "prob": "[0.28050312, 0.6100532, 0.7823513, 0.75840265, 0.84189016]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . cardiomegaly is again noted with hilar congestion and mild pulmonary edema . there is a small left pleural effusion . no pneumothorax . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16508811/s52785638.txt",
+        "prob": "[0.20954949, 0.76416636, 0.82334745, 0.74451286, 0.81711197]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart size is moderately enlarged . the aorta is tortuous and diffusely calcified . there is crowding of the bronchovascular structures but no overt pulmonary edema is present . small bilateral pleural effusions are present . bibasilar airspace opacities likely reflect atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s51485773.txt",
+        "prob": "[0.38805944, 0.79477406, 0.71872234, 0.7538485, 0.83871615]"
+    },
+    {
+        "r2g": "lung volumes are low . heart size is mildly enlarged . mediastinal and hilar contours are unremarkable . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no focal consolidation pleural effusion or pneumothorax is present . no acute osseous abnormality is visualized .",
+        "clssifier": "prediction: Consolidation, Atelectasis.",
+        "report": "p11/p11474065/s59691021.txt",
+        "prob": "[0.30411205, 0.36922586, 0.5595477, 0.7256565, 0.37629536]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . there is a moderate right pleural effusion with associated compressive lower lobe atelectasis . the left lung is clear . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14471276/s52991108.txt",
+        "prob": "[0.033188153, 0.33473256, 0.62759274, 0.7552518, 0.8584851]"
+    },
+    {
+        "r2g": "the heart size is normal . the hilar and mediastinal contours are within normal limits . there is no pneumothorax focal consolidation or pleural effusion .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis.",
+        "report": "p14/p14081759/s53482917.txt",
+        "prob": "[0.017722905, 0.6396173, 0.6331594, 0.57131714, 0.40427533]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes with moderate cardiomegaly and bilateral areas of atelectasis . no new parenchymal opacities . no larger pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s54155919.txt",
+        "prob": "[0.25751105, 0.5594377, 0.6733663, 0.81302655, 0.92781776]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart size is accentuated as a result appearing mildly enlarged . the aorta is tortuous and diffusely calcified . crowding of the bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16360985/s55698800.txt",
+        "prob": "[0.15058787, 0.659244, 0.8496086, 0.6179563, 0.70875233]"
+    },
+    {
+        "r2g": "pa and lateral chest views were obtained with patient in upright position . analysis is performed in direct comparison with the next preceding similar study of . the heart size remains unchanged and is within normal limits . thoracic aorta mildly widened and elongated but no local contour abnormalities are identified . the pulmonary vasculature is not congested . the on previous examination identified extensive parenchymal infiltrates in the left upper lobe area have regressed markedly . the lateral and posterior pleural sinuses remain free . no pneumothorax in the apical area . skeletal structures of the thorax grossly within",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19016834/s50975397.txt",
+        "prob": "[0.021576019, 0.088306315, 0.82176435, 0.5329165, 0.720034]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19016834/s53515169.txt",
+        "prob": "[0.026576955, 0.34396508, 0.5988049, 0.7183126, 0.7922355]"
+    },
+    {
+        "r2g": "there are low lung volumes . the cardiac silhouette is enlarged . the aorta is calcified and tortuous . there is mild to moderate pulmonary edema . small bilateral pleural effusions are seen . no pneumothorax is seen .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14851532/s57086484.txt",
+        "prob": "[0.64959246, 0.6398443, 0.56354976, 0.67329246, 0.7393746]"
+    },
+    {
+        "r2g": "a right port-a-cath terminates in the low svc . a large right pleural effusion has increased in size compared to the prior exam . there is associated right lower lobe atelectasis . the left lung is clear . there is no pneumothorax .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13263843/s54800318.txt",
+        "prob": "[0.062703654, 0.39268887, 0.7879425, 0.6905937, 0.8107851]"
+    },
+    {
+        "r2g": "lung volumes are low . heart size is mildly enlarged . mediastinal and hilar contours are unremarkable . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no focal consolidation pleural effusion or pneumothorax is present . no acute osseous abnormality is visualized .",
+        "clssifier": "prediction: Consolidation, Atelectasis.",
+        "report": "p11/p11474065/s59691021.txt",
+        "prob": "[0.30411205, 0.36922586, 0.5595477, 0.7256565, 0.37629536]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . airspace consolidation is noted within the left lower lobe concerning for pneumonia . right lung is clear . no large effusion or pneumothorax . cardiomediastinal silhouette is normal . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis.",
+        "report": "p16/p16435402/s57661470.txt",
+        "prob": "[0.017326048, 0.04148011, 0.6941829, 0.52094, 0.3990753]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low limiting assessment . there is diffuse airspace consolidation in the right lung which is concerning for pneumonia . no large effusion or pneumothorax . cardiomediastinal silhouette appears normal . bony structures are intact .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p10/p10933609/s59225625.txt",
+        "prob": "[0.005332134, 0.17993625, 0.35433203, 0.3845972, 0.24142681]"
+    },
+    {
+        "r2g": "right-sided port-a-cath tip terminates at the junction of the svc and right atrium . lung volumes are low . the heart size is mildly enlarged . the mediastinal contours are unchanged . there is mild pulmonary edema new compared to the previous exam . small bilateral pleural effusions are present . bibasilar airspace opacities likely reflect compressive atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11934114/s58600769.txt",
+        "prob": "[0.5487332, 0.40577015, 0.7156409, 0.82654315, 0.9233991]"
+    },
+    {
+        "r2g": "the patient is status post median sternotomy and cabg . right-sided port-a-cath tip terminates in the low svc . the patient is status post median sternotomy and cabg . heart size is difficult to assess given the presence of low lung volumes . mediastinal contour is unchanged . there is mild pulmonary edema new compared to the previous exam . small bilateral pleural effusions are also demonstrated . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12475198/s52368505.txt",
+        "prob": "[0.16143382, 0.7029064, 0.76983255, 0.5347413, 0.79379386]"
+    },
+    {
+        "r2g": "tracheostomy tube is in unchanged position . tracheostomy tube is in unchanged position . diffuse bilateral airspace opacities are again noted with interval increase in size of the right pleural effusion . no pneumothorax is identified . the cardiac and mediastinal contours are unchanged .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13964474/s51994168.txt",
+        "prob": "[0.03851435, 0.43547, 0.6836385, 0.621509, 0.823578]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . tracheostomy tube is in standard position . right picc tip terminates in the low svc . tracheostomy tube tip is in unchanged position . heart size is difficult to assess given the presence of diffuse bilateral parenchymal opacities . no large pleural effusion or pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13964474/s52510673.txt",
+        "prob": "[0.028134272, 0.70454264, 0.78623354, 0.63797253, 0.842533]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p10/p10402372/s58117612.txt",
+        "prob": "[0.0031018816, 0.029116875, 0.48323268, 0.7633696, 0.5850341]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates in the mid svc . no pneumothorax is identified . the heart size is normal . the mediastinal and hilar contours are unchanged . there is no pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19404187/s58274681.txt",
+        "prob": "[0.02403924, 0.126491, 0.6761812, 0.7808962, 0.84011686]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . a left ij central venous catheter is seen with its tip in the region of the mid svc . lung volumes are low limiting assessment . there is a left chest wall aicd with leads extending into the region of the right atrium and right ventricle . the heart remains mildly enlarged . there is mild pulmonary edema . no large effusion or pneumothorax . no convincing signs of pneumonia . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p12/p12595991/s52170957.txt",
+        "prob": "[0.051122945, 0.32901675, 0.43453482, 0.7604253, 0.60696465]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . there is a moderate right pleural effusion with associated compressive lower lobe atelectasis . the left lung is clear . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14471276/s52991108.txt",
+        "prob": "[0.033188153, 0.33473256, 0.62759274, 0.7552518, 0.8584851]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p16/p16662264/s56951123.txt",
+        "prob": "[0.022185856, 0.038534034, 0.11639293, 0.15077204, 0.1106618]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is a moderate right pleural effusion with associated compressive lower lobe atelectasis . the left lung is clear . heart size cannot be assessed . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12847817/s53234157.txt",
+        "prob": "[0.27153432, 0.16056395, 0.54208225, 0.762249, 0.872104]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . airspace consolidation is noted within the left lower lobe concerning for pneumonia . right lung is clear . cardiomediastinal silhouette is normal . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p11/p11052935/s50457087.txt",
+        "prob": "[0.0021620255, 0.05799174, 0.45956153, 0.61379397, 0.5587242]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest were provided . there are bilateral pleural effusions moderate on the left and small on the right and moderate on the left with associated compressive lower lobe atelectasis . difficult to exclude a superimposed pneumonia . the heart size cannot be assessed . the mediastinal contour appears grossly stable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19890786/s57664750.txt",
+        "prob": "[0.07332254, 0.7808143, 0.80951697, 0.6246048, 0.9046234]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart size is mildly enlarged . the aorta is tortuous and diffusely calcified . crowding of the bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13978244/s56886005.txt",
+        "prob": "[0.13208443, 0.3499341, 0.38402426, 0.7402723, 0.5824647]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart is moderately enlarged . the mediastinal and hilar contours are difficult to assess due to low lung volumes . there is mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . small bilateral pleural effusions are likely present . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s57642788.txt",
+        "prob": "[0.47756854, 0.7963584, 0.7471178, 0.7378115, 0.81512034]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there is a large area of consolidation in the right upper lobe which is new since the prior study . the left lung is clear . there is no pleural effusion or pneumothorax . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19016834/s51549323.txt",
+        "prob": "[0.012188603, 0.09225094, 0.53446794, 0.63139397, 0.81806225]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there is a large right pleural effusion with overlying atelectasis underlying consolidation is not excluded . the left lung is grossly clear . there is no left pleural effusion . the cardiac silhouette is difficult to accurately assess due to the large right pleural effusion . mediastinal contours are grossly unremarkable .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16826047/s57622301.txt",
+        "prob": "[0.14697048, 0.37425858, 0.6856356, 0.6900103, 0.86576396]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart size is difficult to assess given the presence of low lung volumes . mediastinal contours are grossly unremarkable . there is crowding of the bronchovascular structures but no overt pulmonary edema is demonstrated . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19565388/s52949410.txt",
+        "prob": "[0.2921394, 0.20047131, 0.6839368, 0.8581847, 0.8924206]"
+    },
+    {
+        "r2g": "the heart size is normal . the hilar and mediastinal contours are within normal limits . there is no pneumothorax focal consolidation or pleural effusion .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p11/p11052935/s58831403.txt",
+        "prob": "[0.009452799, 0.0993936, 0.13015984, 0.24686503, 0.13481893]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11022245/s50146341.txt",
+        "prob": "[0.4887262, 0.8090365, 0.8689048, 0.7318817, 0.82910573]"
+    },
+    {
+        "r2g": "the lung volumes are low . there are bilateral pleural effusions right greater than left . there is pulmonary vascular congestion . there is no pneumothorax . the heart size is difficult to evaluate due to low lung volumes .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16662264/s52307671.txt",
+        "prob": "[0.039377842, 0.25368473, 0.7131054, 0.7507636, 0.86293966]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there are relatively low lung volumes . there is persistent blunting of the right costophrenic angle which may be due to a small pleural effusion with overlying atelectasis underlying consolidation is not excluded . the left lung is clear . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19182863/s58242694.txt",
+        "prob": "[0.12422388, 0.5841124, 0.554046, 0.581518, 0.5063424]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . airspace consolidation is noted within the right lower lobe concerning for pneumonia . no large effusion or pneumothorax . cardiomediastinal silhouette appears normal . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15204620/s56397547.txt",
+        "prob": "[0.047967333, 0.13621923, 0.616947, 0.62302697, 0.54815775]"
+    },
+    {
+        "r2g": "the lungs are clear . the cardiomediastinal silhouette is within normal limits . no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p16/p16848073/s51836430.txt",
+        "prob": "[0.008882586, 0.14720267, 0.22570597, 0.572312, 0.27708966]"
+    },
+    {
+        "r2g": "left-sided dual-chamber pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate enlargement of the cardiac silhouette is re- demonstrated . the mediastinal and hilar contours are unchanged . there is mild pulmonary vascular congestion . no focal consolidation pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p12/p12595991/s56983444.txt",
+        "prob": "[0.12455669, 0.25456858, 0.45728514, 0.74597317, 0.7108025]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . low lung volumes with areas of atelectasis at both lung bases . no new parenchymal opacities . no larger pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p19/p19623993/s57199757.txt",
+        "prob": "[0.0343169, 0.31214046, 0.37731475, 0.75355625, 0.30226487]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . overlying ekg leads are present . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax . cardiomediastinal silhouette appears grossly within normal limits . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12530259/s51917429.txt",
+        "prob": "[0.074815676, 0.10467653, 0.5258581, 0.74570847, 0.6655025]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there is a large right pleural effusion with overlying atelectasis underlying consolidation is not excluded . the left lung is clear . there is no left pleural effusion . the cardiac and mediastinal silhouettes are unremarkable .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11569093/s51983905.txt",
+        "prob": "[0.018795732, 0.11703024, 0.53062403, 0.6610495, 0.6942866]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the lung parenchyma and of the cardiac silhouette . no new parenchymal opacities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18322589/s51678067.txt",
+        "prob": "[0.36158752, 0.5109416, 0.60575616, 0.82849157, 0.95002955]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . tracheostomy tube projects over the superior mediastinum . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax . cardiomediastinal silhouette appears normal . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16848073/s57765976.txt",
+        "prob": "[0.11321041, 0.28889036, 0.56236356, 0.7517299, 0.6984097]"
+    },
+    {
+        "r2g": "left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate enlargement of cardiac silhouette is re- demonstrated . the mediastinal and hilar contours are unchanged . there is mild pulmonary vascular congestion . small bilateral pleural effusions are noted . no focal consolidation or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p11/p11607628/s52356321.txt",
+        "prob": "[0.47879243, 0.22238949, 0.37978616, 0.59913814, 0.7735809]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . a right ij central venous catheter is seen with its tip in the region of the mid svc . a tracheostomy tube is in place . a right ij central venous catheter is seen with its tip in the region of the mid svc . there are bilateral pleural effusions moderate on the right and small on the left . there is diffuse pulmonary edema . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13606683/s57077344.txt",
+        "prob": "[0.15479463, 0.78513336, 0.60490966, 0.73579973, 0.93198836]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the lung parenchyma and of the cardiac silhouette .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12952223/s58485731.txt",
+        "prob": "[0.09673412, 0.65660757, 0.5540337, 0.78895336, 0.91787165]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there is a large right pleural effusion with overlying atelectasis underlying consolidation is not excluded . the left lung is grossly clear . there is no left pleural effusion . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13263843/s52399735.txt",
+        "prob": "[0.02923743, 0.2643805, 0.6652389, 0.730227, 0.87552774]"
+    },
+    {
+        "r2g": "the patient is status post median sternotomy and cabg . heart size is normal . mediastinal and hilar contours are unremarkable . pulmonary vasculature is normal . lungs are clear . no pleural effusion or pneumothorax is present . no acute osseous abnormalities detected .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p14/p14504940/s55011437.txt",
+        "prob": "[0.0020334357, 0.08208588, 0.25263286, 0.54434407, 0.1780503]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18322589/s52428827.txt",
+        "prob": "[0.36610264, 0.6040117, 0.5196299, 0.8227155, 0.92695814]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . a left picc line is seen with its tip in the region of the mid svc . a feeding tube is seen extending into the left upper abdomen . there is a large right pleural effusion with associated compressive atelectasis . the left lung is clear . the heart size cannot be assessed . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p16/p16319601/s58175667.txt",
+        "prob": "[0.031876363, 0.10995973, 0.38656196, 0.7193511, 0.74758714]"
+    },
+    {
+        "r2g": "lung volumes are low . there is a moderate left pleural effusion with overlying atelectasis . left base opacity may be due to combination of pleural effusion and atelectasis although underlying consolidation is not excluded . no pneumothorax is seen . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12538508/s55670303.txt",
+        "prob": "[0.040113274, 0.09624305, 0.519924, 0.86813474, 0.8236631]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . heart size is normal . the mediastinal and hilar contours are normal . the pulmonary vasculature is normal . patchy opacities are seen within the left upper lobe concerning for pneumonia . no pleural effusion or pneumothorax is seen . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p19/p19991135/s54910031.txt",
+        "prob": "[0.011505583, 0.11924241, 0.43142372, 0.57797396, 0.3477783]"
+    },
+    {
+        "r2g": "there is a large right pleural effusion with overlying atelectasis underlying consolidation is not excluded . the left lung is clear . no left pleural effusion is seen . there is no pneumothorax . the cardiac and mediastinal silhouettes are unremarkable .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p14/p14387068/s54176477.txt",
+        "prob": "[0.020357292, 0.0754779, 0.42861414, 0.6764138, 0.85373014]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . severe cardiomegaly is again noted with hilar congestion and mild interstitial edema . no large effusion or pneumothorax . no convincing evidence for pneumonia . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Cardiomegaly, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13473781/s57035793.txt",
+        "prob": "[0.9967354, 0.31129116, 0.4271241, 0.6270547, 0.66395545]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p10/p10959054/s59281953.txt",
+        "prob": "[0.020004287, 0.09289725, 0.36797214, 0.69040644, 0.6126917]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the extent of the known right pleural effusion is constant . constant appearance of the left lung . unchanged size of the cardiac silhouette .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p16/p16319601/s51236160.txt",
+        "prob": "[0.104269564, 0.2242757, 0.49316764, 0.68267953, 0.8211385]"
+    },
+    {
+        "r2g": "there are low lung volumes . the heart size is normal . the mediastinal and hilar contours are unremarkable . there is crowding of the bronchovascular structures but no overt pulmonary edema is present . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19765968/s50775929.txt",
+        "prob": "[0.54140425, 0.32860643, 0.5244839, 0.705137, 0.6425339]"
+    },
+    {
+        "r2g": "left-sided port-a-cath tip terminates in the low svc . heart size is normal . mediastinal and hilar contours are unchanged . pulmonary vasculature is not engorged . no focal consolidation pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p16/p16319601/s58441911.txt",
+        "prob": "[0.02427918, 0.23036923, 0.34912267, 0.5738041, 0.26393524]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates in the mid svc . the patient is status post median sternotomy and cabg . heart size is normal . mediastinal and hilar contours are unchanged . pulmonary vasculature is not engorged . patchy opacities are noted in the lung bases likely atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p11/p11565803/s59027235.txt",
+        "prob": "[0.039140757, 0.13847862, 0.34862885, 0.80556595, 0.8764825]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . tracheostomy tube is in unchanged position . lung volumes are low . moderate to severe enlargement of cardiac silhouette is re- demonstrated . the mediastinal contour is similar . there is mild pulmonary edema new in the interval with small bilateral pleural effusions . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p10/p10268877/s54137212.txt",
+        "prob": "[0.32410166, 0.7560006, 0.7146904, 0.74227077, 0.83678925]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes with areas of atelectasis at both lung bases left more than right . unchanged monitoring and support devices . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p11/p11022245/s57732352.txt",
+        "prob": "[0.17875703, 0.19306065, 0.31413415, 0.74843585, 0.5989933]"
+    },
+    {
+        "r2g": "the lung volumes are low . the cardiac mediastinal and hilar contours appear stable . there is no pleural effusion or pneumothorax . the lungs appear clear .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p16/p16050730/s57847867.txt",
+        "prob": "[0.1216796, 0.33237123, 0.34993446, 0.43795127, 0.16525726]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . port-a-cath resides over the right chest wall with catheter tip extending into the region of the low svc . there has been interval placement of a right ij central venous catheter with its tip in the region of the low svc . there has been interval placement of a right ij central venous catheter with its tip in the mid svc region . the ng tube courses into the left upper abdomen . there is a large right pleural effusion with associated compressive atelectasis . the left lung appears grossly clear .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18417750/s52622865.txt",
+        "prob": "[0.4711257, 0.7369143, 0.6918198, 0.5761846, 0.71477723]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there is a large right pleural effusion with overlying atelectasis underlying consolidation is not excluded . the left lung is grossly clear . there is no left pleural effusion . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13263843/s52399735.txt",
+        "prob": "[0.02923743, 0.2643805, 0.6652389, 0.730227, 0.87552774]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . the patient is status post median sternotomy and cabg . there are low lung volumes which accentuate the bronchovascular markings . given this there may be mild pulmonary vascular congestion . no large pleural effusion is seen . there is no pneumothorax . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p18/p18088200/s56018459.txt",
+        "prob": "[0.07408614, 0.1908668, 0.2440686, 0.66261756, 0.18559836]"
+    },
+    {
+        "r2g": "pa and lateral chest views were obtained with patient in upright position . analysis is performed in direct comparison with the next preceding similar study of . the heart size remains unchanged and is within normal limits . thoracic aorta mildly widened and elongated but no local contour abnormalities are identified . the pulmonary vasculature is not congested . no signs of acute or chronic parenchymal infiltrates are present and the lateral and posterior pleural sinuses are free . no pneumothorax in the apical area on frontal view . skeletal structures of the thorax grossly within normal limits . comparison",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12185775/s55391561.txt",
+        "prob": "[0.09054455, 0.10333888, 0.55351514, 0.74145496, 0.8818291]"
+    },
+    {
+        "r2g": "pa and lateral chest views were obtained with patient in upright position . analysis is performed in direct comparison with the next preceding similar study of . the heart size remains unchanged and is within normal limits . thoracic aorta mildly widened and elongated but no local contour abnormalities are identified . the pulmonary vasculature is not congested . no signs of acute or chronic parenchymal infiltrates are present and the lateral and posterior pleural sinuses are free . no pneumothorax in the apical area on frontal view . skeletal structures of the thorax grossly within normal limits . comparison",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12185775/s55391561.txt",
+        "prob": "[0.09054455, 0.10333888, 0.55351514, 0.74145496, 0.8818291]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . overlying ekg leads are present . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax is seen . the cardiomediastinal silhouette is normal . imaged osseous structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19061282/s59838108.txt",
+        "prob": "[0.11577996, 0.2300821, 0.6716886, 0.74428165, 0.68005097]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . port-a-cath resides over the left chest wall with catheter tip extending into the region of the mid svc . the ng tube courses into the left upper abdomen with its tip excluded from view . bilateral pleural effusions are again noted moderate to large on the right and moderate on the left with associated compressive lower lobe atelectasis . the heart size cannot be assessed . mediastinal contour is unchanged . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18615099/s59417593.txt",
+        "prob": "[0.2125165, 0.6845438, 0.527375, 0.7467019, 0.9370711]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the extent of the bilateral pleural effusions is constant . also constant is the subsequent areas of atelectasis at the lung bases . unchanged size of the cardiac silhouette . unchanged monitoring and support devices .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15259244/s59963711.txt",
+        "prob": "[0.2999886, 0.42292374, 0.5590171, 0.7842488, 0.9667009]"
+    },
+    {
+        "r2g": "lung volumes are low . heart size is mildly enlarged . mediastinal and hilar contours are unremarkable . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no focal consolidation pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Atelectasis.",
+        "report": "p11/p11052273/s56107641.txt",
+        "prob": "[0.62518275, 0.49149433, 0.33487108, 0.58083117, 0.39931834]"
+    },
+    {
+        "r2g": "left-sided central venous catheter tip terminates in the proximal right atrium . lung volumes are low . moderate enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is similar . there is mild pulmonary edema new in the interval . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Atelectasis.",
+        "report": "p14/p14841168/s55795536.txt",
+        "prob": "[0.30770954, 0.77136827, 0.47317842, 0.6877209, 0.4685576]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . low lung volumes . moderate cardiomegaly with bilateral areas of atelectasis . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19623993/s55786650.txt",
+        "prob": "[0.07218211, 0.775011, 0.5878954, 0.76124185, 0.75509495]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . port-a-cath resides over the right chest wall with catheter tip extending into the region of the mid svc . lung volumes are low limiting assessment . there is a small left pleural effusion with left basal consolidation which could represent atelectasis though difficult to exclude a superimposed pneumonia . the upper lungs appear well aerated . the heart size cannot be assessed . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12185775/s56614076.txt",
+        "prob": "[0.15326968, 0.5797861, 0.6382339, 0.7626311, 0.86214334]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . there is a large left pleural effusion with associated compressive lower lobe atelectasis . difficult to exclude a superimposed pneumonia . the right lung is clear . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12433421/s51235553.txt",
+        "prob": "[0.10732801, 0.1557724, 0.66874504, 0.8434364, 0.95441085]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . there is increased opacity in the left lower lung concerning for pneumonia . no large effusion or pneumothorax . cardiomediastinal silhouette appears grossly unchanged . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11474065/s59648796.txt",
+        "prob": "[0.46542588, 0.502243, 0.6305676, 0.7123332, 0.6298236]"
+    },
+    {
+        "r2g": "a right picc terminates in the mid svc . a left picc terminates in the mid svc . lung volumes are low . there is a moderate left pleural effusion with associated atelectasis . there is no pneumothorax . the heart is mildly enlarged .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12185775/s51826366.txt",
+        "prob": "[0.29467022, 0.14919353, 0.6429141, 0.7943962, 0.9134491]"
+    },
+    {
+        "r2g": "lung volumes are low . the patient is status post median sternotomy and cabg . moderate enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contours are unchanged . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12952223/s57927198.txt",
+        "prob": "[0.24023554, 0.65732646, 0.5483731, 0.8584193, 0.9041466]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates at the junction of the svc and right atrium . lung volumes are low . heart size is mildly enlarged . mediastinal contours are unremarkable . there is crowding of bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . no acute osseous abnormality is visualized .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11893091/s50901361.txt",
+        "prob": "[0.21472465, 0.6846036, 0.57889545, 0.78428024, 0.6472132]"
+    },
+    {
+        "r2g": "right-sided port-a-cath tip terminates in the low svc . lung volumes are low . heart size remains moderately enlarged . the aorta is tortuous and diffusely calcified . there is crowding of the bronchovascular structures but no overt pulmonary edema is present . small bilateral pleural effusions are noted . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13921768/s58798180.txt",
+        "prob": "[0.13949971, 0.51894516, 0.56474805, 0.69715494, 0.88385123]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . tracheostomy tube projects over the superior mediastinum . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax . cardiomediastinal silhouette appears grossly within normal limits . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15185305/s52381727.txt",
+        "prob": "[0.119945705, 0.6315584, 0.73042685, 0.78921336, 0.9017437]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . constant appearance of the cardiac silhouette and of the lung parenchyma . no newly appeared parenchymal opacities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13881772/s55058518.txt",
+        "prob": "[0.04639839, 0.3119068, 0.63936025, 0.8146616, 0.8405087]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates in the low svc . the patient is status post median sternotomy and cabg . low lung volumes are present . the heart size is mildly enlarged . the mediastinal contours are unchanged . there is crowding of the bronchovascular structures with mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17669276/s52198118.txt",
+        "prob": "[0.34415892, 0.6083728, 0.6420216, 0.7827422, 0.91180265]"
+    },
+    {
+        "r2g": "lung volumes are low . this accentuates the size of the cardiac silhouette which is likely mildly enlarged . the mediastinal and hilar contours are unremarkable . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15393401/s57869215.txt",
+        "prob": "[0.1607532, 0.47167903, 0.5381587, 0.66628045, 0.60888124]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph the patient has received a left internal jugular vein catheter . the course of the catheter is unremarkable the tip of the catheter projects over the mid svc . there is no evidence of complications notably no pneumothorax . otherwise unchanged radiograph .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19182863/s50878394.txt",
+        "prob": "[0.19062756, 0.5117519, 0.6278795, 0.7303122, 0.86244804]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes with areas of atelectasis at both lung bases left more than right . no new parenchymal opacities . unchanged size of the cardiac silhouette . unchanged right internal jugular vein catheter .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19623993/s59094609.txt",
+        "prob": "[0.1235661, 0.53372097, 0.70216507, 0.7941118, 0.9027808]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates at the junction of the svc and right atrium . no pneumothorax is identified . lung volumes are low . heart size is mildly enlarged . mediastinal and hilar contours are grossly unremarkable . there is crowding of bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19454978/s50520166.txt",
+        "prob": "[0.14332795, 0.42326313, 0.5421672, 0.78914714, 0.78237003]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . unchanged low lung volumes and moderate cardiomegaly with bilateral areas of atelectasis . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12433421/s57365217.txt",
+        "prob": "[0.095209196, 0.24932419, 0.63440883, 0.81933004, 0.95490813]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . overlying ekg leads are present . the heart is mildly enlarged . the hila appear slightly congested . there is no frank edema . no large effusion or pneumothorax . no convincing signs of pneumonia . bony structures are intact .",
+        "clssifier": "prediction: Cardiomegaly, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15259244/s52798218.txt",
+        "prob": "[0.84019935, 0.18948413, 0.25194883, 0.63182086, 0.55315036]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there are low lung volumes which accentuate the bronchovascular markings . there is a large right pleural effusion with overlying atelectasis underlying consolidation cannot be excluded . there is also a small left pleural effusion . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13849733/s54538310.txt",
+        "prob": "[0.050857708, 0.11689967, 0.45804846, 0.70547724, 0.9019277]"
+    },
+    {
+        "r2g": "lung volumes are low . there is mild pulmonary edema . there are small bilateral pleural effusions . there is no pneumothorax . the heart is mildly enlarged .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16553329/s59891116.txt",
+        "prob": "[0.0844126, 0.3995375, 0.7441708, 0.835057, 0.91636974]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . lung volumes are low limiting assessment . overlying ekg leads are present . allowing for low lung volumes there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax is seen . cardiomediastinal silhouette appears normal . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p14/p14841168/s50305989.txt",
+        "prob": "[0.017608974, 0.3990672, 0.3983138, 0.7061139, 0.26776865]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17669276/s53398424.txt",
+        "prob": "[0.15158114, 0.4209955, 0.65537447, 0.7987058, 0.88740516]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . port-a-cath resides over the left chest wall with catheter tip extending into the region of the low svc . there is a small right pleural effusion with associated compressive lower lobe atelectasis . the left lung is clear . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19016834/s54233043.txt",
+        "prob": "[0.015759269, 0.15578474, 0.54714894, 0.6401473, 0.7891066]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19016834/s53515169.txt",
+        "prob": "[0.026576955, 0.34396508, 0.5988049, 0.7183126, 0.7922355]"
+    },
+    {
+        "r2g": "the lung volumes are low . the cardiac mediastinal and hilar contours appear unchanged . there is no pleural effusion or pneumothorax . the lungs appear clear .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p10/p10933609/s50205123.txt",
+        "prob": "[0.009003838, 0.2799698, 0.25807205, 0.3552139, 0.19777142]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates in the low svc . the patient is status post median sternotomy and cabg . low lung volumes are present . the heart size is mildly enlarged . the mediastinal contours are unchanged . there is crowding of the bronchovascular structures with mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17669276/s52198118.txt",
+        "prob": "[0.34415892, 0.6083728, 0.6420216, 0.7827422, 0.91180265]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . tracheostomy tube is in standard position . lung volumes remain low . moderate to severe cardiomegaly is re- demonstrated . there is mild pulmonary edema worse compared to the previous study . small bilateral pleural effusions are also demonstrated . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is identified .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p10/p10268877/s58694539.txt",
+        "prob": "[0.33482304, 0.7741429, 0.7362108, 0.7818921, 0.89623386]"
+    },
+    {
+        "r2g": "left picc tip terminates in the mid svc . lung volumes are low . heart size is normal . mediastinal and hilar contours are unchanged . pulmonary vasculature is not engorged . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13263843/s50844750.txt",
+        "prob": "[0.0481139, 0.4157336, 0.5724763, 0.6492151, 0.63652146]"
+    },
+    {
+        "r2g": "left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate enlargement of the cardiac silhouette is re- demonstrated . the mediastinal contour is unchanged . there is mild pulmonary edema new in the interval with small bilateral pleural effusions . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19182863/s55740020.txt",
+        "prob": "[0.28566483, 0.28012857, 0.5975681, 0.7216606, 0.94135064]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . right picc tip terminates in the low svc . tracheostomy tube is in unchanged position . lung volumes remain low . heart size is difficult to assess given the presence of low lung volumes . mediastinal contour is unchanged . there is crowding of the bronchovascular structures with probable mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . small bilateral pleural effusions are also demonstrated . no pneumothorax is identified .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13135946/s56200127.txt",
+        "prob": "[0.07637317, 0.17454231, 0.4543193, 0.80206007, 0.9406088]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there are low lung volumes which accentuate the bronchovascular markings . given this there may be mild pulmonary vascular congestion . no definite focal consolidation is seen . there is no pleural effusion or pneumothorax . the cardiac and mediastinal silhouettes are unremarkable .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p10/p10933609/s59885828.txt",
+        "prob": "[0.00414881, 0.09878607, 0.32380733, 0.44451097, 0.3991682]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates at the junction of the svc and right atrium . mild enlargement of cardiac silhouette is re- demonstrated . the mediastinal and hilar contours are unchanged . pulmonary vasculature is not engorged . left basilar opacity likely reflects a combination of atelectasis and a small left pleural effusion . no pneumothorax is identified .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p16/p16043240/s50307780.txt",
+        "prob": "[0.19638169, 0.06549962, 0.57005996, 0.8145363, 0.67233104]"
+    },
+    {
+        "r2g": "left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate enlargement of the cardiac silhouette is re- demonstrated . the aorta is diffusely calcified and tortuous . there is mild pulmonary vascular congestion . small bilateral pleural effusions are noted . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is present . moderate multilevel degenerative changes are seen in the thoracic spine .",
+        "clssifier": "prediction: Edema, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15207316/s59143676.txt",
+        "prob": "[0.48376974, 0.627729, 0.33568645, 0.6134556, 0.71377647]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes with areas of atelectasis at both lung bases left more than right . unchanged size of the cardiac silhouette . unchanged right internal jugular vein catheter .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12185775/s51682896.txt",
+        "prob": "[0.22878738, 0.1130446, 0.5969694, 0.8103719, 0.9608319]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest . there is complete opacification of the left hemithorax with leftward shift of the mediastinum . the right lung is clear . there is no pneumothorax .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p12/p12410066/s51765454.txt",
+        "prob": "[0.022852192, 0.026371008, 0.32808268, 0.6378416, 0.70881766]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . a left ij central venous catheter is seen with its tip in the region of the mid svc . a left ij central venous catheter is seen with its tip in the region of the mid svc . lung volumes are low limiting assessment . there is mild left basal atelectasis . no large effusion or pneumothorax . cardiomediastinal silhouette is stable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p12/p12433421/s57966185.txt",
+        "prob": "[0.13416705, 0.13935336, 0.5720369, 0.8339263, 0.9436927]"
+    },
+    {
+        "r2g": "left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate enlargement of the cardiac silhouette is re- demonstrated . the aorta is diffusely calcified and tortuous . there is mild pulmonary vascular congestion . small bilateral pleural effusions are noted . patchy opacities in the lung bases likely reflect areas of atelectasis . no pneumothorax is present . moderate multilevel degenerative changes are seen in the thoracic spine .",
+        "clssifier": "prediction: Edema, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15207316/s59143676.txt",
+        "prob": "[0.48376974, 0.627729, 0.33568645, 0.6134556, 0.71377647]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . there is a small right pleural effusion with associated compressive lower lobe atelectasis . difficult to exclude a superimposed pneumonia in the right lung . the left lung is clear . heart size cannot be assessed . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p19/p19720782/s50043351.txt",
+        "prob": "[0.018655224, 0.32134402, 0.41377893, 0.6655723, 0.64638686]"
+    },
+    {
+        "r2g": "lung volumes are low . there is no consolidation pleural effusion or pneumothorax . cardiomediastinal and hilar silhouettes are normal size .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p14/p14312560/s59332489.txt",
+        "prob": "[0.008904223, 0.02886804, 0.21989135, 0.6387622, 0.44337377]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . the heart size and cardiomediastinal contours are normal . the lungs are clear . no focal consolidation pleural effusion or pneumothorax . no radiopaque foreign body .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p10/p10402372/s54715839.txt",
+        "prob": "[0.0029224686, 0.022599252, 0.21557288, 0.33851507, 0.17324015]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13031876/s50510286.txt",
+        "prob": "[0.052720536, 0.08642594, 0.69019824, 0.8827942, 0.94444674]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates at the junction of the svc and right atrium . no pneumothorax is identified . the heart size is mildly enlarged . the mediastinal contours are unchanged . there is mild pulmonary vascular congestion . small bilateral pleural effusions are noted left greater than right . bibasilar airspace opacities likely reflect atelectasis . no acute osseous abnormality is detected .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15758946/s59924609.txt",
+        "prob": "[0.10855146, 0.1694103, 0.64209986, 0.8653875, 0.9526928]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . left picc tip is in the mid svc . cardiac silhouette size is difficult to assess given the presence of the large right pleural effusion which appears to have increased in size compared to the previous study . left lung is grossly clear . no pneumothorax is identified .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p16/p16319601/s52726134.txt",
+        "prob": "[0.06485957, 0.21568485, 0.49084094, 0.65419245, 0.81457955]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . tracheostomy tube projects over the superior mediastinum . there is a large right pleural effusion with associated compressive atelectasis of the right lower lobe . the left lung is clear . the heart size cannot be assessed . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13849733/s58414605.txt",
+        "prob": "[0.059434567, 0.10982289, 0.44016042, 0.69844455, 0.8714427]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . moderate cardiomegaly with bilateral pleural effusions and subsequent areas of atelectasis at both lung bases . no overt pulmonary edema . no pneumonia . no pneumothorax .",
+        "clssifier": "prediction: Edema, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18615099/s54992879.txt",
+        "prob": "[0.4823028, 0.6339232, 0.4011725, 0.72572756, 0.92985255]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . tracheostomy tube projects over the superior mediastinum . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p13/p13586204/s54331436.txt",
+        "prob": "[0.006487947, 0.0162962, 0.11424457, 0.23347752, 0.105894454]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest were provided . lung volumes are low limiting assessment . there is diffuse pulmonary edema which is new from prior exam . difficult to exclude a superimposed pneumonia . no large effusion is seen . the heart size cannot be assessed . mediastinal contour appears grossly stable . bony structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p18/p18110020/s57554917.txt",
+        "prob": "[0.27056718, 0.26962507, 0.48923007, 0.6999502, 0.59594977]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph the patient has received a nasogastric tube . the course of the tube is unremarkable the tip of the tube projects over the middle parts of the stomach . there is no evidence of complications notably no pneumothorax . otherwise unchanged radiograph .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p14/p14841168/s58057712.txt",
+        "prob": "[0.33100793, 0.66762674, 0.7106142, 0.780451, 0.8163394]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19454978/s59760473.txt",
+        "prob": "[0.08165975, 0.09924797, 0.53864014, 0.79259694, 0.83643365]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are constant . constant appearance of the cardiac silhouette and of the lung parenchyma . no new parenchymal opacities .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p10/p10268877/s51051449.txt",
+        "prob": "[0.436874, 0.40602413, 0.65733314, 0.80906034, 0.7151633]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . right ij central venous catheter is seen with its tip in the region of the mid svc . midline sternotomy wires and mediastinal clips are again noted . there is a moderate left pleural effusion with associated compressive lower lobe atelectasis . the right lung remains clear . heart size cannot be assessed . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15259244/s54517823.txt",
+        "prob": "[0.17393044, 0.14824344, 0.5580226, 0.759178, 0.9212496]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . tracheostomy tube projects over the superior mediastinum . a left arm picc line is seen with its tip in the region of the mid svc . lung volumes are low . there is mild pulmonary edema with small bilateral pleural effusions . heart size is difficult to assess . mediastinal contour is grossly unremarkable . no pneumothorax . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15185305/s50399800.txt",
+        "prob": "[0.120340765, 0.3687972, 0.6988637, 0.80039424, 0.87720126]"
+    },
+    {
+        "r2g": "pa and lateral chest views were obtained with patient in upright position . analysis is performed in direct comparison with the next preceding similar study of . the heart size remains unchanged and is within normal limits . thoracic aorta mildly widened and elongated but no local contour abnormalities are identified . the pulmonary vasculature is not congested . no signs of acute or chronic parenchymal infiltrates are present and the lateral and posterior pleural sinuses are free . no pneumothorax in the apical area on the frontal view . skeletal structures of the thorax grossly within normal limits .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p16/p16848073/s51780481.txt",
+        "prob": "[0.08429721, 0.08123717, 0.34384033, 0.76043177, 0.8632522]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . there are bilateral pleural effusions moderate on the right and small on the left with associated compressive lower lobe atelectasis . difficult to exclude a superimposed pneumonia . heart size cannot be assessed . mediastinal contour is grossly unremarkable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11934114/s57363067.txt",
+        "prob": "[0.25315276, 0.44006118, 0.589883, 0.78873706, 0.9112015]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . large left pleural effusion with subsequent areas of atelectasis at the left lung base . unchanged appearance of the right lung and of the cardiac silhouette . unchanged right picc line .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13263843/s57878445.txt",
+        "prob": "[0.05584437, 0.212946, 0.6221552, 0.71706665, 0.8310639]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p11/p11880923/s57045176.txt",
+        "prob": "[0.026440442, 0.044924308, 0.12473856, 0.34635946, 0.15349485]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph the patient has received a left internal jugular vein catheter . the course of the catheter is unremarkable the tip of the catheter projects over the mid svc . there is no evidence of complications notably no pneumothorax . otherwise the radiograph is unchanged .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p10/p10886362/s55957472.txt",
+        "prob": "[0.32635745, 0.5120373, 0.5103011, 0.76957643, 0.8253825]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes with moderate cardiomegaly and bilateral areas of atelectasis . no new parenchymal opacities . no pneumothorax . no larger pleural effusions .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13031876/s59018724.txt",
+        "prob": "[0.15587465, 0.7471867, 0.75573695, 0.83459926, 0.8889269]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest were provided . there is extensive subcutaneous emphysema in the left chest wall extending into the neck and upper abdomen . there is a small left pleural effusion with left basal atelectasis . the right lung is clear . the heart size cannot be assessed . the mediastinal contour is normal . no pneumothorax . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19016834/s50600020.txt",
+        "prob": "[0.013873176, 0.25222313, 0.64102143, 0.78608406, 0.6098158]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . unchanged low lung volumes with moderate cardiomegaly and bilateral areas of atelectasis . no new parenchymal opacities . no pneumothorax .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p10/p10975446/s53835190.txt",
+        "prob": "[0.26210883, 0.7846135, 0.7330366, 0.7228109, 0.8502077]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . cardiomegaly is again noted with hilar congestion and mild interstitial edema . small bilateral pleural effusions are likely present . no pneumothorax . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17669276/s52930189.txt",
+        "prob": "[0.21476704, 0.39754203, 0.5808352, 0.7910636, 0.92852646]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . right picc tip is in the mid svc . tracheostomy tube is in unchanged position . heart size is normal . mediastinal and hilar contours are unchanged . pulmonary vasculature is not engorged . patchy opacities are noted in the lung bases likely atelectasis . small bilateral pleural effusions are also demonstrated . no pneumothorax is identified .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13135946/s54379083.txt",
+        "prob": "[0.057687324, 0.29670528, 0.4272371, 0.69563854, 0.77887267]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the extent of the known right pleural effusion is constant . constant appearance of the left lung . unchanged size of the cardiac silhouette .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19182863/s58170172.txt",
+        "prob": "[0.16745536, 0.48006436, 0.5596952, 0.71128464, 0.8882895]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p15/p15659181/s51363438.txt",
+        "prob": "[0.031162715, 0.1398593, 0.30218473, 0.423206, 0.4042123]"
+    },
+    {
+        "r2g": "lung volumes are low accentuating the cardiac silhouette and bronchovascular structures . with this limitation in mind heart is upper limits of normal in size and there is no evidence of pulmonary vascular congestion . lungs are grossly clear except for linear atelectasis at the left lung base .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p16/p16853729/s55739720.txt",
+        "prob": "[0.21822388, 0.10535079, 0.22114293, 0.56437486, 0.18676203]"
+    },
+    {
+        "r2g": "the heart is mildly enlarged . the mediastinal and hilar contours appear unchanged . there is no pleural effusion or pneumothorax . the lungs appear clear .",
+        "clssifier": "prediction: Cardiomegaly, Edema, Atelectasis.",
+        "report": "p14/p14851532/s54675277.txt",
+        "prob": "[0.7108249, 0.5299538, 0.3173654, 0.50586075, 0.15700424]"
+    },
+    {
+        "r2g": "tracheostomy tube is in standard position . lung volumes are low . heart size remains mildly enlarged . mediastinal and hilar contours are unchanged . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p13/p13031876/s51040656.txt",
+        "prob": "[0.23754811, 0.41375345, 0.3183394, 0.64173347, 0.2885908]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p18/p18835687/s51719198.txt",
+        "prob": "[0.0106611885, 0.036243126, 0.19457062, 0.375664, 0.143717]"
+    },
+    {
+        "r2g": "heart size is normal . the mediastinal and hilar contours are normal . the pulmonary vasculature is normal . lungs are clear . no pleural effusion or pneumothorax is seen . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p13/p13881772/s58581962.txt",
+        "prob": "[0.06268429, 0.12710334, 0.13640781, 0.20161006, 0.122539714]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low limiting assessment . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18978682/s52754826.txt",
+        "prob": "[0.09383662, 0.1564269, 0.5290118, 0.75014806, 0.68074]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p11/p11569042/s54093116.txt",
+        "prob": "[0.09577235, 0.040423468, 0.11406527, 0.33868766, 0.19481014]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . port-a-cath resides over the left chest wall with catheter tip extending into the region of the low svc . there is extensive consolidation in the left upper lobe which is concerning for pneumonia . right lung is clear . no large effusion or pneumothorax . cardiomediastinal silhouette is stable . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p10/p10885696/s56443683.txt",
+        "prob": "[0.17621094, 0.25356147, 0.65582556, 0.64498216, 0.6558522]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p14/p14744884/s58480173.txt",
+        "prob": "[0.025699586, 0.07763676, 0.20567872, 0.29761082, 0.11160402]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes . borderline size of the cardiac silhouette without pulmonary edema . no pleural effusions . no pneumonia . no pneumothorax .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis.",
+        "report": "p14/p14841168/s51958195.txt",
+        "prob": "[0.1784785, 0.6053257, 0.5038079, 0.602746, 0.4148141]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . tracheostomy tube projects over the superior mediastinum . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p15/p15114531/s53033654.txt",
+        "prob": "[0.008060809, 0.031008301, 0.19095665, 0.2847898, 0.16658878]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p11/p11052935/s57171514.txt",
+        "prob": "[0.008649504, 0.043862034, 0.124073, 0.2303152, 0.1564504]"
+    },
+    {
+        "r2g": "lung volumes are low . the heart size is accentuated as a result appearing mildly enlarged . the aorta is tortuous and diffusely calcified . crowding of the bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Edema.",
+        "report": "p16/p16957952/s50482541.txt",
+        "prob": "[0.21274267, 0.5091006, 0.15842767, 0.37730837, 0.19517101]"
+    },
+    {
+        "r2g": "left chest wall dual lead pacing device is again noted . low lung volumes are noted with secondary crowding of the bronchovascular markings . there is no confluent consolidation or large effusion . the cardiomediastinal silhouette is within normal limits . no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p12/p12369221/s50178679.txt",
+        "prob": "[0.094272956, 0.14319915, 0.13858439, 0.5627775, 0.15249522]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . low lung volumes result in bronchovascular crowding . there is no focal consolidation pleural effusion or pneumothorax . heart size is normal . mediastinal silhouette and hilar contours are normal allowing for low lung volumes . a right port-a-cath ends in the right atrium . the patient is status post median sternotomy with wires intact . no acute osseous abnormality is identified .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p11/p11413236/s56921446.txt",
+        "prob": "[0.021649947, 0.23926915, 0.32349944, 0.71889, 0.3522804]"
+    },
+    {
+        "r2g": "the patient is status post median sternotomy and cabg . heart size is normal . mediastinal and hilar contours are unremarkable . pulmonary vasculature is normal . lungs are clear . no pleural effusion or pneumothorax is present . no acute osseous abnormality is visualized .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p16/p16116557/s56362705.txt",
+        "prob": "[0.0051472797, 0.0942846, 0.16288088, 0.3520111, 0.1953205]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p19/p19800337/s54891883.txt",
+        "prob": "[0.006802994, 0.06779822, 0.19586393, 0.2769863, 0.3033959]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes . extensive bilateral areas of atelectasis . no new parenchymal opacities . no pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13352405/s56801982.txt",
+        "prob": "[0.008116328, 0.06073325, 0.4159183, 0.75724447, 0.70227844]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . endotracheal tube is seen with its tip residing approximately 27 cm above the carina . the ng tube courses into the left upper abdomen . lung volumes are low . there is pulmonary edema with probable small bilateral pleural effusions . heart size is difficult to assess . mediastinal contour is grossly unchanged . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15131736/s53690114.txt",
+        "prob": "[0.3626789, 0.84521544, 0.74641454, 0.75618505, 0.5951403]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . the monitoring and support devices are in constant position . unchanged low lung volumes with areas of atelectasis at both lung bases . no new parenchymal opacities . no larger pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11880923/s52804047.txt",
+        "prob": "[0.008462703, 0.18665044, 0.5463386, 0.82337064, 0.9092857]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . overlying ekg leads are present . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax is seen . the cardiomediastinal silhouette appears normal . imaged osseous structures are intact .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p12/p12736592/s50141921.txt",
+        "prob": "[0.114227474, 0.40690213, 0.3605519, 0.65768427, 0.58395225]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . left chest wall pacer device is again seen with leads extending to the region the right atrium and right ventricle . lung volumes are low limiting assessment . there is mild pulmonary edema with small bilateral pleural effusions . heart size cannot be assessed . mediastinal contour is stable . bony structures are intact .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p13/p13067703/s57241942.txt",
+        "prob": "[0.16065013, 0.53042555, 0.6080457, 0.7464116, 0.9077698]"
+    },
+    {
+        "r2g": "as compared to the previous radiograph there is no relevant change . low lung volumes . extensive bilateral areas of atelectasis . no new parenchymal opacities . no pleural effusions . no pneumothorax .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p13/p13352405/s56801982.txt",
+        "prob": "[0.008116328, 0.06073325, 0.4159183, 0.75724447, 0.70227844]"
+    },
+    {
+        "r2g": "left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . moderate enlargement of cardiac silhouette is re- demonstrated . the mediastinal and hilar contours are unchanged . there is mild pulmonary vascular congestion . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p17/p17763117/s53418217.txt",
+        "prob": "[0.2697901, 0.42127636, 0.29888588, 0.37433788, 0.34824443]"
+    },
+    {
+        "r2g": "right-sided dual lumen central venous catheter tip terminates in the proximal right atrium . lung volumes are low . heart size is mildly enlarged . mediastinal and hilar contours are unchanged . there is crowding of bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Atelectasis, Pleural Effusion.",
+        "report": "p19/p19759491/s53927305.txt",
+        "prob": "[0.75178653, 0.21636817, 0.2830314, 0.54567116, 0.65687376]"
+    },
+    {
+        "r2g": "lung volumes are low . this accentuates the size of the cardiac silhouette which is mildly enlarged . mediastinal and hilar contours are unremarkable . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no focal consolidation pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Cardiomegaly, Atelectasis.",
+        "report": "p13/p13484161/s51009376.txt",
+        "prob": "[0.61168504, 0.0915774, 0.18852359, 0.54922116, 0.3253865]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . dual lead pacemaker is unchanged in position with leads extending to the region the right atrium and right ventricle . midline sternotomy wires and mediastinal clips are again noted . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax . cardiomediastinal silhouette is stable . bony structures are intact .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p19/p19075045/s57932391.txt",
+        "prob": "[0.1536454, 0.22238088, 0.1722684, 0.4693357, 0.24912323]"
+    },
+    {
+        "r2g": "ap upright and lateral views of the chest provided . lung volumes are low limiting assessment . allowing for this there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p11/p11204646/s57940242.txt",
+        "prob": "[0.17468472, 0.10982366, 0.30502805, 0.63362676, 0.666824]"
+    },
+    {
+        "r2g": "the patient is status post median sternotomy and cabg . left-sided internal jugular central venous catheter tip terminates at the junction of the svc and right atrium . lung volumes are low . the heart size is mildly enlarged . the mediastinal contours are unchanged . there is crowding of the bronchovascular structures but no overt pulmonary edema is present . small bilateral pleural effusions are noted left greater than right . bibasilar airspace opacities likely reflect atelectasis . no pneumothorax is identified .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p11/p11565803/s58056251.txt",
+        "prob": "[0.21060891, 0.28405198, 0.5319408, 0.82996714, 0.8811964]"
+    },
+    {
+        "r2g": "lung volumes are low . this accentuates the size of the cardiac silhouette which is borderline enlarged . mediastinal and hilar contours are unremarkable . crowding of the bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p19/p19623993/s54350292.txt",
+        "prob": "[0.037589498, 0.07544087, 0.30031317, 0.67695117, 0.18423648]"
+    },
+    {
+        "r2g": "a right subclavian central venous catheter terminates at the cavoatrial junction . the lung volumes are low . the cardiac mediastinal and hilar contours appear stable . there is no definite pleural effusion or pneumothorax . the lung volumes are low . there has been no significant change .",
+        "clssifier": "prediction: Edema, Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17340686/s54614605.txt",
+        "prob": "[0.22127157, 0.8065604, 0.72448355, 0.69271594, 0.6751112]"
+    },
+    {
+        "r2g": "pa and lateral chest views were obtained with patient in upright position . analysis is performed in direct comparison with the next preceding similar study of . the heart size remains unchanged and is within normal limits . no typical configurational abnormality is seen . thoracic aorta mildly widened and elongated but no local contour abnormalities are seen . the pulmonary vasculature is not congested . similar as on the preceding examination there is evidence of bilateral basal predominant fibrotic changes in the lung bases . the lateral and posterior pleural sinuses are free from any fluid accumulation and there",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p17/p17770657/s52284173.txt",
+        "prob": "[0.019089693, 0.10023405, 0.30207628, 0.5532826, 0.24012843]"
+    },
+    {
+        "r2g": "left-sided port-a-cath tip terminates in the low svc . heart size is mildly enlarged . mediastinal and hilar contours are unremarkable . pulmonary vasculature is normal . lungs are clear without focal consolidation . no pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p16/p16043637/s51946836.txt",
+        "prob": "[0.067319654, 0.08319529, 0.09420374, 0.29919207, 0.21628676]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . left ij central venous catheter is seen with its tip in the region of the mid svc . lung volumes are low limiting assessment . allowing for this there is no convincing evidence for pneumonia or edema . no large effusion or pneumothorax . cardiomediastinal silhouette appears grossly within normal limits . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p18/p18079481/s50139124.txt",
+        "prob": "[0.25662345, 0.33694145, 0.6639749, 0.84748805, 0.7652312]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p16/p16662264/s55808828.txt",
+        "prob": "[0.013521014, 0.02697433, 0.08959678, 0.12115001, 0.103637785]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p13/p13989850/s54340460.txt",
+        "prob": "[0.1437458, 0.030194534, 0.13486294, 0.21731456, 0.15035608]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p12/p12303667/s52329768.txt",
+        "prob": "[0.0020282846, 0.12037631, 0.3016705, 0.46368968, 0.15137094]"
+    },
+    {
+        "r2g": "left-sided dual-chamber pacemaker device is noted with leads terminating in the right atrium and right ventricle . low lung volumes are present . the cardiac mediastinal and hilar contours are unchanged with the heart size within normal limits . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no focal consolidation pleural effusion or pneumothorax is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p12/p12369221/s50178679.txt",
+        "prob": "[0.053807825, 0.15535428, 0.21711406, 0.6917422, 0.2690573]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . lung volumes are low . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p17/p17318449/s57272372.txt",
+        "prob": "[0.14892638, 0.25229925, 0.6093957, 0.72865665, 0.744244]"
+    },
+    {
+        "r2g": "ap portable upright view of the chest . overlying ekg leads are present . there is a large left pleural effusion with associated compressive left lower lobe atelectasis . the right lung is clear . the heart size cannot be assessed . mediastinal contour is normal . bony structures are intact .",
+        "clssifier": "prediction: Consolidation, Atelectasis, Pleural Effusion.",
+        "report": "p15/p15446959/s54692227.txt",
+        "prob": "[0.2721059, 0.06510077, 0.69033486, 0.793992, 0.7833253]"
+    },
+    {
+        "r2g": "frontal and lateral views of the chest were obtained . there are relatively low lung volumes which accentuate the bronchovascular markings . given this there may be mild pulmonary vascular congestion . no definite focal consolidation is seen . there is no pleural effusion or pneumothorax . the cardiac and mediastinal silhouettes are stable .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p14/p14851532/s58584546.txt",
+        "prob": "[0.075011685, 0.06501178, 0.13594928, 0.39102626, 0.18397565]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . tracheostomy tube projects over the superior mediastinum . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p19/p19991135/s51777681.txt",
+        "prob": "[0.008299031, 0.06719578, 0.438447, 0.52350146, 0.2750249]"
+    },
+    {
+        "r2g": "left-sided pacemaker device is noted with leads terminating in the right atrium and right ventricle . mild enlargement of cardiac silhouette is unchanged . the mediastinal and hilar contours are similar . pulmonary vasculature is not engorged . no focal consolidation pleural effusion or pneumothorax is present . no acute osseous abnormality is visualized .",
+        "clssifier": "prediction: Cardiomegaly.",
+        "report": "p12/p12595991/s52076561.txt",
+        "prob": "[0.8435501, 0.31921965, 0.1830919, 0.324803, 0.18137203]"
+    },
+    {
+        "r2g": "lung volumes are low . this accentuates the size of the cardiac silhouette which appears mildly enlarged . mediastinal and hilar contours are unremarkable . crowding of bronchovascular structures is present without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no pleural effusion or pneumothorax is present . no acute osseous abnormalities are visualized .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p14/p14841168/s58204843.txt",
+        "prob": "[0.240132, 0.3812404, 0.32721022, 0.55862784, 0.29225785]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p13/p13989850/s54340460.txt",
+        "prob": "[0.1437458, 0.030194534, 0.13486294, 0.21731456, 0.15035608]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . left chest wall pacer device is again seen with leads extending to the region the right atrium and right ventricle . midline sternotomy wires and mediastinal clips are again noted . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p16/p16043637/s57929429.txt",
+        "prob": "[0.34946793, 0.20619798, 0.15163556, 0.33482447, 0.24658997]"
+    },
+    {
+        "r2g": "pa and lateral views of the chest provided . there is no focal consolidation effusion or pneumothorax . the cardiomediastinal silhouette is normal . imaged osseous structures are intact . no free air below the right hemidiaphragm is seen .",
+        "clssifier": "prediction: Atelectasis.",
+        "report": "p11/p11474065/s58721487.txt",
+        "prob": "[0.03354678, 0.12360961, 0.38360173, 0.6252668, 0.26588437]"
+    },
+    {
+        "r2g": "heart size is normal . the mediastinal and hilar contours are normal . the pulmonary vasculature is normal . lungs are clear . no pleural effusion or pneumothorax is seen . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: No Finding.",
+        "report": "p15/p15840907/s54355585.txt",
+        "prob": "[0.032939225, 0.09786363, 0.31745163, 0.43519336, 0.26113263]"
+    },
+    {
+        "r2g": "right internal jugular central venous catheter tip terminates in the proximal right atrium . no pneumothorax is identified . lung volumes are low . heart size is mildly enlarged . mediastinal and hilar contours are unchanged . there is crowding of bronchovascular structures without overt pulmonary edema . patchy opacities in the lung bases likely reflect areas of atelectasis . no large pleural effusion is present . there are no acute osseous abnormalities .",
+        "clssifier": "prediction: Atelectasis, Pleural Effusion.",
+        "report": "p15/p15809646/s54479348.txt",
+        "prob": "[0.30855194, 0.46758857, 0.44660318, 0.6310743, 0.63478976]"
+    }
+]

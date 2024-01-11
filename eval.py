@@ -1,6 +1,6 @@
 from peft import PeftModel
 from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
 import time
 import torch
 from tqdm import tqdm
@@ -10,6 +10,7 @@ import csv
 import os.path as osp
 import os
 from prompt import prompt_en, prompt_zh
+from doctorglm_standalone import doctorInit
 
 prompt_dict={'en':prompt_en,'zh':prompt_zh}
 
@@ -100,13 +101,13 @@ def evalImpression(bot: ChatBot,info:pd.DataFrame, args):
         # res.append([row['subject_id'],row['study_id'],findings, gt_impression, pseudo_impression])
         if (index+1)%step==0:
             # 打开CSV文件并写入数据
-            with open(csv_file, 'w', newline='') as file:
+            with open(csv_file, 'w', newline='',encoding='utf-8') as file:
                 writer = csv.writer(file)
                 # 写入header行
                 writer.writerow(header)
                 # 写入数据行
                 writer.writerows(res)
-    with open(csv_file, 'w', newline='') as file:
+    with open(csv_file, 'w', newline='',encoding='utf-8') as file:
         writer = csv.writer(file)
         # 写入header行
         writer.writerow(header)
@@ -114,7 +115,7 @@ def evalImpression(bot: ChatBot,info:pd.DataFrame, args):
         writer.writerows(res)
 
 def evalRadQNLI(bot: ChatBot,info:pd.DataFrame, args):
-    step=100
+    step=50
     csv_file=osp.join('./results',osp.join(args.tgt_dir,args.file))
     os.makedirs(os.path.dirname(csv_file), exist_ok=True)
     print(f"results save at {csv_file}")
@@ -133,13 +134,13 @@ def evalRadQNLI(bot: ChatBot,info:pd.DataFrame, args):
         # res.append([row['subject_id'],row['study_id'],findings, gt_impression, pseudo_impression])
         if (index+1)%step==0:
             # 打开CSV文件并写入数据
-            with open(csv_file, 'w', newline='') as file:
+            with open(csv_file, 'w', newline='',encoding='utf-8') as file:
                 writer = csv.writer(file)
                 # 写入header行
                 writer.writerow(header)
                 # 写入数据行
                 writer.writerows(res)
-    with open(csv_file, 'w', newline='') as file:
+    with open(csv_file, 'w', newline='',encoding='utf-8') as file:
         writer = csv.writer(file)
         # 写入header行
         writer.writerow(header)
@@ -163,13 +164,13 @@ def evalDeID(bot:ChatBot, info:pd.DataFrame, args):
         # res.append([row['subject_id'],row['study_id'],findings, gt_impression, pseudo_impression])
         if (index+1)%step==0:
             # 打开CSV文件并写入数据
-            with open(csv_file, 'w', newline='') as file:
+            with open(csv_file, 'w', newline='',encoding='utf-8') as file:
                 writer = csv.writer(file)
                 # 写入header行
                 writer.writerow(header)
                 # 写入数据行
                 writer.writerows(res)
-    with open(csv_file, 'w', newline='') as file:
+    with open(csv_file, 'w', newline='',encoding='utf-8') as file:
         writer = csv.writer(file)
         # 写入header行
         writer.writerow(header)
@@ -210,7 +211,7 @@ def main(args):
     elif args.tgt_dir=='HuaTuoGPT-7B':
     # tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B", trust_remote_code=True)
         ## HuaTuoGPT-7B
-        tokenizer = AutoTokenizer.from_pretrained("baichuan-inc/baichuan-7B", trust_remote_code=True)
+        tokenizer = AutoTokenizer.from_pretrained("baichuan-inc/Baichuan-7B", trust_remote_code=True)
         model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/HuatuoGPT-7B",torch_dtype=torch.float16, trust_remote_code=True)
         generation_config = GenerationConfig(
             temperature=0.9,
@@ -235,6 +236,68 @@ def main(args):
             bos_token_id=1, 
             pad_token_id=0
         )
+    elif args.tgt_dir=='llama':
+        tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/llama-7b")
+        model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//llama-7b")
+        generation_config = GenerationConfig(
+            num_return_sequences=1,
+            top_p = 0.85, 
+            temperature = 1.0, 
+            repetition_penalty=1., 
+            max_new_tokens=1024, 
+            do_sample = True,  
+            eos_token_id=2, 
+            bos_token_id=1, 
+            pad_token_id=0
+        )
+    elif args.tgt_dir=='llama2':
+
+        tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/Llama-2-7b-chat-hf")
+        model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//Llama-2-7b-chat-hf")
+        generation_config = GenerationConfig(
+            num_return_sequences=1,
+            top_p = 0.85, 
+            temperature = 1.0, 
+            repetition_penalty=1., 
+            max_new_tokens=1024, 
+            do_sample = True,  
+            eos_token_id=2, 
+            bos_token_id=1, 
+            pad_token_id=0
+        )
+    elif args.tgt_dir=='ChatGLM2-6B':
+        tokenizer=AutoTokenizer.from_pretrained("THUDM/chatglm2-6b",trust_remote_code=True)
+        model = AutoModel.from_pretrained("/public_bme/data/llm/ChatGLM2-6B",trust_remote_code=True)
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=1024,
+        )
+    elif args.tgt_dir=='DoctorGLM':
+        tokenizer,model=doctorInit()
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=1024,
+        )
+    elif args.tgt_dir=='ChatGLM-6B':
+        tokenizer=AutoTokenizer.from_pretrained("THUDM/chatglm-6b",trust_remote_code=True)
+        model = AutoModel.from_pretrained("/public_bme/data/llm/chatGLM-6b",trust_remote_code=True).half()
+        generation_config = GenerationConfig(
+            temperature=0.9,
+            top_p=0.9,
+            top_k=40,
+            num_beams=4,
+            num_return_sequences=1,
+            max_new_tokens=1024,
+        )
+
     else:
         print("Error! Unknown model!")
 
@@ -255,8 +318,8 @@ def main(args):
 if __name__=='__main__':
 
     parser = argparse.ArgumentParser(description="Training")
-    parser.add_argument("--task", default="DeID", choices=['ImpressionGPT', 'DeID', 'RadQNLI'], help="task to be evaluated")
-    parser.add_argument("--file", default="RadQNLI-EN.csv")
+    parser.add_argument("--task", default="ImpressionGPT", choices=['ImpressionGPT', 'DeID', 'RadQNLI'], help="task to be evaluated")
+    parser.add_argument("--file", default="MIMIC-EN.csv")
     parser.add_argument("--save", type=bool,default=True)
     parser.add_argument("--tgt_dir",default='Ziya-13B')
 

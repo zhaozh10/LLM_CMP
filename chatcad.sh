@@ -4,18 +4,16 @@
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
-#SBATCH -t 5-00:00:00
+#SBATCH -t 10:00:00
 
+nvidia-smi
 set -x
-FILE=$1
-TGT_dir=$2
-TASK=$3
-# FILE=${FILE:-"MIMIC-EN.csv"}
+TGT_dir=$1
 TIME_SUFFIX=$(date +%Y%m%d%H%M%S)
-source activate win
+source activate chatcad
 # source activate chatcadsource activate win
-
+# NVIDIAA10080GBPCIe:1#
 PYTHONPATH="$(dirname $0)/..":$PYTHONPATH \
-python eval.py --file ${FILE} --tgt_dir ${TGT_dir} --task ${TASK}
+python chatcad_eval.py --tgt_dir ${TGT_dir}
