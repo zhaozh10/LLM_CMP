@@ -263,6 +263,7 @@ def main(args):
         tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/Mistral")
         model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/Mistral").eval()
         generation_config = GenerationConfig(
+            do_sample=True,
             temperature=0.9,
             top_p=0.9,
             top_k=40,
