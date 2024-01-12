@@ -12,7 +12,7 @@ nvidia-smi
 set -x
 TGT_dir=$1
 TIME_SUFFIX=$(date +%Y%m%d%H%M%S)
-source activate chatcad
+source activate win
 # source activate chatcadsource activate win
 # NVIDIAA10080GBPCIe:1#
 PYTHONPATH="$(dirname $0)/..":$PYTHONPATH \

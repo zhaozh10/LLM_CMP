@@ -59,6 +59,7 @@ class ChatBot:
         output=self.tokenizer.decode(generation_output.sequences[0])
         
         return output.split("### Response:")[1].strip()
+        # return output
         
 def evalChatcad(bot: ChatBot,info:list, args):
     res=[]
@@ -66,13 +67,14 @@ def evalChatcad(bot: ChatBot,info:list, args):
     for i, elem in enumerate(tqdm(info)):
         prob=elem['prob']
         converter=prob2text(prob,fivedisease)
-        res=converter.promptB()
+        res_prompt=converter.promptB()
         text_report=elem['raw']
         ref_prompt=""
-        awesome_prompt=f"\nRevise the report of Network B based on Network A." 
-        prompt_report=res+"Network B generate a report："+text_report
-        constraints="Strictly follow these constraints: Please do not mention Network A, Network B, and any provided results. Answer it in english. Suppose you are a doctor writing findings for a chest x-ray report."
-        prompt_report=prompt_report+" "+awesome_prompt+" "+constraints+ref_prompt
+        # awesome_prompt=f"\nRevise the report of Network B based on Network A." 
+        input_text=res_prompt+"Network B generate a report："+text_report
+        instruction="Revise the report of Network B based on Network A. Please do not mention Network A, Network B, and any provided results. Answer it in english. Suppose you are a doctor writing findings for a chest x-ray report. ### Response:"
+        # prompt_report=prompt_report+" "+awesome_prompt+" "+constraints+ref_prompt
+        prompt_report=f"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{instruction}\n\n### Input:{input_text}\n\n### Response:"
 
         # r2g = elem['r2g']
         # cls_text = elem['clssifier']
@@ -81,21 +83,23 @@ def evalChatcad(bot: ChatBot,info:list, args):
         # prompt=p1+p2
 
         message=bot.eval(prompt_report)
+        while message == "</s>" or message == "":
+            message = bot.eval(prompt_report)
         # # 找到第一个冒号的索引
         # colon_index = message.find(':')
         # # 提取冒号之后的内容
         # message = message[colon_index + 1:].strip()
         res.append(message)
         if (i+1) % freq == 0:
-            with open(f'chatcad/{args.tgt_dir}_res.json', 'w') as file:
+            with open(f'plus/{args.tgt_dir}_res.json', 'w') as file:
                 json.dump(res, file, indent=4)
                 print(f"save at step {i+1}")
 
-    with open(f'chatcad/{args.tgt_dir}_res.json', 'w') as file:
+    with open(f'plus/{args.tgt_dir}_res.json', 'w') as file:
         json.dump(res, file, indent=4)
 
     csv_res= []
-    csv_file=f'chatcad/{args.tgt_dir}_res.csv'
+    csv_file=f'plus/{args.tgt_dir}_res.csv'
     for elem in res:
         csv_res.append([elem])
     header = ["Report Impression"]
@@ -130,10 +134,8 @@ def main(args):
         )
     elif args.tgt_dir=='Ziya-13B':
         ## Ziya-13B
-        tokenizer=None
-        model=None
-        # tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
-        # model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
+        tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
+        model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
         generation_config = GenerationConfig(
             num_return_sequences=1,
             top_p = 0.85, 

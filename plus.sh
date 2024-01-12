@@ -6,7 +6,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
-#SBATCH -t 10:00:00
+#SBATCH -t 5-00:00:00
 
 nvidia-smi
 set -x
