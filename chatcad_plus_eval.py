@@ -71,8 +71,8 @@ def evalChatcad(bot: ChatBot,info:list, args):
         text_report=elem['raw']
         ref_prompt=""
         # awesome_prompt=f"\nRevise the report of Network B based on Network A." 
-        input_text=res_prompt+"Network B generate a report："+text_report
-        instruction="Revise the report of Network B based on Network A. Please do not mention Network A, Network B, and any provided results. Answer it in english. Suppose you are a doctor writing findings for a chest x-ray report. ### Response:"
+        input_text=res_prompt+" "+"Network B generate a report："+text_report
+        instruction="Revise the report of Network B based on Network A. Please do not mention Network A, Network B, and any provided results. Answer it in english. Suppose you are a doctor writing findings for a chest x-ray report."
         # prompt_report=prompt_report+" "+awesome_prompt+" "+constraints+ref_prompt
         prompt_report=f"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n\n{instruction}\n\n### Input:{input_text}\n\n### Response:"
 
@@ -134,8 +134,10 @@ def main(args):
         )
     elif args.tgt_dir=='Ziya-13B':
         ## Ziya-13B
-        tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
-        model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
+        tokenizer=None
+        model=None
+        # tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
+        # model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
         generation_config = GenerationConfig(
             num_return_sequences=1,
             top_p = 0.85, 
@@ -308,8 +310,8 @@ def main(args):
         print("Error! Unknown model!")
 
 
-    bot=ChatBot(model,tokenizer,generation_config, instruction, args)
-    # bot=None
+    # bot=ChatBot(model,tokenizer,generation_config, instruction, args)
+    bot=None
     evalChatcad(bot, info, args)
 
     print("****** Error! Unknown task ******")

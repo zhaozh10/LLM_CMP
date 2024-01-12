@@ -5,3 +5,4 @@ results/*
 plus/*
 chatcad/*
 pretrain_model/*
+__pycache__/*
