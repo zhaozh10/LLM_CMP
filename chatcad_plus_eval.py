@@ -134,10 +134,10 @@ def main(args):
         )
     elif args.tgt_dir=='Ziya-13B':
         ## Ziya-13B
-        tokenizer=None
-        model=None
-        # tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
-        # model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
+        # tokenizer=None
+        # model=None
+        tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
+        model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
         generation_config = GenerationConfig(
             num_return_sequences=1,
             top_p = 0.85, 
@@ -194,6 +194,20 @@ def main(args):
     elif args.tgt_dir=='llama2':
         tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/Llama-2-7b-chat-hf")
         model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//Llama-2-7b-chat-hf")
+        generation_config = GenerationConfig(
+            num_return_sequences=1,
+            top_p = 0.85, 
+            temperature = 1.0, 
+            repetition_penalty=1., 
+            max_new_tokens=1024, 
+            do_sample = True,  
+            eos_token_id=2, 
+            bos_token_id=1, 
+            pad_token_id=0
+        )
+    elif args.tgt_dir=='medalpaca':
+        tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/medAlpaca")
+        model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm//medAlpaca")
         generation_config = GenerationConfig(
             num_return_sequences=1,
             top_p = 0.85, 
@@ -310,8 +324,8 @@ def main(args):
         print("Error! Unknown model!")
 
 
-    # bot=ChatBot(model,tokenizer,generation_config, instruction, args)
-    bot=None
+    bot=ChatBot(model,tokenizer,generation_config, instruction, args)
+    # bot=None
     evalChatcad(bot, info, args)
 
     print("****** Error! Unknown task ******")

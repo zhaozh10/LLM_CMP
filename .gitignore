@@ -6,3 +6,4 @@ plus/*
 chatcad/*
 pretrain_model/*
 __pycache__/*
+*.json
