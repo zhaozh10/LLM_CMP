@@ -99,15 +99,15 @@ def evalChatcad(bot: ChatBot,info:list, args):
         # message = message[colon_index + 1:].strip()
         res.append(message)
         if (i+1) % freq == 0:
-            with open(f'plus/{args.tgt_dir}_res.json', 'w') as file:
+            with open(f'real-plus/{args.tgt_dir}_res.json', 'w') as file:
                 json.dump(res, file, indent=4)
                 print(f"save at step {i+1}")
 
-    with open(f'plus/{args.tgt_dir}_res.json', 'w') as file:
+    with open(f'real-plus/{args.tgt_dir}_res.json', 'w') as file:
         json.dump(res, file, indent=4)
 
     csv_res= []
-    csv_file=f'plus/{args.tgt_dir}_res.csv'
+    csv_file=f'real-plus/{args.tgt_dir}_res.csv'
     for elem in res:
         csv_res.append([elem])
     header = ["Report Impression"]
@@ -143,10 +143,10 @@ def main(args):
         )
     elif args.tgt_dir=='Ziya-13B':
         ## Ziya-13B
-        tokenizer=None
-        model=None
-        # tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
-        # model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
+        # tokenizer=None
+        # model=None
+        tokenizer = AutoTokenizer.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', use_fast=False)
+        model = LlamaForCausalLM.from_pretrained('/public_bme/data/llm/Ziya-LLaMA-13B', torch_dtype=torch.float16, device_map='auto')
         generation_config = GenerationConfig(
             num_return_sequences=1,
             top_p = 0.85, 
@@ -249,6 +249,18 @@ def main(args):
             num_return_sequences=1,
             max_new_tokens=512,
         )
+    elif args.tgt_dir=='Baichuan':
+        tokenizer = AutoTokenizer.from_pretrained("/public_bme/data/llm/Baichuan2-13B-Chat-v2",use_fast=False,trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained("/public_bme/data/llm/Baichuan2-13B-Chat-v2",device_map="auto", torch_dtype=torch.bfloat16, trust_remote_code=True)
+        # generation_config = GenerationConfig(
+        #     temperature=0.9,
+        #     top_p=0.9,
+        #     top_k=40,
+        #     num_beams=4,
+        #     num_return_sequences=1,
+        #     max_new_tokens=512,
+        # )
+        generation_config = GenerationConfig.from_pretrained("/public_bme/data/llm/Baichuan2-13B-Chat-v2")
     elif args.tgt_dir=='chatdoctor':
         tokenizer = LlamaTokenizer.from_pretrained("/public_bme/data/llm/chatdoctor")
         model = LlamaForCausalLM.from_pretrained("/public_bme/data/llm/chatdoctor")
@@ -333,8 +345,8 @@ def main(args):
         print("Error! Unknown model!")
 
 
-    # bot=ChatBot(model,tokenizer,generation_config, instruction, args)
-    bot=None
+    bot=ChatBot(model,tokenizer,generation_config, instruction, args)
+    # bot=None
     evalChatcad(bot, info, args)
 
     print("****** Error! Unknown task ******")
